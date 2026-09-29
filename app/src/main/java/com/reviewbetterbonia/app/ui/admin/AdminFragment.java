@@ -3,16 +3,13 @@ package com.reviewbetterbonia.app.ui.admin;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.graphics.Color;
-import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.*;
 import android.widget.*;
 
 import androidx.annotation.Nullable;
-import androidx.recyclerview.widget.*;
 
 import com.reviewbetterbonia.app.data.FirebaseRepository;
-import com.reviewbetterbonia.app.model.Question;
 import com.reviewbetterbonia.app.model.QuizResult;
 import com.reviewbetterbonia.app.ui.*;
 
@@ -118,10 +115,7 @@ public class AdminFragment extends BaseFragment {
             Ui.add(p, Ui.gap(x, 10), Ui.dp(x, 10));
         }
 
-        RecyclerView list = new RecyclerView(x);
-        list.setLayoutManager(new LinearLayoutManager(x));
-        list.setAdapter(new GroupedQuestionAdapter(app().quiz.questions));
-        Ui.addWeight(p, list);
+        Ui.addWeight(p, new Space(x));
 
         Button back = Ui.button(x, "Back", false);
         back.setOnClickListener(v -> requireActivity().getSupportFragmentManager().popBackStack());
@@ -219,91 +213,5 @@ public class AdminFragment extends BaseFragment {
 
             dialog.show();
         });
-    }
-
-    static class GroupedQuestionAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
-        private static final int TYPE_SUBJECT = 0;
-        private static final int TYPE_CATEGORY = 1;
-        private static final int TYPE_QUESTION = 2;
-
-        private static class Item {
-            int type;
-            String title;
-            Question question;
-            Item(int t, String s) { type = t; title = s; }
-            Item(int t, Question q) { type = t; question = q; }
-        }
-
-        private final List<Item> items = new ArrayList<>();
-
-        GroupedQuestionAdapter(List<Question> rawQuestions) {
-            Map<String, Map<String, List<Question>>> map = new TreeMap<>(String.CASE_INSENSITIVE_ORDER);
-            for (Question q : rawQuestions) {
-                String sub = q.subject == null || q.subject.trim().isEmpty() ? "General" : q.subject.trim();
-                String cat = q.category == null || q.category.trim().isEmpty() ? "General" : q.category.trim();
-
-                Map<String, List<Question>> catMap = map.get(sub);
-                if (catMap == null) {
-                    catMap = new TreeMap<>(String.CASE_INSENSITIVE_ORDER);
-                    map.put(sub, catMap);
-                }
-                List<Question> qList = catMap.get(cat);
-                if (qList == null) {
-                    qList = new ArrayList<>();
-                    catMap.put(cat, qList);
-                }
-                qList.add(q);
-            }
-
-            for (Map.Entry<String, Map<String, List<Question>>> subEntry : map.entrySet()) {
-                items.add(new Item(TYPE_SUBJECT, subEntry.getKey()));
-                for (Map.Entry<String, List<Question>> catEntry : subEntry.getValue().entrySet()) {
-                    items.add(new Item(TYPE_CATEGORY, catEntry.getKey()));
-                    for (Question q : catEntry.getValue()) items.add(new Item(TYPE_QUESTION, q));
-                }
-            }
-        }
-
-        @Override public int getItemViewType(int position) { return items.get(position).type; }
-
-        @Override public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-            Context x = parent.getContext();
-            if (viewType == TYPE_SUBJECT) {
-                TextView tv = new TextView(x);
-                tv.setTextSize(18);
-                tv.setTypeface(null, Typeface.BOLD);
-                tv.setTextColor(Ui.ACCENT);
-                tv.setPadding(Ui.dp(x, 12), Ui.dp(x, 16), Ui.dp(x, 12), Ui.dp(x, 4));
-                return new SubjectVH(tv);
-            } else if (viewType == TYPE_CATEGORY) {
-                TextView tv = new TextView(x);
-                tv.setTextSize(15);
-                tv.setTypeface(null, Typeface.BOLD);
-                tv.setPadding(Ui.dp(x, 24), Ui.dp(x, 10), Ui.dp(x, 12), Ui.dp(x, 2));
-                return new CategoryVH(tv);
-            } else {
-                LinearLayout card = Ui.card(x);
-                return new QuestionVH(card);
-            }
-        }
-
-        @Override public void onBindViewHolder(RecyclerView.ViewHolder holder, int position) {
-            Item item = items.get(position);
-            if (holder instanceof SubjectVH) {
-                ((SubjectVH) holder).tv.setText("📚 " + item.title);
-            } else if (holder instanceof CategoryVH) {
-                ((CategoryVH) holder).tv.setText("📁 " + item.title);
-            } else if (holder instanceof QuestionVH) {
-                QuestionVH qvh = (QuestionVH) holder;
-                qvh.box.removeAllViews();
-                qvh.box.addView(Ui.text(qvh.box.getContext(), item.question.html, 14, true));
-            }
-        }
-
-        @Override public int getItemCount() { return items.size(); }
-
-        static class SubjectVH extends RecyclerView.ViewHolder { TextView tv; SubjectVH(TextView v) { super(v); tv = v; } }
-        static class CategoryVH extends RecyclerView.ViewHolder { TextView tv; CategoryVH(TextView v) { super(v); tv = v; } }
-        static class QuestionVH extends RecyclerView.ViewHolder { LinearLayout box; QuestionVH(LinearLayout v) { super(v); box = v; } }
     }
 }

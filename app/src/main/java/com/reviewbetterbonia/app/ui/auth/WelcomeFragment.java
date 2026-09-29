@@ -45,18 +45,6 @@ public class WelcomeFragment extends BaseFragment {
      Ui.add(p, reg, Ui.dp(x, 56));
      Ui.add(p, Ui.gap(x, 10), Ui.dp(x, 10));
 
-     Button offlineBtn = Ui.button(x, "Continue Offline", false);
-     offlineBtn.setOnClickListener(v -> {
-         MainActivity a = (MainActivity) requireActivity();
-         a.local.setOfflineMode(true);
-         a.signIn("Player", "offline@betterbonia.local", "offline_user", "student", 0);
-         a.clearAndShowHome();
-     });
-     Ui.add(p, offlineBtn, Ui.dp(x, 56));
-
-     TextView demo = Ui.muted(x, "Fully supported offline mode available. Study, quiz, and track progress without internet.", 12);
-     demo.setGravity(Gravity.CENTER);
-     Ui.add(p, demo, Ui.dp(x, 48));
      return p;
  }
 }
