@@ -3,4 +3,6 @@
     <string name="firebase_api_key">AIzaSyBiKPKqvPGQMaqWsvHK7gx4vFQ7xoZYi8I</string>
     <string name="firebase_app_id">1:69810962774:android:dd6baac77b3f8cee38d6f7</string>
     <string name="firebase_project_id">review-betterbonia</string>
+    <string name="github_repo_owner">reviewbetterbonia-dev</string>
+    <string name="github_repo_name">ReviewBetterbonia</string>
 </resources>
