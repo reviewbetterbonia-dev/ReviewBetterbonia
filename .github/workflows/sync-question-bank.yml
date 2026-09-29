@@ -92,6 +92,10 @@ jobs:
               if not rows:
                   return EXPECTED_HEADER.copy(), []
               header = rows[0]
+              # Be defensive even when a CSV has an embedded BOM character in
+              # the first field after decoding.
+              if header:
+                  header[0] = header[0].lstrip("\ufeff")
               if header != EXPECTED_HEADER:
                   raise RuntimeError(f"Unexpected CSV header in {path}: {header}")
               return header, [row for row in rows[1:] if any(cell.strip() for cell in row)]
