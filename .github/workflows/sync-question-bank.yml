@@ -85,7 +85,9 @@ jobs:
               return ".." not in parts and not Path(target).is_absolute()
 
           def load_csv(path):
-              with path.open("r", encoding="utf-8", newline="") as f:
+              # Some bundled CSVs are UTF-8 files with a BOM, which would otherwise
+              # make the first header field appear as "\ufeffid".
+              with path.open("r", encoding="utf-8-sig", newline="") as f:
                   rows = list(csv.reader(f))
               if not rows:
                   return EXPECTED_HEADER.copy(), []
@@ -154,7 +156,8 @@ jobs:
           changed_files = []
           for rel, (header, rows) in csv_cache.items():
               path = ROOT / rel
-              original_text = path.read_text(encoding="utf-8")
+              had_bom = path.read_bytes().startswith(b"\xef\xbb\xbf")
+              original_text = path.read_text(encoding="utf-8-sig")
               from io import StringIO
               buffer = StringIO()
               writer = csv.writer(buffer, lineterminator="\n", quoting=csv.QUOTE_MINIMAL)
@@ -162,7 +165,7 @@ jobs:
               writer.writerows(rows)
               new_text = buffer.getvalue()
               if new_text != original_text:
-                  path.write_text(new_text, encoding="utf-8")
+                  path.write_text(new_text, encoding="utf-8-sig" if had_bom else "utf-8")
                   changed_files.append(rel)
 
           print(f"Approved Firebase questions considered: {len(approved)}")
