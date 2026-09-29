@@ -1,0 +1,94 @@
+id,subject,category,question,choice_a,choice_b,choice_c,choice_d,answer,correct_feedback,incorrect_feedback
+1,Math,Trigonometry,sin A cos B – cos A sin B is equivalent to:,cos (A – B),sin (A – B),tan (A – B),cos2(A – B),B,Yown Tama!,pa mali mali nmn!
+2,Math,Trigonometry,The angular distance of a point on the terrestrial sphere from the north pole is called,coaltitude,latitude,altitude,codeclination,A,Yown Tama!,pa mali mali nmn!
+3,Math,Trigonometry,csc 520° is equal to,cos 20°,csc 20°,tan 45°,sin 20°,B,Yown Tama!,pa mali mali nmn!
+4,Math,Trigonometry,What is the sine of 820°?,0.984,0.866,-0.866,-0.5,A,Yown Tama!,pa mali mali nmn!
+5,Math,Trigonometry,The logarithm of the negative number is,imaginary,irrational,real,rational,A,Yown Tama!,pa mali mali nmn!
+6,Math,Trigonometry,The sum of the squares of the sine and cosine of an angle.,0,1,2,3,B,Yown Tama!,pa mali mali nmn!
+7,Math,Trigonometry,The logarithm of a number to the base e (2.7182…) is called,Napierian Logarithm,Characteristic,Mantissa,Briggsian Logarithm,A,Yown Tama!,pa mali mali nmn!
+8,Math,Trigonometry,"The characteristic is equal to the exponent of 10, when the number is written in",exponential logarithm,scientific notation,logarithmic form,irrational number,C,Yown Tama!,pa mali mali nmn!
+9,Math,Trigonometry,Napierian logarithms have a base closest to which number?,2.72,2.82,2.92,10,A,Yown Tama!,pa mali mali nmn!
+10,Math,Trigonometry,The logarithm of 1 to any base is,indeterminate,zero,infinity,one,B,Yown Tama!,pa mali mali nmn!
+11,Math,Trigonometry,sin (270° + β) is equal to,– cos β,Sinβ,– sin β,cos β,A,Yown Tama!,pa mali mali nmn!
+12,Math,Trigonometry,The sum of the angles in an octant spheric triangle is,180°,270°,360°,540°,B,Yown Tama!,pa mali mali nmn!
+13,Math,Trigonometry,"The median of a triangle is the line connecting the vertex and the midpoint of the opposite side. For a given triangle, these medians intersects at a point which is called the",orthocenter,circumcenter,centroid,incenter,C,Yown Tama!,pa mali mali nmn!
+14,Math,Trigonometry,The altitudes of the sides of a triangle intersects at the point known as,orthocenter,circumcenter,centroid,incenter,A,Yown Tama!,pa mali mali nmn!
+15,Math,Trigonometry,The angle which the line of sight to the object makes with the horizontal which is above the eye of the observer is called,angle of depression,angle of elevation,acute angle,bearing,B,Yown Tama!,pa mali mali nmn!
+16,Math,Trigonometry,log M – log N is equal to,log MN,log (M – N),log M/N,log ( N – M),C,Yown Tama!,pa mali mali nmn!
+17,Math,Trigonometry,The other form of log a N = b is,N = ba,N = ab,N = ab,N = a/b,B,Yown Tama!,pa mali mali nmn!
+18,Math,Trigonometry,The point of concurrency of the altitude of the triangle.,orthocenter,circumcenter,centroid,incenter,A,Yown Tama!,pa mali mali nmn!
+19,Math,Trigonometry,The point of concurrency of the perpendicular bisector of the sides of the triangle.,orthocenter,circumcenter,centroid,ncenter,B,Yown Tama!,pa mali mali nmn!
+20,Math,Trigonometry,The point of concurrency of the angle bisector of the triangle is called,orthocenter,circumcenter,centroid,incenter,D,Yown Tama!,pa mali mali nmn!
+21,Math,Trigonometry,The logarithm of the reciprocal of N is called the ________ of N,antilogarithm,cologarithm,natural logarithm,briggsian logarithm,B,Yown Tama!,pa mali mali nmn!
+22,Math,Trigonometry,The inverse function of a logarithm is known as,antilogarithm,cologarithm,natural logarithm,briggsian logarithm,A,Yown Tama!,pa mali mali nmn!
+23,Math,Trigonometry,The cologarithm of a number is the _____ of the logarithm of a number,positive,absolute value,negative,reciproca,C,Yown Tama!,pa mali mali nmn!
+24,Math,Trigonometry,The first table logarithms with 10 as base was developed in 1615 by,James Naismith,Henry Briggs,John Napier,John Wallis,B,Yown Tama!,pa mali mali nmn!
+25,Math,Trigonometry,Who invented logarithms in 1614?,John Wallis,Henry Briggs,John Napier,L’Hospital,C,Yown Tama!,pa mali mali nmn!
+26,Math,Trigonometry,The number log a b is called the ______ of the system of a base a with respect to the system of base b.,coefficient,logarithm,modulus,exponent,C,Yown Tama!,pa mali mali nmn!
+27,Math,Trigonometry,Napierian logarithm has a base of,π,10,1,e,D,Yown Tama!,pa mali mali nmn!
+28,Math,Trigonometry,log x = ____ ln x,0.434,10,2.303,e,A,Yown Tama!,pa mali mali nmn!
+29,Math,Trigonometry,ln x = ____ log x,0.434,10,2.303,e,C,Yown Tama!,pa mali mali nmn!
+30,Math,Trigonometry,Which of the following cannot be a base for a logarithm?,10,π,1,e,C,Yown Tama!,pa mali mali nmn!
+31,Math,Trigonometry,The integral part of a common logarithm is,10,e,mantissa,characteristic,D,Yown Tama!,pa mali mali nmn!
+32,Math,Trigonometry,The mantissa of a logarithm is a,positive value only,negative value only,"positive value, negative value or zero",positive value or zero,D,Yown Tama!,pa mali mali nmn!
+33,Math,Trigonometry,"For 0 < x < 1, ln x is",positive,zero,negative,between 0 and 1,C,Yown Tama!,pa mali mali nmn!
+34,Math,Trigonometry,"If 1 < N < 10, then",1 < log N < 2,0 < log N < 1,2 < log N < 3,- 1 < log N < 0,A,Yown Tama!,pa mali mali nmn!
+35,Math,Trigonometry,"To change log a to log b N, multiply log a N by",log a b,log b a,log N a,log N b,B,Yown Tama!,pa mali mali nmn!
+36,Math,Trigonometry,The number log a b and log b a are,equal,equal but different in signs,reciprocal to each other,negative reciprocal to each other,C,Yown Tama!,pa mali mali nmn!
+37,Math,Trigonometry,Logarithm using 10 as base,decimal logarithm,scientific logarithm,common logarithm,Natural logarithm,C,Yown Tama!,pa mali mali nmn!
+38,Math,Trigonometry,"The logarithm of a product is the ____ of the logarithms, and the logarithm of a quotient is the ____ of the logarithms","sum, difference","difference, sum","quotient, product","product, quotient",A,Yown Tama!,pa mali mali nmn!
+39,Math,Trigonometry,"When a logarithm is expressed as an integer plus a decimal (between 0 and 1), the integer is called",Briggsian Logarithm,napierian Logarithm,Mantissa,Charcteristic,D,Yown Tama!,pa mali mali nmn!
+40,Math,Trigonometry,The characteristic of a logarithm is 3. the number between,1 and 10,10 and 100,100 and 1000,1000 and 10000,D,Yown Tama!,pa mali mali nmn!
+41,Math,Trigonometry,The characteristics of a common logarithm of a number greater than 1 is,zero,positive,negative,zero or positive,D,Yown Tama!,pa mali mali nmn!
+42,Math,Trigonometry,"The characteristics is ____ the exponent of 10, when the number is written in scientific notation",equal to,greater than,less than,none of the above,A,Yown Tama!,pa mali mali nmn!
+43,Math,Trigonometry,"If logarithm to base 10 (denoted as log 10) is called common logarithm is called natural logarithm, what do you call the logarithm of base 2 (denotes as lb)?",Binary Logarithm,Bit Logarithm,Bilogarithm,all of the above,A,Yown Tama!,pa mali mali nmn!
+44,Math,Trigonometry,"If the unknown is a conditional equation occurs as an exponent, the best way to solve the unknown is by",raising the power of both sides,taking the logarithm of both sides,extracting the root of both sides,applying the Newton’s method,B,Yown Tama!,pa mali mali nmn!
+45,Math,Trigonometry,Angles of rotation with the same initial side and terminal side,Terminal angles,Conjugate angles,Coterminal Angle,Supplementary angles,C,Yown Tama!,pa mali mali nmn!
+46,Math,Trigonometry,An angle equal to one revolution of 360°,perigon,explement angle,reflex angle,supplement angle,A,Yown Tama!,pa mali mali nmn!
+47,Math,Trigonometry,The angle which the line of sight to the object makes with the horizontal above the eye of the observer.,angle of depression,angle of elevation,acute angle,bearing,B,Yown Tama!,pa mali mali nmn!
+48,Math,Trigonometry,The angle which the line of sight to the object makes with the horizontal below the eye of the observer.,angle of depression,angle of elevation,acute angle,bearing,A,Yown Tama!,pa mali mali nmn!
+49,Math,Trigonometry,"A triangle inscribed in a given triangle whose vertices are the feet of the three perpendiculars to the sides from same point inside, the given triangle",inscribed triangle,primitive triangle,pedal triangle,obtuse triangle,C,Yown Tama!,pa mali mali nmn!
+50,Math,Trigonometry,The triangle with minimum perimeter but maximum area inscribed in another triangle is known as,pedal triangle,Euclid’s triangle,Primitive triangle,None of the above,A,Yown Tama!,pa mali mali nmn!
+51,Math,Trigonometry,A right triangle whose length of sides may be expressed as ratio of integral units.,pedal triangle,isosceles triangle,scalene triangle,primitive triangle,D,Yown Tama!,pa mali mali nmn!
+52,Math,Trigonometry,A triangle with no sides equal is known as,acute triangle,oblique triangle,equilateral triangle,scalene triangle,D,Yown Tama!,pa mali mali nmn!
+53,Math,Trigonometry,"If two triangles have congruent bases, then the ratio of their areas equals the ratio of",their perimeter s,the lengths of their altitudes,their sides,None of the above,B,Yown Tama!,pa mali mali nmn!
+54,Math,Trigonometry,"In an isosceles right triangle, the hypotenuse is ____ times as long as each of the legs",﷐﷮2﷯,﷐﷮3﷯,2,3,A,Yown Tama!,pa mali mali nmn!
+55,Math,Trigonometry,Which of the following is not a secondary part of a triangle?,altitudes,medians,exterior angles,sides,D,Yown Tama!,pa mali mali nmn!
+56,Math,Trigonometry,Which of the following is not a property of a triangle?,the sum of the three angles is always equal to two right angles,the sum of two sides is less than the third side,"if the two sides are equal , the angles opposite are unequal",the altitudes of the triangle meet in a point,B,Yown Tama!,pa mali mali nmn!
+57,Math,Trigonometry,Given the sides of a triangle as 3 m and 5 m. The third side is,between 3 m and 8 m,greater than 8 m,from to 3 m to 7 m,from 2 m to 8 m,C,Yown Tama!,pa mali mali nmn!
+58,Math,Trigonometry,A straight from the vertex of a triangle to the midpoint of the opposite side is known as,altitude,median,height,A or B,B,Yown Tama!,pa mali mali nmn!
+59,Math,Trigonometry,Indicate the false statement:,an altitude of a triangle is a perpendicular drop from any vertex to the opposite side.,three or more lines which have one point in common are said to be coplanar,the altitudes of a triangle meet at a point,a locus is a figure containing all the points and only those which fulfil a given requirement,B,Yown Tama!,pa mali mali nmn!
+60,Math,Trigonometry,The case of the solution of the triangle in the plane where the given data leads to two solutions,axioms of Euclid,absurd case,absurd case,all of the above,C,Yown Tama!,pa mali mali nmn!
+61,Math,Trigonometry,The most proved theorem in mathematics,Gauss lemma,Fermat’s Theorem,Ptolemy’s Theorem,PythagoreanTheorem,D,Yown Tama!,pa mali mali nmn!
+62,Math,Trigonometry,The least proved theorem in mathematics,Goldbach conjecture,Fermat’s last theorem,Mersennes’s proportion,Pappus Proportion,B,Yown Tama!,pa mali mali nmn!
+63,Math,Trigonometry,Equations used for checking the solution to a plane triangle using law of sine’s are as follows:﷐��+��﷮��﷯=﷐������﷐1﷮2﷯(��−��)﷮������﷐1﷮2﷯��﷯ ������ ﷐��−��﷮��﷯=﷐������﷐1﷮2﷯(��−��)﷮������﷐1﷮2﷯��﷯. These equations are called,Diophantine equations,Mollweide’s equations,Mohr equations,Gauss equations,B,Yown Tama!,pa mali mali nmn!
+64,Math,Trigonometry,Napier’s rule states that the sine of any middle part is equal to the product of the _____ of the opposite parts.,sine,cosine,tangent,secant,B,Yown Tama!,pa mali mali nmn!
+65,Math,Trigonometry,Napier’s rule states that the sine of any middle part is equal to the product of the _____ of the adjacent parts.,sine,cosine,tangent,cotangent,C,Yown Tama!,pa mali mali nmn!
+66,Math,Trigonometry,How many formulas may be derived from using the Napier’s Rules?,5,6,8,10,D,Yown Tama!,pa mali mali nmn!
+67,Math,Trigonometry,The sum of all interior angles in a spherical triangle is always,greater than 180° but less than 270°,greater than 180° but less than 360°,greater than 180° but less than 540°,greater than 270° but less than 540°,C,Yown Tama!,pa mali mali nmn!
+68,Math,Trigonometry,The maximum value for the longitude is,90°,180°,45°,360°,B,Yown Tama!,pa mali mali nmn!
+69,Math,Trigonometry,The maximum value for a latitude is,90°,45°,180°,360°,A,Yown Tama!,pa mali mali nmn!
+70,Math,Trigonometry,"If R is the radius of a sphere and E is a spherical excess (in radians), then the area of a spherical triangle is",πR2E,R2E,1/2 R2E,R2/E,B,Yown Tama!,pa mali mali nmn!
+71,Math,Trigonometry,One minute of the great circle arc on the surface of the earth is equivalent to,1 statute mile,1 nautical mile,60 statute mile,60 nautical mile,B,Yown Tama!,pa mali mali nmn!
+72,Math,Trigonometry,A spherical triangle with all angles equals to a right triangle is called ____ spherical triangle,birectangular,quadrantal,trirectangular,right,A,Yown Tama!,pa mali mali nmn!
+73,Math,Trigonometry,A spherical triangle with at least one side is a quarter of a great circle called _____ spherical triangle,octant,quadrantal,trirectangular,birectangular,C,Yown Tama!,pa mali mali nmn!
+74,Math,Trigonometry,One of the two great circles intersecting at right angle at the piles and dividing equinoctial points and ecliptic into 4 parts,Nadir,Zenith,Declination,Colure,D,Yown Tama!,pa mali mali nmn!
+75,Math,Trigonometry,The radius of the earth used in spherical trigonometry is,3989 statute miles,3979 statute miles,3969 statute miles,3959 statute miles,D,Yown Tama!,pa mali mali nmn!
+76,Math,Trigonometry,The difference between a nautical mile and a statute mile,800 ft,900 ft,1000 ft,500 ft,A,Yown Tama!,pa mali mali nmn!
+77,Math,Trigonometry,"Manila has a longitude of 121°05’E. what is the time difference between Manila and Greenwich, England which is at prime meridian?",8 hrs and 40 mins,8 hrs and 34 mins,8 hrs and 14 mins,8 hrs and 4 mins,D,Yown Tama!,pa mali mali nmn!
+78,Math,Trigonometry,The earth is divided into how many time zone?,24,18,16,12,A,Yown Tama!,pa mali mali nmn!
+79,Math,Trigonometry,"In aspherical triangle, two angles (or sides) are on the same species if they are both",between 0° and 180°,between 0° and 90°,between 90° and 180°,between 0° and 90° or both between 90° and 180°,D,Yown Tama!,pa mali mali nmn!
+80,Math,Trigonometry,Spherical degree is a unit of spherical area taken as 1/720 of the surface of the sphere. How many spherical degrees a hemisphere have?,360°,720°,180°,270°,A,Yown Tama!,pa mali mali nmn!
+81,Math,Trigonometry,Which of the following statements is false about spherical trigonometry?,"if two angles of a spherical triangle are equal, the sides equal are opposite and conversely","if two angles of a spherical triangle are unequal, and the greater side lies opposite the greater angle, and conversely",the sum of two sides of a spherical triangle is greater than the third sides,the sum of all interior angles of a spherical triangles is 360°,D,Yown Tama!,pa mali mali nmn!
+82,Math,Trigonometry,The sum of the sides of a spherical triangles is always less than,270°,360°,540°,180°,B,Yown Tama!,pa mali mali nmn!
+83,Math,Trigonometry,The sum of any two angles of a spherical triangle is,greater than 180°,less than 180°,less than 180° + the third angle,greater than 180° + the third angle,C,Yown Tama!,pa mali mali nmn!
+84,Math,Trigonometry,Refers to the angular distance from the equator measured along a meridian,longitude,latitude,meridian,declination,B,Yown Tama!,pa mali mali nmn!
+85,Math,Trigonometry,Refers to the angle at either pole between the meridian passing through a point and some fixed meridian known as the prime meridian .,longitude,latitude,declination,equinox,A,Yown Tama!,pa mali mali nmn!
+86,Math,Trigonometry,Is half of a great circle terminated by the north pole and south pole.,longitude,latitude,declination,meridian,D,Yown Tama!,pa mali mali nmn!
+87,Math,Trigonometry,When the hypotenuse of a right spherical triangle is less than 90°,the two legs are on the same quadrant,the two legs are on the different quadrant,one leg is one the first quadrant and the other on the second quadrant,none of the above,A,Yown Tama!,pa mali mali nmn!
+88,Math,Trigonometry,When the hypotenuse of a right spherical triangle is greater than 90°,the two legs are on the same quadrant,the two legs are on the different quadrant,one leg is one the first quadrant and the other on the second quadrant,none of the above,C,Yown Tama!,pa mali mali nmn!
+89,Math,Trigonometry,The point where a ray from the center of the earth through an observer’s position on it intersects the celestial sphere is called the observer’s,zenith,nadir,pole,equinox,A,Yown Tama!,pa mali mali nmn!
+90,Math,Trigonometry,The point that is diametrically opposite the zenith is called,pole,equinox,nadir,celestial meridian,C,Yown Tama!,pa mali mali nmn!
+91,Math,Trigonometry,The great circles through the north and south celestial poles are called,hour circles,celestial meridians,elevated poles,a and b,D,Yown Tama!,pa mali mali nmn!
+92,Math,Trigonometry,An oblique equilateral parallelogram:,square,rectangle,rhombus,trapezoid,C,Yown Tama!,pa mali mali nmn!
+93,Math,Trigonometry,mil is a unit of,angle,length,angle and length,weight,C,Yown Tama!,pa mali mali nmn!

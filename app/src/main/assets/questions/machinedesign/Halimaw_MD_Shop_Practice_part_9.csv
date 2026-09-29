@@ -1,0 +1,51 @@
+id,subject,category,question,choice_a,choice_b,choice_c,choice_d,answer,correct_feedback,incorrect_feedback
+1,Machine Design,Shop Practices 9,"A product of padding furnace, which contains less than 0.10% carbon, is called",Wrought iron,Cast iron,Pig iron,Gray cast iron,A,Imbaness Tama!,Anak ng Elements Mali!
+2,Machine Design,Shop Practices 9,Which of the following is a property of wrought iron?,Ductile,Brittle,Can not be forged,Can be easily cast into different shapes,A,Imbaness Tama!,Anak ng Elements Mali!
+3,Machine Design,Shop Practices 9,"Which of the following gives greater hardness, cutting toughness and fine grain structure?",Chromium,Nickel,Tungsten,Vanadium,A,Imbaness Tama!,Anak ng Elements Mali!
+4,Machine Design,Shop Practices 9,"Which of the following provides greater hardness, cutting toughness and resistance to wear and tear?",Chromium,Tungsten,Nickel,Vanadium,D,Imbaness Tama!,Anak ng Elements Mali!
+5,Machine Design,Shop Practices 9,"Which of the following raises the tensile strength, protects from corrosion and improves wearing properly?",Cobalt,Nickel,Molybdenum,Tungsten,B,Imbaness Tama!,Anak ng Elements Mali!
+6,Machine Design,Shop Practices 9,________ gives greater hardness and resistance to forging and drawing.,Molybdenum,Vanadium,Tungsten,Cobalt,A,Imbaness Tama!,Anak ng Elements Mali!
+7,Machine Design,Shop Practices 9,______ improves the cutting quality and gives excellent magnetic property in the steel.,Cobalt,Molybdenum,Nickel,Chromium,A,Imbaness Tama!,Anak ng Elements Mali!
+8,Machine Design,Shop Practices 9,It is an operating involving heating and cooling of metals to change the properties,Annealing,Nitriding,Tempering,Heat treatment,D,Imbaness Tama!,Anak ng Elements Mali!
+9,Machine Design,Shop Practices 9,It is a process to impact maximum hardness to the steel part.,Hardening,Tempering,Annealing,Normalizing,A,Imbaness Tama!,Anak ng Elements Mali!
+10,Machine Design,Shop Practices 9,It is a process to reduce some brittleness and to induce some toughness in the steel part.,Case hardening,Normalizing,Annealing,Tempering,D,Imbaness Tama!,Anak ng Elements Mali!
+11,Machine Design,Shop Practices 9,It is a process to soft the steel part by removing the internal stress.,Normalizing,Annealing,Tempering,Hardening,B,Imbaness Tama!,Anak ng Elements Mali!
+12,Machine Design,Shop Practices 9,It is a process to make the steel part to its normal stage.,Annealing,Normalizing,Case hardening,Tempering,B,Imbaness Tama!,Anak ng Elements Mali!
+13,Machine Design,Shop Practices 9,It is the process for making the outer surface harder to the steel part.,Flame hardening,Hardening,Case hardening,Carburizing,C,Imbaness Tama!,Anak ng Elements Mali!
+14,Machine Design,Shop Practices 9,It is a case hardening process by which the carbon content of the steel near the surface of a part is increased.,Nitriding,Tempering,Carburizing,Flame hardening,C,Imbaness Tama!,Anak ng Elements Mali!
+15,Machine Design,Shop Practices 9,It is case hardening process in which work piece is heated in a stream of ammonia at 500 to 550˚C.,Carburizing,Nitriding,Tempering,Normalizing,B,Imbaness Tama!,Anak ng Elements Mali!
+16,Machine Design,Shop Practices 9,The size by which it is referred to as a matter of convenience called:,Basic size,Actual size,Nominal size,Effective size,C,Imbaness Tama!,Anak ng Elements Mali!
+17,Machine Design,Shop Practices 9,The size in relation to which all limits of variation is made.,Actual size,Basic size,Effective size,Nominal size,B,Imbaness Tama!,Anak ng Elements Mali!
+18,Machine Design,Shop Practices 9,The relation between two mating parts with reference to ease the assembly is called,Allowance,Clearance,Tolerance,Fits,D,Imbaness Tama!,Anak ng Elements Mali!
+19,Machine Design,Shop Practices 9,Two extreme permissible sizes of a dimension.,Boundary,Limits,Tolerance,Allowance,B,Imbaness Tama!,Anak ng Elements Mali!
+20,Machine Design,Shop Practices 9,_______ is the difference between the high and low limit of a size.,Clearance,Allowance,Tolerance,Fits,C,Imbaness Tama!,Anak ng Elements Mali!
+21,Machine Design,Shop Practices 9,It is the intentional difference in the sizes of mating parts.,Allowance,Clearance,Limits,Tolerance,A,Imbaness Tama!,Anak ng Elements Mali!
+22,Machine Design,Shop Practices 9,It is an operation of finishing the flat and cylindrical surfaces to a fine degree of accuracy.,Lapping,Shaping,Planing,Honing,A,Imbaness Tama!,Anak ng Elements Mali!
+23,Machine Design,Shop Practices 9,It is an operation of finishing cylindrical surfaces to a fine degree of accuracy by means of abrasive sticks.,Lapping,Planing,Shaping,Honing,D,Imbaness Tama!,Anak ng Elements Mali!
+24,Machine Design,Shop Practices 9,"It is a device, which hold the job in position and guide the cutting tool.",Clamp,Jig,Vise,Grip,B,Imbaness Tama!,Anak ng Elements Mali!
+25,Machine Design,Shop Practices 9,"It is a device, which holds the job firmly",Clamp,Grip,Fixture,Jig,C,Imbaness Tama!,Anak ng Elements Mali!
+26,Machine Design,Shop Practices 9,The movement of belt upon the face of rim or outer of the driver and driven pulleys within the area of arc of contact is called:,Slip,Creep,Crowning,Dressing,B,Imbaness Tama!,Anak ng Elements Mali!
+27,Machine Design,Shop Practices 9,If the belt is loosely fitted on pulleys _____ slips down.,Creep,Crowning,Dressing,Slip,D,Imbaness Tama!,Anak ng Elements Mali!
+28,Machine Design,Shop Practices 9,It is the outer surface of face or rim of the pulley and made in convex form to keep the belt in center when it is in motion.,Crowning,Dressing,Creep,Slip,A,Imbaness Tama!,Anak ng Elements Mali!
+29,Machine Design,Shop Practices 9,"To avoid slip or creep, the resin powder or paste is poured in between the outer surface of pulley and belt for increasing the tension. This is known as",Crowning,Dressing,Creep,Slip,B,Imbaness Tama!,Anak ng Elements Mali!
+30,Machine Design,Shop Practices 9,It is used to transmit motion at high speed without producing noise.,Bevel gears,Hypoid gears,Helical gears,Worm gears,C,Imbaness Tama!,Anak ng Elements Mali!
+31,Machine Design,Shop Practices 9,It is used to transmit motion at high speed with heavy load without producing noise.,Worm gear,Herring bone gears,Bevel gear,Spur gear,B,Imbaness Tama!,Anak ng Elements Mali!
+32,Machine Design,Shop Practices 9,It is used to connect and disconnect the driving and driven units.,Brakes,Springs,Clutch,Coupling,C,Imbaness Tama!,Anak ng Elements Mali!
+33,Machine Design,Shop Practices 9,"It connects the shafts with soft materials such as rubber, leather and canvas.",Universal coupling,Flexible coupling,Rigid coupling,Oldham coupling,B,Imbaness Tama!,Anak ng Elements Mali!
+34,Machine Design,Shop Practices 9,What is used to connect the shafts whose axes are intersecting?,Rigid coupling,Oldham coupling,Flexible coupling,Universal coupling,D,Imbaness Tama!,Anak ng Elements Mali!
+35,Machine Design,Shop Practices 9,It is generally used on igh speed with light load because it has point contact.,Ball bearig,Roller bearing,Metal bearing,Wood bearing,A,Imbaness Tama!,Anak ng Elements Mali!
+36,Machine Design,Shop Practices 9,It is generally used on high speed with heavy load because it has line contact.,Plastic bearing,Metal bearing,Roller bearing,Ball bearing,C,Imbaness Tama!,Anak ng Elements Mali!
+37,Machine Design,Shop Practices 9,It is a process by which the length of a work piece is increased but reducing its cross-sectional are.,Drawing out,Drifting,Jumping,Upsetting,A,Imbaness Tama!,Anak ng Elements Mali!
+38,Machine Design,Shop Practices 9,It is a process by which the length of a work piece is reduced.,Upsetting,Drawing out,Drifting,Jumping,D,Imbaness Tama!,Anak ng Elements Mali!
+39,Machine Design,Shop Practices 9,Refers to the process for bulging on one end of a work piece to bring a required shape.,Bending,Upsetting,Drifting,Jumping,B,Imbaness Tama!,Anak ng Elements Mali!
+40,Machine Design,Shop Practices 9,It is a process of enlarging and smoothing the punched hole by means of tapered drifts of various sies and shapes.,Drifting,Jumping,Drawing out,Upsetting,A,Imbaness Tama!,Anak ng Elements Mali!
+41,Machine Design,Shop Practices 9,It is a machine tool used to remove metal from a work piece to give it the required shape and size.,Drill press,Lathe,Shaper,Planer,B,Imbaness Tama!,Anak ng Elements Mali!
+42,Machine Design,Shop Practices 9,"It is a set of gears fitted in different positions on a plate, which are controlled by a lever.",Gear train,Stud gear,Tumbler gear,Differential gear,C,Imbaness Tama!,Anak ng Elements Mali!
+43,Machine Design,Shop Practices 9,It moves on the lathe bed with cutting tool according to the rotation of lead screw or by the hand traversing wheel,Apron,Compound reset,Saddle,Mandrel,C,Imbaness Tama!,Anak ng Elements Mali!
+44,Machine Design,Shop Practices 9,It acts the carriage or compound rest through the mechanism lifted inside the _______.,Saddle,Apron,Compound,Mandrel,B,Imbaness Tama!,Anak ng Elements Mali!
+45,Machine Design,Shop Practices 9,"It gives the cutting tool longitudinal feed, cross feed or angular feed",Compound rest,Apron,Saddle,Carriers,A,Imbaness Tama!,Anak ng Elements Mali!
+46,Machine Design,Shop Practices 9,A holding device used to hold the job properly when turning the outer surface truly with the finished hole called.,Clamp,Fixture,Jig,Mandrel,D,Imbaness Tama!,Anak ng Elements Mali!
+47,Machine Design,Shop Practices 9,The center that is fitted in head stock spindle called,Dead center,Live center,Below center,Above center,B,Imbaness Tama!,Anak ng Elements Mali!
+48,Machine Design,Shop Practices 9,"A center, which is fitted in tail, stock spindle called",Dead center,Live center,Above center,Below center,A,Imbaness Tama!,Anak ng Elements Mali!
+49,Machine Design,Shop Practices 9,"It is a machine tool used to produce flat surface, which may be horizontal, vertical or inclined",Planer,Slotter,Shaper,Milling,C,Imbaness Tama!,Anak ng Elements Mali!
+50,Machine Design,Shop Practices 9,Which of the following gives shearing action?,Slide rake,Top rake,Side clearance,Front clearance,B,Imbaness Tama!,Anak ng Elements Mali!

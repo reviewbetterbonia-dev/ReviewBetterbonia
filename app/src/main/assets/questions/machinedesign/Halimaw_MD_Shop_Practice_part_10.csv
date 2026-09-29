@@ -1,0 +1,47 @@
+id,subject,category,question,choice_a,choice_b,choice_c,choice_d,answer,correct_feedback,incorrect_feedback
+1,Machine Design,Shop Practices 10,What supports the top rake?,Front clearance,Side clearance,Side rake,None of the above,A,Imbaness Tama!,Anak ng Elements Mali!
+2,Machine Design,Shop Practices 10,What supports for free feeding?,Side rake,Side clearance,Front clearance,Top rake,B,Imbaness Tama!,Anak ng Elements Mali!
+3,Machine Design,Shop Practices 10,Which of the following reduces the rubbing action?,Front clearance,Side clearance,Side rake,Top rake,A,Imbaness Tama!,Anak ng Elements Mali!
+4,Machine Design,Shop Practices 10,"It is a reciprocating type machine tool used for machining flat, cylindrical and irregular surfaces.",Planer,Shaper,Slotter,Lathe,C,Imbaness Tama!,Anak ng Elements Mali!
+5,Machine Design,Shop Practices 10,Which of the following is used for all general purposes?,Production slotter,Puncher slotter,Tool room slotter,None of the above,B,Imbaness Tama!,Anak ng Elements Mali!
+6,Machine Design,Shop Practices 10,A machine tool used for large construction.,Planer,Shaper,Slotter,Lathe,A,Imbaness Tama!,Anak ng Elements Mali!
+7,Machine Design,Shop Practices 10,"It is machine tool used to machine plane curved surfaces, slots, grooves, teeth, with a fast rotating multi poit cutter.",Milling,Planer,Shaper,Grinder,A,Imbaness Tama!,Anak ng Elements Mali!
+8,Machine Design,Shop Practices 10,It is also known as conventional milling in which the rotation of the cutter is in the direction opposite to the direction of the table movement.,Down-milling,Up-milling,Straddle milling,Gang milling,B,Imbaness Tama!,Anak ng Elements Mali!
+9,Machine Design,Shop Practices 10,It is also known as climb milling in which the rotation of the cutter and the movement to the table is in the same direction.,Gang milling,Down milling,Up milling,Straddle milling,B,Imbaness Tama!,Anak ng Elements Mali!
+10,Machine Design,Shop Practices 10,It is an operation of milling the complex surfaces with the help of a group of cutters mounted on the same arbor,Gang milling,Straddle milling,Climb milling,Down milling,A,Imbaness Tama!,Anak ng Elements Mali!
+11,Machine Design,Shop Practices 10,It is an operation of milling two opposite sides of work piece at a time by using two side milling cutters on the same arbor.,Gang milling,Straddle milling,Side milling,Face milling,B,Imbaness Tama!,Anak ng Elements Mali!
+12,Machine Design,Shop Practices 10,"It is an attachment to the milling machine, which helps to divide the job periphery into a number of equal divisions.",Indexing,Dividing head,Slotting,Universal spiral,B,Imbaness Tama!,Anak ng Elements Mali!
+13,Machine Design,Shop Practices 10,It is an operation to produce narrow slots or grooves using a slitting saw milling cutter.,Saw milling,Form milling,End milling,Side milling,A,Imbaness Tama!,Anak ng Elements Mali!
+14,Machine Design,Shop Practices 10,It is an operation to produce irregular contours using a form cutter.,Face milling,Form milling,Side milling,End milling,B,Imbaness Tama!,Anak ng Elements Mali!
+15,Machine Design,Shop Practices 10,It is an operation to divide the periphery of the job into number of equal parts accurately.,Dividing had,Indexing,Slotting,None of the above,B,Imbaness Tama!,Anak ng Elements Mali!
+16,Machine Design,Shop Practices 10,The angle formed between the face of a tool and he work surface or the tangent to the work piece at the point of contact with the tool called,Clearance angle,Cutting angle,Rake angle,Wedge angle,B,Imbaness Tama!,Anak ng Elements Mali!
+17,Machine Design,Shop Practices 10,"It is a device, which is used to change the shape of a piece by removing material in the form of chips.",Cutting tool,Machine tool,Chisel,Hacksaw,A,Imbaness Tama!,Anak ng Elements Mali!
+18,Machine Design,Shop Practices 10,The angle formed the face an the normal to the work piece at the point of contact with the tool.,Clearance angle,Cutting angle,Wedge angle,Rake angle,D,Imbaness Tama!,Anak ng Elements Mali!
+19,Machine Design,Shop Practices 10,The angle formed between the face and the clearance surface,Wedge angle,Rake angle,Clearance angle,Cutting angle,A,Imbaness Tama!,Anak ng Elements Mali!
+20,Machine Design,Shop Practices 10,The angle formed between the clearance surface and the work surface or the tangent to the work piece at the point of contact with the tool.,Clearance angle,Wedge angle,Rake angle,Cutting angle,A,Imbaness Tama!,Anak ng Elements Mali!
+21,Machine Design,Shop Practices 10,"The best method of avoiding accident is by observing ______ related to job, machine and work piece.",Emery,Opponent,Safety precautions,Cleanliness,C,Imbaness Tama!,Anak ng Elements Mali!
+22,Machine Design,Shop Practices 10,The size of try square is measured from the inner edge of stock to the end of its ______.,Base,Blade,Edge,Body,B,Imbaness Tama!,Anak ng Elements Mali!
+23,Machine Design,Shop Practices 10,Angle of center punch is,30˚,45˚,60˚,90˚,D,Imbaness Tama!,Anak ng Elements Mali!
+24,Machine Design,Shop Practices 10,Mallets are made of ____.,Hardwood,Softwood,Steel,Cast iron,A,Imbaness Tama!,Anak ng Elements Mali!
+25,Machine Design,Shop Practices 10,The size of bench vise is measured from the _____ of its jaws.,Width,Length,Thickness,Curvature,A,Imbaness Tama!,Anak ng Elements Mali!
+26,Machine Design,Shop Practices 10,"For cutting oil grooves in bearing, ______chisel is used.",Full round nose,Half round nose,Square nose,Rectangular,B,Imbaness Tama!,Anak ng Elements Mali!
+27,Machine Design,Shop Practices 10,Staggering of hacksaw blade teeth on both sides alternately is called,Positioning to teeth,Arrangement of teeth,Setting of teeth,None of the above,C,Imbaness Tama!,Anak ng Elements Mali!
+28,Machine Design,Shop Practices 10,The size of a flat file is measured from ____ to heel of the file.,Edge,Base,Tip,Body,C,Imbaness Tama!,Anak ng Elements Mali!
+29,Machine Design,Shop Practices 10,A triangular scraper has _____ sharp cutting edges.,One,Two,Three,Four,C,Imbaness Tama!,Anak ng Elements Mali!
+30,Machine Design,Shop Practices 10,Reamer should also be turned in ____ direction when taking it out.,Same direction,Opposite direction,Clockwise,Counter clockwise,C,Imbaness Tama!,Anak ng Elements Mali!
+31,Machine Design,Shop Practices 10,It is the distance measured parallel to the axis from a point on a screw thread to the corresponding point on the next thread.,Lead,Pitch,Linear,Chord,B,Imbaness Tama!,Anak ng Elements Mali!
+32,Machine Design,Shop Practices 10,Cupola furnace is used to produce _____.,Cast iron,Cast steel,Aluminum,Stainless steel,A,Imbaness Tama!,Anak ng Elements Mali!
+33,Machine Design,Shop Practices 10,Percentage of carbon in high carbon steel is,0.10% to 0.50%,0.70% to 1.5%,3% to 7%,5% to 10%,B,Imbaness Tama!,Anak ng Elements Mali!
+34,Machine Design,Shop Practices 10,It is done to decrease the brittleness and to increase the toughness,Annealing,Normalizing,Tempering,Nitriding,C,Imbaness Tama!,Anak ng Elements Mali!
+35,Machine Design,Shop Practices 10,Ratchet stop is attached with micrometer to measure the accurate reading by applying ____ pressure irrespective of users skill and strength.,Atmospheric,Gage,Uniform,Variable,C,Imbaness Tama!,Anak ng Elements Mali!
+36,Machine Design,Shop Practices 10,"A hole, which is drilled for a particular size of a tap, is called",Drilling hole,Reaming hole,Tapping hole,Plugging hole,C,Imbaness Tama!,Anak ng Elements Mali!
+37,Machine Design,Shop Practices 10,A _____ gage is used to check the clearance between the mating parts.,Feeler,Plug,Tap,Dial,A,Imbaness Tama!,Anak ng Elements Mali!
+38,Machine Design,Shop Practices 10,A ______ gage is used to check the size of hole/bore.,Feeler,Plug,Tap,Dial,B,Imbaness Tama!,Anak ng Elements Mali!
+39,Machine Design,Shop Practices 10,The difference between the high limit and low lmit of a size is called,Allowance,Clearance,Boundary,Tolerance,D,Imbaness Tama!,Anak ng Elements Mali!
+40,Machine Design,Shop Practices 10,An intentional difference between the hole and the shaft dimensions for any type of fit is called,Allowance,Clearance,Tolerance,Range,A,Imbaness Tama!,Anak ng Elements Mali!
+41,Machine Design,Shop Practices 10,The material for laps should always be ____ than the material of part to be tapped,Harder,Shorter,Softer,Longer,C,Imbaness Tama!,Anak ng Elements Mali!
+42,Machine Design,Shop Practices 10,Jigs are generally used for holding the job and ____ the tool.,Support,Guide,Control,Regulate,B,Imbaness Tama!,Anak ng Elements Mali!
+43,Machine Design,Shop Practices 10,Measuring and other setting methods can be eliminated by using ____ and fixtures.,Guide,Support,Jigs,Structure,C,Imbaness Tama!,Anak ng Elements Mali!
+44,Machine Design,Shop Practices 10,When two or more tools are to be used through the same hole then ____ bushes are used in jigs.,Positive slip,Negative slip,Friction,Slip,D,Imbaness Tama!,Anak ng Elements Mali!
+45,Machine Design,Shop Practices 10,The ____ gears are used for changing the plane direction.,Spur,Helical,Worm,Bevel,D,Imbaness Tama!,Anak ng Elements Mali!
+46,Machine Design,Shop Practices 10,Solder is an alloy of _____,Lead and zinc,Lead and tin,Lead and tungsten,Lead and antimony,B,Imbaness Tama!,Anak ng Elements Mali!

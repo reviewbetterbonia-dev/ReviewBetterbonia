@@ -1,0 +1,262 @@
+id,subject,category,question,choice_a,choice_b,choice_c,choice_d,answer,correct_feedback,incorrect_feedback
+1,Math,Algebra,"For a given function, it is found that f(t) = f(-t). What type of symmetry does f(t) have?",odd symmetry,even symmetry,Rotational symmetry,Quarter-wave symmetry,B,Yown Tama!,pa mali mali nmn!
+2,Math,Algebra,Which number has four significant figures?,0.0014,0.01414,0.141,1.414,B,Yown Tama!,pa mali mali nmn!
+3,Math,Algebra,Naperian logarithm have a base closest to which number?,2.17,2.72,3.14,10,B,Yown Tama!,pa mali mali nmn!
+4,Math,Algebra,"If the second derivative of the equation of a curve is equal to the negative of the equation of that same curve, the curve is",an exponential,a sinusoid,a tangent,a parabola,B,Yown Tama!,pa mali mali nmn!
+5,Math,Algebra,To find the angle of the triangle given only the lengths of the,The law of cosines,the law of sines,the law of tangents,the inverse-square law,A,Yown Tama!,pa mali mali nmn!
+6,Math,Algebra,Which is true regarding the signs of the natural functions for angles between 90° and 180°?,the tangent is positive,the cotangent is positive,the cosine is negative,the sine is negative,C,Yown Tama!,pa mali mali nmn!
+7,Math,Algebra,What is the inverse natural function of the cosecant?,secant,sine,cosine,cotangent,B,Yown Tama!,pa mali mali nmn!
+8,Math,Algebra,The graphical presentation of a cumulative frequency distribution in a set of statistical data is called ____,histogram,kurtosis,lepticurtic,ogive,D,Yown Tama!,pa mali mali nmn!
+9,Math,Algebra,A statement of truth of which follows with little or no proof from a theorem,axiom,hypothesis,corollary,conclusion,C,Yown Tama!,pa mali mali nmn!
+10,Math,Algebra,It is a sequence of numbers such that the succesive terms differ by a constant.,arithmetic progression,infinite progression,geometric progression,harmonic progression,A,Yown Tama!,pa mali mali nmn!
+11,Math,Algebra,A frequency curve which is composed of series of rectangles constructed with the steps as the base and the frequency as the height.,histogram,ogive,frequency of distribution,bar graph,A,Yown Tama!,pa mali mali nmn!
+12,Math,Algebra,"If the roots of an equation are zero, then they are classified as",hyperbolic solution,zeros of function,extraneous roots,trivial roots,D,Yown Tama!,pa mali mali nmn!
+13,Math,Algebra,Convergent series is a sequence of decreasing number or when the succeeding term is ____ the preceding term.,greater than,equal to,lesser than,none of the above,C,Yown Tama!,pa mali mali nmn!
+14,Math,Algebra,If a = b then b = a. This illustrates what axiom in algebra?,symmetric axiom,reflexive axiom,transitive axiom,replacement axiom,A,Yown Tama!,pa mali mali nmn!
+15,Math,Algebra,"A and B are independent events. The probabilty that event A will occur is Pa and the probability that A and B will occur is Pab. From these two statements, what is the probability that event B will occur?",Pa - Pb,Pb - Pab,Pa x Pb,Pab/Pa,D,Yown Tama!,pa mali mali nmn!
+16,Math,Algebra,Two or more equation are equal if and only if they have the same,solution set,degree,order,variable set,A,Yown Tama!,pa mali mali nmn!
+17,Math,Algebra,"In any square matrix, when the elements of any two rows are exactly the same, the determinant is",zero,positive integer,negative integer,unity,A,Yown Tama!,pa mali mali nmn!
+18,Math,Algebra,The ratio or product of two expressions in direct or inverse relation with each other is called,ratio and proportion,means,extremes,constant of variation,D,Yown Tama!,pa mali mali nmn!
+19,Math,Algebra,Is a sequence of terms whose reciprocals form an arithmetic progression?,geometric progression,harmonic progression,algebraic progression,ratio and proportion,B,Yown Tama!,pa mali mali nmn!
+20,Math,Algebra,An array m x n quantities which represent a single number system composed of elements in rows and columns is known as,transposed matrix,cofactor of a matrix,matrix,determinant,C,Yown Tama!,pa mali mali nmn!
+21,Math,Algebra,"Binary number system is a system of notation for real number that uses the place method with 2 as the base, what is another name of binary number system",binary digits,binumber system,dyadic number system,bits,C,Yown Tama!,pa mali mali nmn!
+22,Math,Algebra,The number 0.123123123…. is a/an,irrational number,surd,rational number,transcendental,C,Yown Tama!,pa mali mali nmn!
+23,Math,Algebra,MCMXCIV is the roman numeral equivalent to,1974,1984,1994,2994,C,Yown Tama!,pa mali mali nmn!
+24,Math,Algebra,A sequence of numbers where the succeeding term is greater than the preceding term is called,dissonant series,convergent series,divergent series,isometric series,C,Yown Tama!,pa mali mali nmn!
+25,Math,Algebra,Terms that differs only in numeric coefficients are known as,unlike terms,unequal terms,like terms,similar equations,C,Yown Tama!,pa mali mali nmn!
+26,Math,Algebra,"In complex algebra, we use diagram to represent complex plane commonly called",Argand diagram,Venn diagram,Maxwell diagram,Cartesian diagram,A,Yown Tama!,pa mali mali nmn!
+27,Math,Algebra,7 + 0i is?,an irrational number,real number,imaginary number,a variable,B,Yown Tama!,pa mali mali nmn!
+28,Math,Algebra,he number of successful outcomes divided by the number of possible outcomes is,odd,combination,permutation,probability,D,Yown Tama!,pa mali mali nmn!
+29,Math,Algebra,"If a two digit number has x for its unit digit and y for its tens digit, the number is represented as",x + y,y – x,10y + x,10x – y,C,Yown Tama!,pa mali mali nmn!
+30,Math,Algebra,A statement of truth which is admitted without proof,axiom,theorem,postulate,corollary,A,Yown Tama!,pa mali mali nmn!
+31,Math,Algebra,The part of theorem which is assumed to be true,corollary,hypothesis,postulate,conclusion,B,Yown Tama!,pa mali mali nmn!
+32,Math,Algebra,A statement of truth which follows with little or no proof from the theorem,corollary,axiom,postulate,conclusion,A,Yown Tama!,pa mali mali nmn!
+33,Math,Algebra,Refers to the construction of drawing of lines and figures the possibility of which is admitted without proof,corollary,theorem,postulate,hypothesis,C,Yown Tama!,pa mali mali nmn!
+34,Math,Algebra,A mathematical statement which has neither been proved nor denied by counterexamples,fallacy,conjecture,theorem,paradox,B,Yown Tama!,pa mali mali nmn!
+35,Math,Algebra,A proved proposition which is useful mainly as preliminary to the proof of a theorem,lemma,hypothesis,postulate,corollary,A,Yown Tama!,pa mali mali nmn!
+36,Math,Algebra,Axioms are propositions of a general logical nature (about equal or unequal ) while ______ are propositions concerning objects and constructions.,theorems,corollaries,conclusions,postulates,D,Yown Tama!,pa mali mali nmn!
+37,Math,Algebra,A ______ is an ancillary theorem whose results is not for the proof,postulate,lemma,hypothesis,conclusion,B,Yown Tama!,pa mali mali nmn!
+38,Math,Algebra,Statements that are accepted without discussion or proof are called axioms. The word “axiom” comes from the Greek “axioma” which means,worth,correct,TRUE,perfect,A,Yown Tama!,pa mali mali nmn!
+39,Math,Algebra,"In mathematical and other fields of logical reasoning, axioms are used as basis for the formulation of statements called",lemma,hypothesis,postulate,theorem,B,Yown Tama!,pa mali mali nmn!
+40,Math,Algebra,“The product of two or more number is the same in whatever order they are multiplied “. This refers to,Associative law of addition,associative law of multiplication,commutative law of multiplication,distributive law of multiplication,C,Yown Tama!,pa mali mali nmn!
+41,Math,Algebra,"If a = b, then b can replace a in any equation. This illustrates what law of identity?",reflexive law,law of symmetry,transitive law,substitution law,D,Yown Tama!,pa mali mali nmn!
+42,Math,Algebra,"If a = a , then it illustrates what law of identity?",reflexive law,law of symmetry,transitive law,substitution law,A,Yown Tama!,pa mali mali nmn!
+43,Math,Algebra,"If a = b and b = c , then a = c this illustrates",reflexive law,law of symmetry,transitive law,substitution law,C,Yown Tama!,pa mali mali nmn!
+44,Math,Algebra,The axiom which related addition and multiplication is the ______ law,commutative,associative,distributive,none of the above,C,Yown Tama!,pa mali mali nmn!
+45,Math,Algebra,Any combination of symbols and numbers related by the fundamental operation of algebra is called a/an,equation,algebraic expression,term,algebraic sum,B,Yown Tama!,pa mali mali nmn!
+46,Math,Algebra,The algebraic expression consisting of a sum of any number of terms is called a,multinomial,summation,binomial,monomial,A,Yown Tama!,pa mali mali nmn!
+47,Math,Algebra,An equation which is satisfied by all values of the variables for which the members of equation defined is known as,linear equation,rational equation,conditional equation,irrational equation,B,Yown Tama!,pa mali mali nmn!
+48,Math,Algebra,An equation in which some or all of the known quantities are represented by letters is called,redundant equation,literal equation,linear equation,irrational equation,B,Yown Tama!,pa mali mali nmn!
+49,Math,Algebra,An equation in which the variable appear under the radical symbol,irradical equation,irrational equation,quadratic equation,linear equation,B,Yown Tama!,pa mali mali nmn!
+50,Math,Algebra,"An equation which, because of some mathematical process, has required an extra root is sometimes called as",redundant equation,literal equation,linear equation,defective equation,A,Yown Tama!,pa mali mali nmn!
+51,Math,Algebra,"Any equation which, because of some mathematical process, has fewer roots than its original is sometimes called as",redundant equation,literal equation,linear equation,defective equation,D,Yown Tama!,pa mali mali nmn!
+52,Math,Algebra,An algebraic expression which can be represented as a quotient of two polynomials,irrational algebraic equation,reduced algebraic expression,rational algebraic equation,complex algebraic equation,C,Yown Tama!,pa mali mali nmn!
+53,Math,Algebra,A statement containing one or more variables and having the property that it becomes either true or false when the variables are given specific values from their domains.,solution,problem,open sentence,worded problem,C,Yown Tama!,pa mali mali nmn!
+54,Math,Algebra,Any algebraic term is a/an __________ term in certain representing numbers if it consists of the products of possible integral powers of these numbers and a factor not containing them.,integral,rational,irrational,integral rational,D,Yown Tama!,pa mali mali nmn!
+55,Math,Algebra,An equation in x and y which is not easily solved for y in terms of x is called,explicit,implicit function,discontinuity,quadratic,B,Yown Tama!,pa mali mali nmn!
+56,Math,Algebra,The number which are represented with letters.,variables,unknowns,literal numbers,terms,C,Yown Tama!,pa mali mali nmn!
+57,Math,Algebra,Equations whose members are equal only for certain or possibly no value of the unknown.,conditional equations,inequalities,unconditional equations,temporary equations,A,Yown Tama!,pa mali mali nmn!
+58,Math,Algebra,An algebraic expression consisting one term.,monomial,binomial,linear,monomode,A,Yown Tama!,pa mali mali nmn!
+59,Math,Algebra,"In algebra, this consists of products and quotients of ordinary numbers and letters which represent  numbers.",expression,term,equation,coefficient,B,Yown Tama!,pa mali mali nmn!
+60,Math,Algebra,An expression of two terms is called,polynomial,duomial,binomial,all of the above,C,Yown Tama!,pa mali mali nmn!
+61,Math,Algebra,The degree of a polynomial or equation is the,maximum exponent,maximum sum of exponents,exponent of the first variable,maximum exponent of x,B,Yown Tama!,pa mali mali nmn!
+62,Math,Algebra,What is the degree of the polynomial 3x4y + 2x3z3 – 4yz2  ?,6th,5th,4th,3rd,A,Yown Tama!,pa mali mali nmn!
+63,Math,Algebra,"Any fraction which contains one or more fractions in either numerator or denominator, or both is called",compound fraction,composite fraction,complex fraction,all of the above,C,Yown Tama!,pa mali mali nmn!
+64,Math,Algebra,"A common fraction with unity for numerator and a positive integer as denominator (i.e. 1/n)",ordinary fraction,unit fraction,common fraction,improper fraction,B,Yown Tama!,pa mali mali nmn!
+65,Math,Algebra,"If the absolute value of the numerator of a fraction is smaller than the denominator, it is called",proper fraction,improper fraction,Decimal fraction,mixed number,A,Yown Tama!,pa mali mali nmn!
+66,Math,Algebra,"A number that consists of an integer part (which may be zero) and a decimal part less than unity that follows the decimal marker, which may be a point or a comma",proper fraction,improper fraction,Decimal fraction,mixed number,C,Yown Tama!,pa mali mali nmn!
+67,Math,Algebra,Considered as the “counting numbers”,integers,rational numbers,irrational numbers,natural numbers,D,Yown Tama!,pa mali mali nmn!
+68,Math,Algebra,"A number represented by a non-terminating, non-repeating decimal.",irrational number,rational number,natural number,integer,A,Yown Tama!,pa mali mali nmn!
+69,Math,Algebra,The completeness axiom proved that the real number system has numbers other than,integers,rational numbers,natural numbers,irrational numbers,B,Yown Tama!,pa mali mali nmn!
+70,Math,Algebra,The concept of spread of a random variable or a set of observations.,variance,standard deviation,dispersion,range,C,Yown Tama!,pa mali mali nmn!
+71,Math,Algebra,A number containg a non-terminating but repeating decimal is a/an,integer,rational number,natural number,irrational number,B,Yown Tama!,pa mali mali nmn!
+72,Math,Algebra,A positive integer which has no perfect-square factor greater than 1.,radical expression,square integer,square integer,square-free integer,D,Yown Tama!,pa mali mali nmn!
+73,Math,Algebra,Numbers are used to describe a,magnitude,position,magnitude and position,none of the above,C,Yown Tama!,pa mali mali nmn!
+74,Math,Algebra,Are symbols or combinations of symbols which describe a number.,numerals,digits,terms,notations,A,Yown Tama!,pa mali mali nmn!
+75,Math,Algebra,Which of the following is not classified as an integer?,negative numbers,positive numbers,zero,imaginary numbers,D,Yown Tama!,pa mali mali nmn!
+76,Math,Algebra,"When an imaginary number is raised to an even exponent, it",becomes infinite,becomes negative imaginary number,becomes relatively small number,becomes real number,D,Yown Tama!,pa mali mali nmn!
+77,Math,Algebra,"The complex number is in the form of a + bi. If a = 0, what do you call the resulting number?",absolute value of the complex number,pure imaginary number,argument,irrational number,B,Yown Tama!,pa mali mali nmn!
+78,Math,Algebra,"For a complex number a + bi, the real number ﷐﷮a2 + b2 ﷯ is __________ of the complex number.",absolute value,magnitude,modulus,all of the above,D,Yown Tama!,pa mali mali nmn!
+79,Math,Algebra,The ________ of two complex number is found by multiplying each term of the one by every term of the other.,sum,difference,product,quotient,C,Yown Tama!,pa mali mali nmn!
+80,Math,Algebra,A number which can be expressed as a quotient of two integers (division of zero is excluded) is called,irrational number,rational number,imaginary number,real number,B,Yown Tama!,pa mali mali nmn!
+81,Math,Algebra,A prime number has exactly how many divisors?,3,1,2,4,C,Yown Tama!,pa mali mali nmn!
+82,Math,Algebra,A prime number is an integer greater than 1 which has,1 as its only positive divisor,itself as only  positive divisor,1 and itself as its only positive divisors,1 and its additive inverse as its only positive divisor,C,Yown Tama!,pa mali mali nmn!
+83,Math,Algebra,"An integer which is the product of two integers, both different from 1 and -1 is called",prime number,composite number,rational number,compound number,B,Yown Tama!,pa mali mali nmn!
+84,Math,Algebra,A composite number has at least ____ divisors.,1,2,3,4,C,Yown Tama!,pa mali mali nmn!
+85,Math,Algebra,Two natural numbers a and b are ________. If their greatest common divisor is one.,relatively prime,relatively composite,equal,reciprocal,A,Yown Tama!,pa mali mali nmn!
+86,Math,Algebra,Number used to count the objects or ideas in a given collection.,cardinal numbers,irrational numbers,ordinal numbers,numerals,A,Yown Tama!,pa mali mali nmn!
+87,Math,Algebra,Numbers which is used to state the position of individual objects in a sequence.,cardinal numbers,irrational numbers,ordinal numbers,numerals,C,Yown Tama!,pa mali mali nmn!
+88,Math,Algebra,An integer number that is equal to the sum of all its possible divisors except the number itself is called,amicable number,perfect number,defective number,redundant number,B,Yown Tama!,pa mali mali nmn!
+89,Math,Algebra,An integer the sum of all its possible divisors except the number itself is greater than the integer is called,abundant number,perfect number,defective number,amicable number,A,Yown Tama!,pa mali mali nmn!
+90,Math,Algebra,An integer the sum of all its possible divisors except the number itself is less than the integer is called,abundant number,amicable number,friendly number,defective number,D,Yown Tama!,pa mali mali nmn!
+91,Math,Algebra,What is the smallest perfect number possible?,1,6,12,8,B,Yown Tama!,pa mali mali nmn!
+92,Math,Algebra,All perfect numbers are,even numbers,odd numbers,prime numbers,composite numbers,A,Yown Tama!,pa mali mali nmn!
+93,Math,Algebra,Two integer numbers are said to be ____ if each is the sum of all possible divisors of the other.,perfect numbers,defective numbers,amicable numbers,Fermat’s numbers,C,Yown Tama!,pa mali mali nmn!
+94,Math,Algebra,What is another name for amicable numbers?,compatible numbers,friendly numbers,Fermats numbers,Inconsistent numbers,B,Yown Tama!,pa mali mali nmn!
+95,Math,Algebra,What is the smallest pair of friendly number?,180 and 190,200 and 120,220 and 284,220 and 264,C,Yown Tama!,pa mali mali nmn!
+96,Math,Algebra,"Prime numbers that appear in pair and differ by 2 (e.g. 3 and 5, 11 and 13 etc.) are called",Mersenne primes,prime number theorem,twin primes,pseudo primes,C,Yown Tama!,pa mali mali nmn!
+97,Math,Algebra,“Every even integer greater than 2 can be written as the sum of two primes”. This is known as,Fermat’s last theorem,Goldbach conjecture,Prime number theory,Mersenne primes,B,Yown Tama!,pa mali mali nmn!
+98,Math,Algebra,“Every positive integer greater than 1 is a prime or can be expresses as a unique product  of primes and powers”. This is known as,Fundamental theorem of arithmetic,Pseudo prime theorem,Prime number theorem,Mersenne’s Theorem,A,Yown Tama!,pa mali mali nmn!
+99,Math,Algebra,“Every sufficiently large off number can be expresses as a sum of three prime numbers” this is known as,Goldbach conjecture,Vinogradov’s theorem,Pascal’s Law,Mersenne’e theorem,B,Yown Tama!,pa mali mali nmn!
+100,Math,Algebra,The term “ratio” comes from Latin verb “ratus” meaning,to divide,to estimate,to get the mean,to make a proportion,B,Yown Tama!,pa mali mali nmn!
+101,Math,Algebra,"In the proportion of four quantities, the first and fourth terms are referred to as the",means,extremes,denominators,numerators,B,Yown Tama!,pa mali mali nmn!
+102,Math,Algebra,The first term of a ratio is called,antecedent,consequent,mean,extreme,A,Yown Tama!,pa mali mali nmn!
+103,Math,Algebra,The second term of a ratio is called,antecedent,mean,consequent,extreme,C,Yown Tama!,pa mali mali nmn!
+104,Math,Algebra,The _____ is the square root of the product of the extremes.,antecedent,consequent,mean proportional,mean,C,Yown Tama!,pa mali mali nmn!
+105,Math,Algebra,"If the means of a proportion are equal, their commo value is called",mean,extreme,mean proportional,extreme proportional,C,Yown Tama!,pa mali mali nmn!
+106,Math,Algebra,"The theorem that in every arithmetic progression a, a + d, a = 2d,…, where a and d are relatively prime.",Fibonacci theorem,Gauss theorem,Lejeune theorem,Dirichlet Theorem,D,Yown Tama!,pa mali mali nmn!
+107,Math,Algebra,A statement that one mathematical expression is greater than or less than another is called,absolute condition,non-absolute condition,inequality,conditional expression,C,Yown Tama!,pa mali mali nmn!
+108,Math,Algebra,"If an equality is true for all values of the variable, it is a/an",conditional inequality,equivalent inequality,absolute inequality,non-conditional inequality,C,Yown Tama!,pa mali mali nmn!
+109,Math,Algebra,"If the same number is added to both sides of an inequality, the inequality",becomes negative,becomes positive,is reversed,is preserved,D,Yown Tama!,pa mali mali nmn!
+110,Math,Algebra,An inequality is preserved if both sides are multiplied by,zero,– 1,a positive number,a negative number,C,Yown Tama!,pa mali mali nmn!
+111,Math,Algebra,An inequality is reversed if both sides are multiplied by,zero,– 1,a positive number,a negative number,C,Yown Tama!,pa mali mali nmn!
+112,Math,Algebra,"Division of a population or same into two groups based either on measurable variables (e.g. age under 18, age over 180) or on attributes (e.g. male, female).",decomposition,denomination,deviance,dichotomy,D,Yown Tama!,pa mali mali nmn!
+113,Math,Algebra,A 3 x 2 matrix can be multiplied to a,3 x 2 matrix,3 x 3 matrix,2 x 5 matrix,row matrix,C,Yown Tama!,pa mali mali nmn!
+114,Math,Algebra,"If there are as many equations as unknowns, the matrix of the coefficient is a",row matrix,column matrix,square matrix,rectangular matrix,C,Yown Tama!,pa mali mali nmn!
+115,Math,Algebra,A method of solving linear equation with several unknowns simultaneously using determinants.,Simpson’s rule,Cramer’s rule,Trapezoidal rule,Chain rule,B,Yown Tama!,pa mali mali nmn!
+116,Math,Algebra,"Using Cramer’s rule, the determinant of the coefficient is always the",numerator of a quotient,denominator of the quotient,the quotient itself,none of the above,B,Yown Tama!,pa mali mali nmn!
+117,Math,Algebra,"In any square matrix, when the elements of any two rows are exactly the same (i.e. row 1 = row 2 = row 3, or row 2 = row 3…), the determinant is",zero,positive integer,negative integer,unity,A,Yown Tama!,pa mali mali nmn!
+118,Math,Algebra,"When the corresponding elements of two rows of a determinant are proportional, then the value of the determinant is",one,indeterminate,infinite,zero,D,Yown Tama!,pa mali mali nmn!
+119,Math,Algebra,An array of m x n quantities which represent a single number and is composed of elements in rows and columns is known as,transpose of a matrix,determinant,co-factor of a matrix,matrix,D,Yown Tama!,pa mali mali nmn!
+120,Math,Algebra,"When two rows are interchanged in position, the value of the determinant will",remain unchanged,be multiplied by – 1,become zero,become infinite value,B,Yown Tama!,pa mali mali nmn!
+121,Math,Algebra,"If every elements of a row (or column) are multiplied by a constant, k, then the value of the determinant is",multiplied by – k,zero,one,multiplied by k,A,Yown Tama!,pa mali mali nmn!
+122,Math,Algebra,"If two rows of a determinant are interchange, the determinant",changes sign,changes sign and value,remains unchanged,becomes the inverse of the former,A,Yown Tama!,pa mali mali nmn!
+123,Math,Algebra,Which of the following cannot be an operation of matrices?,addition,subtraction,multiplication,division,D,Yown Tama!,pa mali mali nmn!
+124,Math,Algebra,An irrational number which is a root of a positive integer of fraction is called,radical,radix,surd,radicant,C,Yown Tama!,pa mali mali nmn!
+125,Math,Algebra,The symbol ﷐��﷮��﷯ means the principal nth root “n” is called the,radicand,radical,radix,index,D,Yown Tama!,pa mali mali nmn!
+126,Math,Algebra,"In the preceding item, “b” is called the",radicand,radical,radix,index,A,Yown Tama!,pa mali mali nmn!
+127,Math,Algebra,The symbol  ﷐﷮  ﷯  is called,radical,radical symbol,index,A or B,D,Yown Tama!,pa mali mali nmn!
+128,Math,Algebra,The rules of combining radicals follow the rules for,signed numbers,logarithms,fractional exponents,factoring,C,Yown Tama!,pa mali mali nmn!
+129,Math,Algebra,"When a number has both a positive and negative nth root, the principal nth root is",the positive root,the negative root,both the positive and negative root,none of the above,A,Yown Tama!,pa mali mali nmn!
+130,Math,Algebra,Every positive number has _____ nth root,zero,two,one,three,B,Yown Tama!,pa mali mali nmn!
+131,Math,Algebra,The principal nth root of a negative number is the negative root if n is,even,odd,positive,negative,B,Yown Tama!,pa mali mali nmn!
+132,Math,Algebra,"To eliminate a surd, multiply it by its",square,cube,reciprocal,conjugate,D,Yown Tama!,pa mali mali nmn!
+133,Math,Algebra,A radical which is equivalent to a non-terminating and non-repeating decimal,irrational number,natural number,surd,transcendental number,C,Yown Tama!,pa mali mali nmn!
+134,Math,Algebra,A radical expressing an irrational number is called a,surd,radix,index,complex number,A,Good Job!,Too bad!
+135,Math,Algebra,A surd which contains at least one rational term.,pure surd,mixed surd,binomial surd,conjugate surd,B,Good Job!,Too bad!
+136,Math,Algebra,"A surd that contains no rational number, that is, all its factors or terms are surds, example ﷐﷮3﷯ or ﷐﷮3﷯+﷐﷮2﷯",mixed surd,pure surd,binomial surd,conjugate surd,B,Good Job!,Too bad!
+137,Math,Algebra,The process of removing surd from a denominator is to,rationalize the denominator,invert the divisor and proceed to multiplication,get its multiplicative inverse,multiply it why its additive inverse,A,Good Job!,Too bad!
+138,Math,Algebra,"A quadratic equation of the form ax2 + c = 0, without the coefficient of the first degree term is a/an",general quadratic equation,pure quadratic equation,quadratic polynomial,incomplete quadratic equation,B,Good Job!,Too bad!
+139,Math,Algebra,"In the quadratic equation Ax2 + Bx + C = 0, when the roots are multiplied, the result is",C/A,– B/A,– C/A,A/C,A,Good Job!,Too bad!
+140,Math,Algebra,"In the quadratic equation Ax2 + Bx + C = 0, when the roots are added, the result is",C/A,– B/A,– C/A,A/C,B,Good Job!,Too bad!
+141,Math,Algebra,"If the discriminant of a quadratic equation is less than zero, the equation has",no real roots,one root only,two real roots,none of the above,A,Good Job!,Too bad!
+142,Math,Algebra,When can we say that the two roots of a quadratic equation are equal?,when discriminant is greater than 1,when discriminant is zero,when the coefficient of the second degree term is equal to the coefficient of the first degree term,none of the above,B,Good Job!,Too bad!
+143,Math,Algebra,What is the discriminant of the quadratic equation Ax2 + Bx + C = 0,﷐﷮﷐��﷮2﷯−4���� ﷯,﷐��﷮2﷯−4����,﷐��﷮2﷯+4����,﷐﷮﷐��﷮2﷯+4���� ﷯,B,Good Job!,Too bad!
+144,Math,Algebra,What determines the nature of the roots of the quadratic equation?,coefficient,discriminant,factors,all of the above,B,Good Job!,Too bad!
+145,Math,Algebra,The real roots of a cubic equation are the,points of inflection of the graph of the equation,points of intersection of the graph of the equation with the x-axis,points of intersection of the graph of the equation with the y-axis,obtained by using the quadratic formula,B,Good Job!,Too bad!
+146,Math,Algebra,"For a cubic equation, we produce three distinct real roots only if the discriminant is",equal to zero,less than zero,greater than zero,either less than or greater than zero,B,Good Job!,Too bad!
+147,Math,Algebra,"For acubic equation, the discriminant is found to be greater than zero. The roots are",one real and two conjugate complex roots,three distinct roots,"three real roots , which two are equal",none of these,A,Good Job!,Too bad!
+148,Math,Algebra,"A succession of numbers in which one number is designated as first , another as second, another as third and so on is called",series,arrangement,arrangement,sequence,D,Good Job!,Too bad!
+149,Math,Algebra,The repeating decimal 0.333… is a geometric series of a1 = 0.3 and r =,03-Oct,01-Oct,10,5,B,Good Job!,Too bad!
+150,Math,Algebra,The number between two geometric terms.,means,arithmetic means,geometric means,median,C,Good Job!,Too bad!
+151,Math,Algebra,The sum of the first terms of a series is called the nth ______.,sum,sequence,arrangement,partial sum,D,Good Job!,Too bad!
+152,Math,Algebra,The sum of the terms of an arithmetic progression,arithmetic means,arithmetic sequence,arithmetic series,all of the above,C,Good Job!,Too bad!
+153,Math,Algebra,The harmonic mean between a and b,(a + b)/2,2ab/(a + b),(a + b)/ab,ab/(a + b),B,Good Job!,Too bad!
+154,Math,Algebra,The arithmetic mean of a and b is,(a + b)/2,2ab/(a + b),(a + b)/ab,ab/(a + b),A,Good Job!,Too bad!
+155,Math,Algebra,The geometric mean of a and b is,(a + b)/2,2(a + b),ab/(a + b),﷐﷮����﷯,D,Good Job!,Too bad!
+156,Math,Algebra,"Are numbers which can be drawn as dots and arranged in triangular shape ( i.e. 1, 3, 6, 10, 15, 21…)",triangular number,square numbers,pentagonal numbers,tetrahedral numbers,A,Good Job!,Too bad!
+157,Math,Algebra,"A figure numbers which can be drawn as dots and arranged in square shape ( i.e. 1, 4, 9, 16, 25…)",cubic numbers,square numbers,pyramid numbers,pentagon numbers,B,Good Job!,Too bad!
+158,Math,Algebra,"A sequence 1, 5, 12, 22, 35… is known as",oblong numbers,pentagonal numbers,cubic numbers,pyramid numbers,B,Good Job!,Too bad!
+159,Math,Algebra,"A sequence 1, 8, 27, 64, 125, 216… is known as",Pyramid numbers,Cubic numbers,tetrahedral numbers,square numbers,B,Good Job!,Too bad!
+160,Math,Algebra,"A sequence 1, 4, 10, 20, 35, 56… is known",Pyramid numbers,Cubic numbers,tetrahedral numbers,square numbers,C,Good Job!,Too bad!
+161,Math,Algebra,"A sequence of numbers where every term is obtained by adding all the preceding terms a square number series such as 1, 5, 14, 30, 55, 91…",Pyramid numbers,Tetrahedral numbers,Euler’s numbers,Triangular numbers,A,Good Job!,Too bad!
+162,Math,Algebra,"A sequence of numbers where the number is equal to the sum of the two preceding numbers such as 1, 1, 2, 3, 5, 8, 13, 21… is called",Fermat’s numbers,Fibonacci numbers,Gaussian numbers,Archimedean numbers,B,Good Job!,Too bad!
+163,Math,Algebra,What is the multiplicative inverse of the integer 5?,1,5,– 5,01-May,D,Good Job!,Too bad!
+164,Math,Algebra,What is the additive identity element?,0,1,– 1,infinity,A,Good Job!,Too bad!
+165,Math,Algebra,What is the multiplicative identity element?,0,1,– 1,infinity,B,Good Job!,Too bad!
+166,Math,Algebra,The number 0 such that 0 + a = a for all a is called,additive inverse,additive identity,commutative law of addition,associative law of addition,B,Good Job!,Too bad!
+167,Math,Algebra,The additive inverse of a complex number a + bi is,a – bi,a + bi,–a – bi,–a + bi,C,Good Job!,Too bad!
+168,Math,Algebra,"All real numbers have additive inverse, commonly called",reciprocals,opposites,addends,equivalent,B,Good Job!,Too bad!
+169,Math,Algebra,"All real numbers except zero have multiplicative inverses, commonly called",equivalent,factors,opposites,reciprocals,D,Good Job!,Too bad!
+170,Math,Algebra,The number zero has no,multiplicative inverse,additive inverse,multiplicative identity,additive identity,A,Good Job!,Too bad!
+171,Math,Algebra,What is the additive inverse of a + bi?,bi,–a – bi,1/(a + bi),a –bi,B,Good Job!,Too bad!
+172,Math,Algebra,What is the multiplicative inverse of a + bi?,0,1,– a –bi,(a/a2 – b2) – bi/(a2 + b2),D,Good Job!,Too bad!
+173,Math,Algebra,Which of the following is NOT a property of a binomial expansion of (x + y)n?,power is decreasing,power of y is increasing,sum of exponents in each term = n,number of terms = n – 1,D,Good Job!,Too bad!
+174,Math,Algebra,A triangular array numbers forming  the coefficient of the expansion of a binomial is called,Egyptian triangle,Golden triangle,Pascal’s triangle,Bermuda triangle,C,Good Job!,Too bad!
+175,Math,Algebra,The coefficient of the second term of the expansion of (x + y)n is always equal to,n,n – 1,n + 1,n/2,A,Good Job!,Too bad!
+176,Math,Algebra,How is a number in the Pascal’s triangle obtained?,by getting the product of the two numbers directly above it,by getting the sum of the two numbers directly above it,by getting the difference of the two numbers directly above it,by getting the mean of the two numbers directly above it,B,Good Job!,Too bad!
+177,Math,Algebra,"If the sign between the terms of the binomial is negative, its expansion will have signs which are",all positive,all negative,alternate starting with positive,alternate starting with negative,C,Good Job!,Too bad!
+178,Math,Algebra,"In the absence of the Pascal’s triangle, the coefficient of any term of the binomial expansion can be obtained by dividing the product of coefficient  of the preceding term by ____ of the preceding term.",the exponent of y,the exponent of y +1,the exponent of y – 1,the square root of y,B,Good Job!,Too bad!
+179,Math,Algebra,"The fundamental principle of counting states that is one thing can be done in “m” different ways and another thing  can be done in “n” different ways, then the two things can be done in _____ different ways.",m + n,m x n,m! + n!,mn,B,Good Job!,Too bad!
+180,Math,Algebra,Is the arrangement of the object s in specific order.,permutation,combination,probability,any two of the above,A,Good Job!,Too bad!
+181,Math,Algebra,Is the arrangement of the objects regardless of the order they are arranged.,permutation,combination,probability,any two of the above,B,Good Job!,Too bad!
+182,Math,Algebra,"The shifting of the entire order sequence of elements one or more steps forwards to backward – the first element taking the position of the last , or vice versa without changing the order of the elements in the sequence is called",inversion,cyclic permutation,transportation,identical elements,B,Good Job!,Too bad!
+183,Math,Algebra,The number of elements in the collection being permuted is the _____ of the permutation,degree,sum,index,all of the above,A,Good Job!,Too bad!
+184,Math,Algebra,The ratio of the successful outcomes over the total possible outcomes is called,combination,permutation,probability,speculation,C,Good Job!,Too bad!
+185,Math,Algebra,The value of the probability of any outcome will never be equal to nor exceed,0.1,0.5,0.75,1,D,Good Job!,Too bad!
+186,Math,Algebra,"If two events A and B are mutually exclusive events and the probability that A will happen is Pa and the probability that b will occur is Pb, then the probability that A or B happen is",Pa + Pb,Pa x Pb,Pa/Pb,Pb/Pa,A,Good Job!,Too bad!
+187,Math,Algebra,A and B are two independent events. The probability that A can occur is p and that for both A and B to occur is q. the probability that event B can occur is,p + q,p – q,p/q,q/p,D,Good Job!,Too bad!
+188,Math,Algebra,"If the probability of occurrence of a is Pa, what is the probability that will nor  occur?",1/Pa,1 - Pa,1 + Pa,﷐﷮����﷯,B,Good Job!,Too bad!
+189,Math,Algebra,"In statistics, a pictorial description  of the probability concepts of independent and dependent events is called",Venn diagram,histogram,frequency polygon,ogive,A,Good Job!,Too bad!
+190,Math,Algebra,The difference between the highest score and the lowest score in the distribution,deviation,range,median,mode,B,Good Job!,Too bad!
+191,Math,Algebra,The second power of the standard deviation is called,mode,central tendency,variance,dispersion,C,Good Job!,Too bad!
+192,Math,Algebra,A graph of cumulative frequency distribution plotted at class makes and  connected by straight lines.,histogram,Venn diagram,Ogive,Scattergram,C,Good Job!,Too bad!
+193,Math,Algebra,A point in the distribution of scores at which 50 percent of the scores fall below and 50 percent of the scores fall above,mode,mean,median,range,C,Good Job!,Too bad!
+194,Math,Algebra,A number that occurs most frequent in a group of numbers.,median,mode,means,standard deviation,B,Good Job!,Too bad!
+195,Math,Algebra,The difference between an approximate value of a quantity and its exact value or true value,relative error,absolute error,mistake,relative error,B,Good Job!,Too bad!
+196,Math,Algebra,It is the quotient of the absolute error divided by the true value,relative error,relative change,absolute error,mistake,A,Good Job!,Too bad!
+197,Math,Algebra,Refers to a value which is  not exact but might be accurate enough for some specific considerations.,approximate value,absolute value,relative value,accurate value,A,Good Job!,Too bad!
+198,Math,Algebra,"If the absolute error does not exceed a half unit in the last digit, this digit is usually referred to as the",significant digit,leading digit,reliable digit,relative digit,C,Good Job!,Too bad!
+199,Math,Algebra,The most significant digit of the number 0.2015 is,0,1,2,5,C,Good Job!,Too bad!
+200,Math,Algebra,The ____ is stated in the magnitude of the absolute or relative error of the approximated value,precision,accuracy,mistake,error,B,Good Job!,Too bad!
+201,Math,Algebra,The first non-zero digit from the left of the number.,whole number,leading digit,tens digit,units digit,B,Good Job!,Too bad!
+202,Math,Algebra,"It is any of the digit from 1 to 9 inclusive, and 0 except when it is used to place a decimal.",leading digit,significant figure,decimal number,numerals,B,Good Job!,Too bad!
+203,Math,Algebra,"In algebra, the operation of the root extraction is called",evolution,involution,revolution,indexing,A,Good Job!,Too bad!
+204,Math,Algebra,The operation of raising to the integral power known as,evolution,involution,revolution,indexing,B,Good Job!,Too bad!
+205,Math,Algebra,Each of two or more numbers which is multiplied together to form a product are called,terms,expression,dividends,factors,D,Good Job!,Too bad!
+206,Math,Algebra,"When the factors of a product are equal, the product is called _____ of the repeated factor.",coefficient,identity,power,algebraic sum,C,Good Job!,Too bad!
+207,Math,Algebra,"A relation in which every ordered pair (x, y) has one and only one value of y that corresponds to the value of x is called",term,coordinates,function,domain,C,Good Job!,Too bad!
+208,Math,Algebra,Indicate the false statement,the objects in a set are called its elements,even numbers is either rational or irrational,the additive inverse of number “a” is 1/a,the negative of zero is zero,C,Good Job!,Too bad!
+209,Math,Algebra,A symbol holding a place for an unspecified constant is called,arbitrary constant,parameter,variable,all of the above,D,Good Job!,Too bad!
+210,Math,Algebra,Which of the following is NOT true about significant figures?,all non-zero digits are significant,any zero between non-zero digits are significant,any zero not needed for placing a decimal point is not significant,zeros used for the purpose of placing a decimal point are not significant,C,Good Job!,Too bad!
+211,Math,Algebra,The sum of any point number and its reciprocal is,always less than 2,always equal to 2,always greater than 2,always equal to the number’s additive inverse,C,Good Job!,Too bad!
+212,Math,Algebra,What is the absolute value of a number less than one but greater than negative one raised to exponent infinity?,infinity,zero,one,indeterminate,B,Good Job!,Too bad!
+213,Math,Algebra,"If a is an odd number and b is an even number, which of the following must be even?",a + b,a – b,ab,a/b,C,Good Job!,Too bad!
+214,Math,Algebra,"In the equation n x m = q, n is called the",multiplier,minuend,multiplicand,product,C,Good Job!,Too bad!
+215,Math,Algebra,Any one of the individual constants of an expressed sum of constant is called,addend,multiple,factor,summation,A,Good Job!,Too bad!
+216,Math,Algebra,"In the equation 5 + 2 = 7, 5 is known as",augend,minuend,dividend,addend,A,Good Job!,Too bad!
+217,Math,Algebra,A number of the form a + bi with a and b real constant and i is the square root of – 1.,imaginary number,complex number,radical,compound number,B,Good Job!,Too bad!
+218,Math,Algebra,The absolute value of a non-zero number is,always zero,always negative,always positive,sometimes zero and sometimes positive,C,Good Job!,Too bad!
+219,Math,Algebra,A polynomial which is exactly divisible by two or more polynomials is called,least common denominator,common multiple,factors,binomial,B,Good Job!,Too bad!
+220,Math,Algebra,A polynomial with real coefficient can be factored into real linear factors and irreducible _____ factors,linear,quadratic,cubic,repeated,B,Good Job!,Too bad!
+221,Math,Algebra,"If the degree of the numerator is one more than the degree of the denominator, the quotient is a ____ polynomial",linear,quadratic,cubic,quartic,A,Good Job!,Too bad!
+222,Math,Algebra,Which of the following statements is NOT true?,the sum of even numbers is even,the difference of even numbers is even,the product of even numbers is even,the quotient of even numbers is even,D,Good Job!,Too bad!
+223,Math,Algebra,"For every law of addition and subtraction, there is a parallel law for multiplication and division, except division by",negative values,zero,one,positive values,B,Good Job!,Too bad!
+224,Math,Algebra,Indicate the false statement:,the multiplicative identity is 1,the product of a positive number and a negative number is negative,ab = ba is the associative law for multiplication,x2 – y2 = (x + y)(x – y),C,Good Job!,Too bad!
+225,Math,Algebra,"For any two rational number a/b and c/d, which of the following relations is true?",a/b + c/d = ab/cd,a/b + cd = (ab + cd)/ad,a/b + c/d = (ad +cb)/bd,ab + cd = ac/bd,C,Good Job!,Too bad!
+226,Math,Algebra,Two rational numbers a/b and c/d are said to be equal if,ad = bc,ac = bd,ab = cd,a + b = c + d,A,Good Job!,Too bad!
+227,Math,Algebra,Any number divided by infinity equals,0,1,infinity,indeterminate,A,Good Job!,Too bad!
+228,Math,Algebra,The study of the properties of positive integers is known as,number of theory,theory of equation,set theory,arithmetic,A,Good Job!,Too bad!
+229,Math,Algebra,Indicate the false statement,a quotient of two polynomials is called as rational algebraic expression,a3 – b3 = (a + b) (a2 – ab + b2),the equation ax + b = 0 has exactly one root,the equation 3x2 + 2y2 – 3x + 2y = 10,B,Good Job!,Too bad!
+230,Math,Algebra,"A number is said to be in _____ when it is written as the product of a number having the decimal point just after the leading digit, and a power of 10",scientific notation,exponential,irrational,logarithm,A,Good Job!,Too bad!
+231,Math,Algebra,A number which cannot be a root of an integral rational equation is called,transcendental number,Euler’s number,irrational number,natural number,A,Good Job!,Too bad!
+232,Math,Algebra,Refers to the numbers which are not the roots of any algebraic equation,irrational numbers,transcendental numbers,imaginary numbers,composite,B,Good Job!,Too bad!
+233,Math,Algebra,All numbers multiplied by ____ equals unity,negative of the number,one,conjugate,its reciprocal,D,Good Job!,Too bad!
+234,Math,Algebra,he numbers denoted as “e” and equal to 2.718… is called the,Einstein constant,Euler’s number,Fibonacci number,Fermat’s number,B,Good Job!,Too bad!
+235,Math,Algebra,"A notation that represent the product of all positive integers from 1 to a number, n, inclusive",factorial,exponent,summation,all of the above,A,Good Job!,Too bad!
+236,Math,Algebra,Simplify  ﷐��!﷮﷐��−1﷯!﷯,n + 1,n – 1,(n + 1)!,n,D,Good Job!,Too bad!
+237,Math,Algebra,The factorial symbol (!) was introduced in 1808 by,Christian Goldbach,Christian Kramp,Christian Kramp,Robert Hooke,B,Good Job!,Too bad!
+238,Math,Algebra,The conjecture that every even number (except 2) equals the sum of two prime numbers.,Goldbach conjecture,Fibonacci series,Number conjecture,Fermat’s last theorem,A,Good Job!,Too bad!
+239,Math,Algebra,The unending sequence of integers formed according to the rule that each integer is the sum of the preceding two,Fermat’s last theorem,Fibonacci numbers,Goldbach conjecture,triangular numbers,B,Good Job!,Too bad!
+240,Math,Algebra,"It was conjecture that the number in the Fp = 2p + 1 will always result to a prime number, however proved wrong. What do you call the numbers obtained using the said formula?",Mersene numbers,Fermat numbers,Euler numbers,Pseudo number,B,Good Job!,Too bad!
+241,Math,Algebra,"A theorem which states that if n > 2, the equation xn + yn = zn can not be solved in positive integers x, y and z",Pythagorean theorem,Mersenne theorem,Goldbach theorem,Fermat’s theorem,D,Good Job!,Too bad!
+242,Math,Algebra,"The number π = 3.141592563… if only four decimals are required, it becomes 3.1415 This process is called",rounding off,truncation,rounding up,rounding down,B,Good Job!,Too bad!
+243,Math,Algebra,"A set of all subsets of a given set, containing empty set and the original set",empty,null,power set,union,C,Good Job!,Too bad!
+244,Math,Algebra,A set containing the elements that is common  to the original sets,union,intersection,normal set,subset,B,Good Job!,Too bad!
+245,Math,Algebra,"If an infinite series has a finite sum, it is referred to as a",convergent series,divergent series,geometric series,none of the above,A,Good Job!,Too bad!
+246,Math,Algebra,"If an infinite series has no sum, it is referred to as a",convergent series,divergent series,geometric series,none of the above,B,Good Job!,Too bad!
+247,Math,Algebra,The sum of the factorial infinite 1/1! + 1/2! + 1/3! + 1/4!... is,π,e,﷐﷮2﷯,﷐﷮3﷯,B,Good Job!,Too bad!
+248,Math,Algebra,Refers exclusively to equations with integer solution,determinate equations,indeterminate equations,Diophantine equations,L’Hospital’s equations,C,Good Job!,Too bad!
+249,Math,Algebra,“My Dear Aunt Sally” is the basic rule used I operation of algebra. Which is used in determining the signs of trigonometric functions in all quadrants?,all chemists thick solution,all students can thank,all students can think,all teachers can sing,C,Good Job!,Too bad!
+250,Math,Algebra,"The investigation of numbers, space, and many generalizations of these concepts created by the intellectual genius of man",science,arts,mathematics,astronomy,C,Good Job!,Too bad!
+251,Math,Algebra,QED is often written at the end of a proof to indicate that its conclusion has been reached. This means,quod erat daciendum,duod erat demonstrandum,quod erat decientrandum,none of the above,B,Good Job!,Too bad!
+252,Math,Algebra,A sequence of numbers where the succeeding term is greater than the preceding term,isometric series,divergent series,dissonant series,convergent series,B,Good Job!,Too bad!
+253,Math,Algebra,The process of reasoning wherein a final conclusion is obtained by experimental method.,mathematical deduction,mathematical opposition,mathematical conversion,mathematical induction,A,Good Job!,Too bad!
+254,Math,Algebra,"The set of all subsets of a given set, containing the empty set and the original set",intersection,power set,proper subset,improper subset,B,Good Job!,Too bad!
+255,Math,Algebra,A sequence having a defined first and last term is called,infinite sequence,convergent sequence,divergent sequence,finite sequence,D,Good Job!,Too bad!
+256,Math,Algebra,A series is said to be  ____ if it converges when the terms are replaced by their absolute value,absolute convergent,conditional convergent,infinite convergent,finite convergent,A,Good Job!,Too bad!
+257,Math,Algebra,A convergent series is said to be  ____ if it diverges when the terms are replaces by their absolute values,absolute convergent,conditional convergent,infinite convergent,finite convergent,B,Good Job!,Too bad!
+258,Math,Algebra,"Refers to the product of the several prime numbers occurring in the denominations, each taken with its greater multiplicity.",least common denominator,least common multiple,least square,A or B,A,Good Job!,Too bad!
+259,Math,Algebra,The sum of all the exponents of the several variables of the term is referred to as the _____ of the term,power,degree,partial product,absolute power,B,Good Job!,Too bad!
+260,Math,Algebra,Venn diagram is a pictorial representation which helps us visualize the relations and operations with sets. This was introduced by,John Venn,Jan Michael Venn,James Venn,Stephen Venn,A,Good Job!,Too bad!
+261,Math,Algebra,The symbol of equality (=) was introduced in 1557 by,Bhaskara,Brahmagupta,Leonhard Euler,Robert Recorde,D,Good Job!,Too bad!

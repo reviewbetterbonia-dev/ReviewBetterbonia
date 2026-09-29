@@ -1,0 +1,28 @@
+id,subject,category,question,choice_a,choice_b,choice_c,choice_d,answer,correct_feedback,incorrect_feedback
+1,Math,analski_lukspamy - Analytic Geometry,The roots of the quadratic equation are 1/3 and 3/2. What is the equation?,,,,,C,Yown Tama!,pa mali mali nmn!
+2,Math,analski_lukspamy - Analytic Geometry,"Determine the diameter of a circle,.",9 units,11 units,12 units,10 units,D,Yown Tama!,pa mali mali nmn!
+3,Math,analski_lukspamy - Analytic Geometry,"If x varies directly as y and inversely as z, and x = 14 when y = 7 and z = 2, find the value of x when z = 4 and y = 16.",12,18,14,16,D,Yown Tama!,pa mali mali nmn!
+4,Math,analski_lukspamy - Analytic Geometry,"The points A(1,0) , B(9,2) and C(3,6) are vertices of triangle which of the following is an equation of one of medians?",X + 7y =23,2x – 3y = 12,4x + 4y =15,2x – y =13,A,Yown Tama!,pa mali mali nmn!
+5,Math,analski_lukspamy - Analytic Geometry,"Find the area of the region bounded by y = x^3 -3x^2 +2x +1 the axis, and vertical lines x = 0 and x=2",4,2,10,3,B,Yown Tama!,pa mali mali nmn!
+6,Math,analski_lukspamy - Analytic Geometry,Find the area of the triangle which the line 4x – 6y +12 = 0 forms with the coordinate axes,3,5,10,7,A,Yown Tama!,pa mali mali nmn!
+7,Math,analski_lukspamy - Analytic Geometry,What is the maximum area of the rectangle whose base is on the x-axis and whose upper two vertices line on the parabola y = 12 – x^2,32,16,54,20,A,Yown Tama!,pa mali mali nmn!
+8,Math,analski_lukspamy - Analytic Geometry,"Find the equation of a line through point A(4,1) perpendicular to the line 2x -3y +4 = 0",3x + 2y =14,2x +5y = 10,5x -3y =10,2x -10y =15,A,Yown Tama!,pa mali mali nmn!
+9,Math,analski_lukspamy - Analytic Geometry,Find the area of the region bounded by the parabola x = y^2 and the line y=x-2,8/2,3/2,7/2,11/1,A,Yown Tama!,pa mali mali nmn!
+10,Math,analski_lukspamy - Analytic Geometry,Find the volume of the solid of revolution formed by rotating the region bounded by the parabola y= x^2 and the line y=0 and x = 2 about the x – axis,2 Pie/5,Pie/5,32pie/5,Pie/5,D,Yown Tama!,pa mali mali nmn!
+11,Math,analski_lukspamy - Analytic Geometry,Find the slope of the curve defined by the equation yx^2 -4 = 0 at point (4.4),-2,5,-5,2,A,Yown Tama!,pa mali mali nmn!
+12,Math,analski_lukspamy - Analytic Geometry,Write the equation of the line with x intercept a = 4/5 and y – intercept b =1/2,5x + 8y =4,5x – 8y = 4,3x + 8y = 4,X + 2y =7,A,Yown Tama!,pa mali mali nmn!
+13,Math,analski_lukspamy - Analytic Geometry,Find the volume obtained if the region bounded by y = x^2 and y -2x = 0 is rotated about the x-axis,64pie/15,24pie/5,34pie/15,Pie/15,A,Yown Tama!,pa mali mali nmn!
+14,Math,analski_lukspamy - Analytic Geometry,"A function y has the set of positive integers N as domain and for each n contained in N, y(n) =12 + cos (n x pi) + sin [(2n-1) pi/2]. What are the values of y corresponding to any odd positive integer?",12,1,50,3,A,Yown Tama!,pa mali mali nmn!
+15,Math,analski_lukspamy - Analytic Geometry,"Find all the values of m for which ; y = e( to power mx ) is a solution of 6y” – y’ – y =0 on ( -infinity , + infinity)","m = -1/2, 2/3","m = -1,2,3","m= -3,-1/3","m= -1/3, ½",D,Yown Tama!,pa mali mali nmn!
+16,Math,analski_lukspamy - Analytic Geometry,what is I (raised to power 96),"m = -1/2, 2/3","m= -1,2,3","m = -3,1/3","m = -1/3, ½",D,Yown Tama!,pa mali mali nmn!
+17,Math,analski_lukspamy - Analytic Geometry,"Find the area bounded by the parabola y = 5 + 2x – x2 and the chord joining (-2, -3) and (3,2)",20.833,30.345,17.432,12.475,A,Yown Tama!,pa mali mali nmn!
+18,Math,analski_lukspamy - Analytic Geometry,Find the centroid along the y –axis of the solid formed by revolving about the y – axis the first quadrant area bounded by the parabola (y squared) = 4ax and the lines y = 0 and x =a,5a/6,3a/5,2a/7,3a/5,A,Yown Tama!,pa mali mali nmn!
+19,Math,analski_lukspamy - Analytic Geometry,Find the equation of the bisector of the pair of acute angles formed by the lines 4x + 2y = 9 and 2x – y = 8,8x – 25 = 0,4x – 13 = 0,7x – 17 = 0,4x – 15 = 0,A,Yown Tama!,pa mali mali nmn!
+20,Math,analski_lukspamy - Analytic Geometry,"What is the polar equation of the circle with the given radius a = 3/2 and with center in polar coordinates (3/2, π)?","(0,3)","(1,5)","(2,5)","(0,1)",A,Yown Tama!,pa mali mali nmn!
+21,Math,analski_lukspamy - Analytic Geometry,Find the pole of the polar line 2x – y = 0 with respect to the conic whose equation is x3 + 8xy – 2y2 – 12x + 6y – 9 = 0,"(0,3)","(1,5)","(2,5)","(0,1)",A,Yown Tama!,pa mali mali nmn!
+22,Math,analski_lukspamy - Analytic Geometry,"Find the radius of curvature for the curve y = sinx at the point (π/2, 1)",1,2,3,4,A,Yown Tama!,pa mali mali nmn!
+23,Math,analski_lukspamy - Analytic Geometry,"In the ellipse (x squared) + 3 (y squared) + 2x – 6y = 0, find the length of the diameter which has a slope of 1.",2 sq. rt of 2,3 sq. rt of 3,3 sq. rt of 7,5 sq. rt of 3,A,Yown Tama!,pa mali mali nmn!
+24,Math,analski_lukspamy - Analytic Geometry,"Find the equation of the set of all points equally distant from y –axis and (4,0)",y2 – 8x +16 = 0,x2 – 8x +16 = 0,y2 – 10x +2 = 0,x2 – 5y – 10 = 0,A,Yown Tama!,pa mali mali nmn!
+25,Math,analski_lukspamy - Analytic Geometry,"Find the equation of all points equally which are twice as far from (4,4) and (1,1).",x2 + y2= 8,2 x2 + 3 y2 = 10,x2 + y2 = 100,xy = 4,A,Yown Tama!,pa mali mali nmn!
+26,Math,analski_lukspamy - Analytic Geometry,Find the volume obtained if the region bounded by y=x^2 and y=2X is rotated about the X-axis,64rad/15,32rad/15,16rad/15,12rad/15,A,Yown Tama!,pa mali mali nmn!
+27,Math,analski_lukspamy - Analytic Geometry,A rectangle is to be inscribed in the ellipse x^2/200+y^2/50=1.,200,100,300,150,A,Yown Tama!,pa mali mali nmn!

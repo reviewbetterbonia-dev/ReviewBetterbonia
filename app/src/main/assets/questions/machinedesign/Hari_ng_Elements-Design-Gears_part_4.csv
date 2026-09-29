@@ -1,0 +1,51 @@
+id,subject,category,question,choice_a,choice_b,choice_c,choice_d,answer,correct_feedback,incorrect_feedback
+1,Machine Design,Gears 4,The _____ form which an involute tooth is generated or developed.,Root circle,Base circle,Pitch circle,Dedendum circle,B,Imbaness Tama!,Anak ng Elements Mali!
+2,Machine Design,Gears 4,"The angle at the base cylinder if an involute gear, that the tooth makes with the gear axis.",Helix angle,Pressure angle,Lead angle,Base helix angle,D,Imbaness Tama!,Anak ng Elements Mali!
+3,Machine Design,Gears 4,"In an involute gear, _____ is the pitch on the base circle or along the line of action.",Base circle,Normal bas pitch,Base pitch,Pitch gear,C,Imbaness Tama!,Anak ng Elements Mali!
+4,Machine Design,Gears 4,The base pitches in the normal plane.,Normal pitch,Normal base pitch,Axial plane,Central plane,B,Imbaness Tama!,Anak ng Elements Mali!
+5,Machine Design,Gears 4,The base pitches in the axial plane.,Axial base pitch,Axial pitch,Normal pitch,Base pitch,A,Imbaness Tama!,Anak ng Elements Mali!
+6,Machine Design,Gears 4,"In a worm gear, _____ is a plane perpendicular to the gear axis and contains the common perpendicular of the gear and the worm axis.",Central plane,Normal plane,Axial plane,Transverse plane,A,Imbaness Tama!,Anak ng Elements Mali!
+7,Machine Design,Gears 4,The length of the chord subtended by the circular thickness arc is called,Backlash,Face width,Chordal thickness,Curve thickness,C,Imbaness Tama!,Anak ng Elements Mali!
+8,Machine Design,Gears 4,The height from the top of the tooth to the chord subtending the circular thickness arc,Curve thickness,Chordal thickness,Chordal addendum,Chordal dedendum,C,Imbaness Tama!,Anak ng Elements Mali!
+9,Machine Design,Gears 4,The length of the arc of the pitch circle between the center of other corresponding points of the adjacent teeth.,Circular pitch,Diametral pitch,Base pitch,Normal pitch,A,Imbaness Tama!,Anak ng Elements Mali!
+10,Machine Design,Gears 4,The smallest diameter on a gear tooth with which the mating gear makes contact.,Contact ratio,Contact diameter,Contact stress,None of the above,B,Imbaness Tama!,Anak ng Elements Mali!
+11,Machine Design,Gears 4,The maximum compressive stress within the contact area between mating gear tooth profiles is called,Bearing stress,Contact stress,Ultimate stress,Internal stress,B,Imbaness Tama!,Anak ng Elements Mali!
+12,Machine Design,Gears 4,The curve formed by the path of a point on a circle as it rolls along a straight line,Trochoid,Epicyloid,Hypocloid,Cycloid,D,Imbaness Tama!,Anak ng Elements Mali!
+13,Machine Design,Gears 4,The circular pitch in the normal plane.,Circular plane,Normal circular pitch,Central plane,Circular base pitch,B,Imbaness Tama!,Anak ng Elements Mali!
+14,Machine Design,Gears 4,The strength of the arc between the two sides of a gear tooth on the pitch circles unless otherwise specified.,Face of tooth,Circular thickness,Tooth profile,Face width,B,Imbaness Tama!,Anak ng Elements Mali!
+15,Machine Design,Gears 4,The amount by which the dedendum exceeds the addendum of the mating tooth.,Tolerance,Allowance,Clearance,Backlash,C,Imbaness Tama!,Anak ng Elements Mali!
+16,Machine Design,Gears 4,The smallest diameter on a gear tooth with which the mating gear makes.,Idler,Pinion,Gear,Central diameter,D,Imbaness Tama!,Anak ng Elements Mali!
+17,Machine Design,Gears 4,The ratio of the arc of action to the circular pitch is known as,Contact ratio,Action ratio,Recess ratio,Approach ratio,A,Imbaness Tama!,Anak ng Elements Mali!
+18,Machine Design,Gears 4,The curve that satisfy the law of gearing.,Tooth profile,Stub curve,Conjugate curve,Involute curve,C,Imbaness Tama!,Anak ng Elements Mali!
+19,Machine Design,Gears 4,The depth of tooth space below the pitch circle or the radial dimension between the pitch circle and the bottom of the tooth space.,Addendum,Dedendum,Working depth,Whole depth,B,Imbaness Tama!,Anak ng Elements Mali!
+20,Machine Design,Gears 4,The circle that bounds the bottoms of the teeth.,Addendum circle,Pitch circle,Base circle,Dedendum circle,D,Imbaness Tama!,Anak ng Elements Mali!
+21,Machine Design,Gears 4,The ratio of the number of teeth to the number of millimeters of pitch diameter.,Diametral pitch,Module,Circular pitch,Base pitch,A,Imbaness Tama!,Anak ng Elements Mali!
+22,Machine Design,Gears 4,The diametral pitch circulated in the normal plane and is equal to the pitch divided by the cosine of helix angle.,Normal diametral plane,Normal diametral pitch,Normal plane,Normal axial pitch,B,Imbaness Tama!,Anak ng Elements Mali!
+23,Machine Design,Gears 4,"That portion of the face width that actually comes into contact with mating teeth, as occasionally one member of a pair of gears may have a greater face width that the other is called",Effective face width,Effective tooth face,Effective tooth thickness,Effective tooth flank,A,Imbaness Tama!,Anak ng Elements Mali!
+24,Machine Design,Gears 4,The actual torque ratio of a gear set divided by its gear ratio.,Coefficient of performance,Transmission ratio,Ratio factor,Efficiency,D,Imbaness Tama!,Anak ng Elements Mali!
+25,Machine Design,Gears 4,"When it rolls along the outer side of another circle, it is called",Cycloid,Hypocloid,Epicycloids,Trochoid,C,Imbaness Tama!,Anak ng Elements Mali!
+26,Machine Design,Gears 4,A gear with teeth on the outer cylindrical surface.,Annular gear,External gear,Idler,Spur gear,B,Imbaness Tama!,Anak ng Elements Mali!
+27,Machine Design,Gears 4,"That surface of the tooth, which is between the pitch circles to the top of the tooth, is known as ______.",Face width,Tooth flank,Face of tooth,Top land,C,Imbaness Tama!,Anak ng Elements Mali!
+28,Machine Design,Gears 4,The length of the teeth in axial plane.,Face of tooth,Face width,Circular pitch,Chordal thickness,B,Imbaness Tama!,Anak ng Elements Mali!
+29,Machine Design,Gears 4,The surface of the tooth between the pitch cylinder and the addendum cylinder.,Face,Flank,Top land,Bottom land,A,Imbaness Tama!,Anak ng Elements Mali!
+30,Machine Design,Gears 4,The concave portion of the tooth profile where it joins the bottom of the tooth space.,Tooth curve,Involute,Fillet radius,Fillet curve,D,Imbaness Tama!,Anak ng Elements Mali!
+31,Machine Design,Gears 4,The maximum tensile stress in the gear tooth fillet.,Gear stress,Contact stress,Fillet stress,Tooth stress,C,Imbaness Tama!,Anak ng Elements Mali!
+32,Machine Design,Gears 4,That surface which is between the pitch circle and the bottom land is called,Flank of tooth,Face of tooth,Face width,Fillet of tooth,A,Imbaness Tama!,Anak ng Elements Mali!
+33,Machine Design,Gears 4,The surface of the tooth between the pitch and root cylinders.,Fillet,Face,Flank,Bottom land,C,Imbaness Tama!,Anak ng Elements Mali!
+34,Machine Design,Gears 4,The number of teeth in the gear divided by the number of teeth in the pinion.,Ratio factor,Gear ratio,Transmission ratio,None of the above,B,Imbaness Tama!,Anak ng Elements Mali!
+35,Machine Design,Gears 4,The angle that helical gear tooth makes the gear axis.,Helix angle,Lead angle,Pressure angle,Tooth angle,A,Imbaness Tama!,Anak ng Elements Mali!
+36,Machine Design,Gears 4,When it rolls along the inner side of another circle it is called,Cycloid,Epicycloids,Hypocloid,Trochoid,C,Imbaness Tama!,Anak ng Elements Mali!
+37,Machine Design,Gears 4,The diameter of a circle coinciding with the tops of the teeth on an internal gear.,Pitch diameter,Internal diameter,Root diameter,Dedendum diameter,B,Imbaness Tama!,Anak ng Elements Mali!
+38,Machine Design,Gears 4,A gear with teeth in the inner cylindrical surface.,Pitch gear,Internal gear,Idler,Spur gear,B,Imbaness Tama!,Anak ng Elements Mali!
+39,Machine Design,Gears 4,"The curve formed by the path of a point on a straight line called their generatrix, as it rolls along a convex base curve.",Involute,Cycloidal,Cycloid,Trochoid,A,Imbaness Tama!,Anak ng Elements Mali!
+40,Machine Design,Gears 4,The top surface of the tooth,Tooth face,Tooth surface,Top land,Tooth flank,C,Imbaness Tama!,Anak ng Elements Mali!
+41,Machine Design,Gears 4,The surface of the gear between the fillets of adjacent teeth.,Space width,Backlash,Bottom land,Tooth space,C,Imbaness Tama!,Anak ng Elements Mali!
+42,Machine Design,Gears 4,The distance a helical gear or worm would thread along its axis one revolution of it were free to move axially.,Lead,Helix,Length of action,Line of action,A,Imbaness Tama!,Anak ng Elements Mali!
+43,Machine Design,Gears 4,The path of contact in involute gears. It is a straight line passing through the pitch point and the tangent to the base circles.,Length of action,Line of action,Line of contact,None of the above,B,Imbaness Tama!,Anak ng Elements Mali!
+44,Machine Design,Gears 4,The distance on involute line of action through which the point of contact moves during the action of the tooth profile.,Length of action,Line of action,Line of contact,None of the above,A,Imbaness Tama!,Anak ng Elements Mali!
+45,Machine Design,Gears 4,The ratio of pitch diameter in mellimeter to the number of teeth.,Dedendum,Addendum,Module,None of the above,C,Imbaness Tama!,Anak ng Elements Mali!
+46,Machine Design,Gears 4,A plane normal to the tooth surfaces acts a point of contact and perpendicular to the pitch plane.,Axial plane,Central plane,Normal plane,Dimetral,C,Imbaness Tama!,Anak ng Elements Mali!
+47,Machine Design,Gears 4,"The distance between similar equally space tooth surfaces, in a given direction and along a given curve or line.",Module,Pitch,Addendum,Involute,B,Imbaness Tama!,Anak ng Elements Mali!
+48,Machine Design,Gears 4,The angle subtended by the arc on the pitch circle equal in the length to the circular pitch.,Pitch angle,Pressure angle,Helix angle,Lead angle,A,Imbaness Tama!,Anak ng Elements Mali!
+49,Machine Design,Gears 4,"Of meshing gears, _____ is the point of tangency to the pitch circle.",Pitch point,Pitch of contact,Pitch,Reference point,A,Imbaness Tama!,Anak ng Elements Mali!
+50,Machine Design,Gears 4,"In a pair of gears, it is the plane perpendicular to the axial plane and tangential to the axial plane and tangent to the pitch surfaces.",Normal plane,Central plane,Pitch plane,Tangential plane,C,Imbaness Tama!,Anak ng Elements Mali!

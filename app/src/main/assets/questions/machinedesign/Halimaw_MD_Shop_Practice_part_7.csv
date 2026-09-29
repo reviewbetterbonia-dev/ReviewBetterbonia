@@ -1,0 +1,51 @@
+id,subject,category,question,choice_a,choice_b,choice_c,choice_d,answer,correct_feedback,incorrect_feedback
+1,Machine Design,Shop Practices 7,"In case of flat scraper, the depth of cut is verified by",Changing its inclination,Changing the convexity of the cutting edge,Changing its weight,None of the above,A,Imbaness Tama!,Anak ng Elements Mali!
+2,Machine Design,Shop Practices 7,Generally spiral fluted reamer has spirals of,Left hand,Right hand,Straight,None of the above,A,Imbaness Tama!,Anak ng Elements Mali!
+3,Machine Design,Shop Practices 7,"In which screw thread the side is equal to the width of flat, width of space equals 0.5p is termed as",Acme,Buttress,Knuckle,Square,D,Imbaness Tama!,Anak ng Elements Mali!
+4,Machine Design,Shop Practices 7,A stud is one which,Has threads on one end,Is inserted in a plane hose,Requires a nut,None of the above,D,Imbaness Tama!,Anak ng Elements Mali!
+5,Machine Design,Shop Practices 7,An “18”-“18” stainless steel means,18% tungsten and 8% chromium,18% chromium and 8% nickel,18% nickel and 8% chromium,18% chromium and 8% cobalt,B,Imbaness Tama!,Anak ng Elements Mali!
+6,Machine Design,Shop Practices 7,Which of the following metals is the lightest?,Aluminum,Cast iron,GI sheet,Lead,A,Imbaness Tama!,Anak ng Elements Mali!
+7,Machine Design,Shop Practices 7,Hardened steel parts have,Coarse grains,Fine grains,Medium grains,None of the above,B,Imbaness Tama!,Anak ng Elements Mali!
+8,Machine Design,Shop Practices 7,Concentricity f outside diameter can e checked by the,Dial test indicator,Outside micrometer,Vernier caliper,Tube micrometer,A,Imbaness Tama!,Anak ng Elements Mali!
+9,Machine Design,Shop Practices 7,Which micrometer has no anvil?,Depth micrometer,Digit micrometer,Outside micrometer,Screw thread micrometer,A,Imbaness Tama!,Anak ng Elements Mali!
+10,Machine Design,Shop Practices 7,Which micrometer is available with extension rods?,Combi micrometer,Inside micrometer,Outside micrometer,Screw thread micrometer,B,Imbaness Tama!,Anak ng Elements Mali!
+11,Machine Design,Shop Practices 7,Which gauge is used to check the internal threads?,Plug gage,Ring gage,Thread plug gage,Screw thread micrometer,C,Imbaness Tama!,Anak ng Elements Mali!
+12,Machine Design,Shop Practices 7,Limit gage is made to the _____ sizes of the work to be measured,actual and normal,Minimum and maximum,Nominal and lower limit,Nominal and upper limit,B,Imbaness Tama!,Anak ng Elements Mali!
+13,Machine Design,Shop Practices 7,Lapping is done,To finish the job to a fine degree of accuracy,To get high quality,To control the size,All of the above,D,Imbaness Tama!,Anak ng Elements Mali!
+14,Machine Design,Shop Practices 7,In which method a bore is finished to a very closed tolerance?,Grinding,Honing,Lapping,Turning,B,Imbaness Tama!,Anak ng Elements Mali!
+15,Machine Design,Shop Practices 7,Jig bushings are generally made of,Brass,Cast iron,Mild steel,Tool steel,D,Imbaness Tama!,Anak ng Elements Mali!
+16,Machine Design,Shop Practices 7,Fixture clamps are generally made of,Alloy steel,Case hardened mild steel,High carbon steel,High speed steel,B,Imbaness Tama!,Anak ng Elements Mali!
+17,Machine Design,Shop Practices 7,Successful designing of jig’s and fixtures depend upon the,Clamping arrangement,Manufacturing conditions,Tool guiding elements,All of the above,D,Imbaness Tama!,Anak ng Elements Mali!
+18,Machine Design,Shop Practices 7,"When an external gear is meshed an internal gear, the gears will rotate in",Opposite direction,Same direction,Will not rotate,None of the above,B,Imbaness Tama!,Anak ng Elements Mali!
+19,Machine Design,Shop Practices 7,"While soldering, the flux is used because",It assist for quick melting and increasing the fluidity of solder,It saves the part from oxidation,It takes the molten on all surfaces,All of the above,D,Imbaness Tama!,Anak ng Elements Mali!
+20,Machine Design,Shop Practices 7,The usual ratio of soluble oil and water used in coolant is,1:10,1:20,10:01,20:01,B,Imbaness Tama!,Anak ng Elements Mali!
+21,Machine Design,Shop Practices 7,"For a given rpm, if the diameter of a twist drill increases, then cutting speed will",Decrease,Increase,Same,None of the above,B,Imbaness Tama!,Anak ng Elements Mali!
+22,Machine Design,Shop Practices 7,An advance motion along the longitudinal axis of a twist drill is called,Cutting speed,Feed,Speed,None of the above,B,Imbaness Tama!,Anak ng Elements Mali!
+23,Machine Design,Shop Practices 7,In internal cylindrical grinding the grinding wheel and the work rotate in,Same direction,Opposite direction,Neither “A” nor “B”,“A” and “B” both,B,Imbaness Tama!,Anak ng Elements Mali!
+24,Machine Design,Shop Practices 7,For grinding materials having low tensile strength which of the following abrasives is used?,Aluminum,Corundum,Emery,Silicon carbide,D,Imbaness Tama!,Anak ng Elements Mali!
+25,Machine Design,Shop Practices 7,The size of a grinding wheel is taken from,Diameter of wheel,Bore size,Width of face,All of the above,D,Imbaness Tama!,Anak ng Elements Mali!
+26,Machine Design,Shop Practices 7,"Which is center is used for supporting open end of pipes shells etc., while turning or thread cutting in a lathe?",Ball center,Half center,Female center,Pipe center,D,Imbaness Tama!,Anak ng Elements Mali!
+27,Machine Design,Shop Practices 7,"When outside diameter of a job is turned n relation to the internal hole, the job should be held _______.",Between centers,In three jaw chuck,On face plate,On lathe mandrel,D,Imbaness Tama!,Anak ng Elements Mali!
+28,Machine Design,Shop Practices 7,What is the included angle of a dead center?,30˚,45˚,60˚,90˚,C,Imbaness Tama!,Anak ng Elements Mali!
+29,Machine Design,Shop Practices 7,What is the main alloying element in high speed steel?,Chromium,Tungsten,Vanadium,Nickel,B,Imbaness Tama!,Anak ng Elements Mali!
+30,Machine Design,Shop Practices 7,The value of one micron is,1.00 mm,0.01 mm,0.10 mm,0.001 mm,D,Imbaness Tama!,Anak ng Elements Mali!
+31,Machine Design,Shop Practices 7,"For the accurate measurement of bores, the best instrument to use is",Dial test indicator,Inside micrometer,Plug gauge,Verneir caliper,B,Imbaness Tama!,Anak ng Elements Mali!
+32,Machine Design,Shop Practices 7,Under sine principle the length of ine bar takes the place of _______.,Adjacent,Height,Hypotenuse,Opposite,C,Imbaness Tama!,Anak ng Elements Mali!
+33,Machine Design,Shop Practices 7,In hydraulic driven shaper the metal is removed at,Average speed,Higher speed,Lower speed,None of the above,B,Imbaness Tama!,Anak ng Elements Mali!
+34,Machine Design,Shop Practices 7,"In a shaper, the cutting speed is expressed in",Meter per minute,Meter per hour,Meter per second,None of the above,A,Imbaness Tama!,Anak ng Elements Mali!
+35,Machine Design,Shop Practices 7,Amount of automatic feed n shaper is increased by taking the crankpin,At the center of the crank disc,Towards the center of crank disc,Away from the center of the crank disc,None of the above,C,Imbaness Tama!,Anak ng Elements Mali!
+36,Machine Design,Shop Practices 7,In a shaper the feed is usually expressed in,Mm / stroke,Mm / revolution,Meter / minute,None of the above,A,Imbaness Tama!,Anak ng Elements Mali!
+37,Machine Design,Shop Practices 7,"For cutting gear teeth in a shaper, the _______tool is used.",Form,Gooseneck,Round nose,“V” shaped,A,Imbaness Tama!,Anak ng Elements Mali!
+38,Machine Design,Shop Practices 7,Shaper tool bit should not extend n tool holder beyond,5 mm,15 mm,25 mm,50 mm,B,Imbaness Tama!,Anak ng Elements Mali!
+39,Machine Design,Shop Practices 7,The standard ratio for cutting to return stroke in shaper is,3:01,1:03,2:03,3:02,D,Imbaness Tama!,Anak ng Elements Mali!
+40,Machine Design,Shop Practices 7,A tipped tool is more useful than high speed steel tool because,It can resist more heat,It can keep the cutting point sharp,Cutting speed can be increased,All f the above,D,Imbaness Tama!,Anak ng Elements Mali!
+41,Machine Design,Shop Practices 7,The feed in sharper takes place at,The beginning of return stroke,The beginning of cutting stroke,The middle f return stroke,The end of return stroke,D,Imbaness Tama!,Anak ng Elements Mali!
+42,Machine Design,Shop Practices 7,1.Which of the following quick return mechanism is most widely used in ost of the slotters?,Slooter disc echanism,Slotter link and gear mechanism,Hydraulic mechanism,With worth mechanism,D,Imbaness Tama!,Anak ng Elements Mali!
+43,Machine Design,Shop Practices 7,"In a slotter, the cutting speed depends upon the ________.",Materials to be cut,Finish required,Material of the slotter tool,All of the above,D,Imbaness Tama!,Anak ng Elements Mali!
+44,Machine Design,Shop Practices 7,Convex shaped slotter tools are used for mschining,Concave surface,Conical surface,Convex surface,Flat sface,A,Imbaness Tama!,Anak ng Elements Mali!
+45,Machine Design,Shop Practices 7,The clamp block used in a slotter to support the end of the trap is made of,High carbon steel,High speed steel,Lead,Wood,D,Imbaness Tama!,Anak ng Elements Mali!
+46,Machine Design,Shop Practices 7,The table of slotter to support the end of the trap is made of,Longitudinal,Cross,Rotary,All of the above,D,Imbaness Tama!,Anak ng Elements Mali!
+47,Machine Design,Shop Practices 7,Divided table planer has _______.,One table,One housing,Two tables,Two housing,C,Imbaness Tama!,Anak ng Elements Mali!
+48,Machine Design,Shop Practices 7,In a planer the feed is provided,At forward stroke,At return stoke,In between forward stroke,In between return stroke,B,Imbaness Tama!,Anak ng Elements Mali!
+49,Machine Design,Shop Practices 7,"In a planer, the cutting speed depends upon the",Material of job material of tool and feed rate,Rpm of ball gear,Depth of cut,None of the above,A,Imbaness Tama!,Anak ng Elements Mali!
+50,Machine Design,Shop Practices 7,The planer tool differs from lathe tool because it has,Less front and side clearance,More front and side clearance,Less rake and angle,More rake and angle,A,Imbaness Tama!,Anak ng Elements Mali!

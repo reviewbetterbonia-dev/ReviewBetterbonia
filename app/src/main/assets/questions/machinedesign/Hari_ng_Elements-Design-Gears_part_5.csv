@@ -1,0 +1,51 @@
+id,subject,category,question,choice_a,choice_b,choice_c,choice_d,answer,correct_feedback,incorrect_feedback
+1,Machine Design,Gears 5,"One of the causes of spur gear tooth breakage is the unbalanced load on one end of the tooth that results in higher stress than when the load is evenly distributed. To minimize this problem, the face width “b” should not be greater than the thickness of the tooth. In the absence of test values, the following can be guide.",2.5 Pc < b < 4 Pc,2.o Pd < b < 4 Pd,2.5 Pd < b < 4 Pd,2.o Pc < b < 4 Pc,A,Imbaness Tama!,Anak ng Elements Mali!
+2,Machine Design,Gears 5,Any plane perpendicular to a gear axis is called,plane of action,plane of rotation,normal plane,transverse plane,B,Imbaness Tama!,Anak ng Elements Mali!
+3,Machine Design,Gears 5,The angle between the tooth profile and a radical line at its pitch point. Involute teeth the angle between the line of action and line tangent to the patch circle.,Roll angle,Pitch angle,Helix angle,Pressure angle,D,Imbaness Tama!,Anak ng Elements Mali!
+4,Machine Design,Gears 5,The radical distance from the addendum circle to the working depth circle.,Total depth,Full depth,Whole depth,Working depth,D,Imbaness Tama!,Anak ng Elements Mali!
+5,Machine Design,Gears 5,The total depth of a tooth space equal to addendum plus dedendum also equal to working depth plus clearance.,Full depth,Working,Whole depth,None of the above,C,Imbaness Tama!,Anak ng Elements Mali!
+6,Machine Design,Gears 5,It is a condition in generated gear teeth when any part of the fillet curve lies inside of a line drawn tangent to the working profile as its lowest point.,Medium cut,Under cut,Over cut,Hidden cut,B,Imbaness Tama!,Anak ng Elements Mali!
+7,Machine Design,Gears 5,The curve formed by the path of a point on the extension of the radius of a circle as it rolls along the curve or line.,Cycloid,Epicycloids,Hypocycloid,Trochoid,D,Imbaness Tama!,Anak ng Elements Mali!
+8,Machine Design,Gears 5,A plane perpendicular to the axis plane and to the pitch line.,Normal plane,Pitch plane,Tangent plane,Transverse plane,D,Imbaness Tama!,Anak ng Elements Mali!
+9,Machine Design,Gears 5,The octal width dimensions of a gear blank to the pitch plane.,Total face width,Effective face width,Addendum,Transverse plane,A,Imbaness Tama!,Anak ng Elements Mali!
+10,Machine Design,Gears 5,The space between the teeth measured along the pitch circle.,Tooth space,Tooth thickness,Backlash,Tooth face,A,Imbaness Tama!,Anak ng Elements Mali!
+11,Machine Design,Gears 5,The width of tooth measured along the pitch circle.,Tooth space,Tooth thickness,Backlash,Tooth face,B,Imbaness Tama!,Anak ng Elements Mali!
+12,Machine Design,Gears 5,An arbitrary modification of a tooth profile whereby a small amount of materials is removed near the tip of the gear tooth.,Chamfer,Tip relief,Under cut,None of the above,B,Imbaness Tama!,Anak ng Elements Mali!
+13,Machine Design,Gears 5,A plane tangent to the surface at a point or line of circle.,Normal plane,Pitch plane,Base plane,Root plane,C,Imbaness Tama!,Anak ng Elements Mali!
+14,Machine Design,Gears 5,A circle coinciling with or tangent to the bottoms of the tooth spaces.,Addendum circle,Pitch circle,Base circle,Root circle,D,Imbaness Tama!,Anak ng Elements Mali!
+15,Machine Design,Gears 5,The angle subtended at the center of the base circle from teeth origin of an involute to the point of tangency of the generation from any point on the same involute.,Root angle,Roll angle,Pitch angle,Base angle,B,Imbaness Tama!,Anak ng Elements Mali!
+16,Machine Design,Gears 5,______ gear with teeth spaced along a straight line and suitable for straight line motion.,Helical,Bevel,Rack,Worm,C,Imbaness Tama!,Anak ng Elements Mali!
+17,Machine Design,Gears 5,"The pitch plane, axial plane and traverse plane, all intersect at a point and mutually perpendicular to the",Principal reference plane,Principal reference point,Principal reference axis,Principal reference line,A,Imbaness Tama!,Anak ng Elements Mali!
+18,Machine Design,Gears 5,A device for engaging and disengaging gears.,Gear shift,Gear train,Gear wheel,Gear motor,A,Imbaness Tama!,Anak ng Elements Mali!
+19,Machine Design,Gears 5,"For space gear, the speed ratio is customary to limit the reduction of",3:1,4:1,5:1,6:1,D,Imbaness Tama!,Anak ng Elements Mali!
+20,Machine Design,Gears 5,"For helical and herring bone gears, the speed ratio is limited to",3:1,4:1,5:1,10:1,D,Imbaness Tama!,Anak ng Elements Mali!
+21,Machine Design,Gears 5,They are cylindrical in form operate on parallel axes and have straight teeth parallel of safety of about _______.,Helical gears,Bevel gears,Spur gear,Worm gear,C,Imbaness Tama!,Anak ng Elements Mali!
+22,Machine Design,Gears 5,The design stress was based upon the ultimate strength of the material with factor of safely of about ____.,2,3,4,5,B,Imbaness Tama!,Anak ng Elements Mali!
+23,Machine Design,Gears 5,Safe working stresses for common gear materials operating at very low velocities are usually assumed to be ______ the ultimate strength.,One-fourth,One-third,One-half,Two-third,B,Imbaness Tama!,Anak ng Elements Mali!
+24,Machine Design,Gears 5,"To avoid charring by the friction, rawhide gears should not be operated of pitch line velocities greater than _______.",2500 fpm,3000 fpm,3500 fpm,4000 fpm,A,Imbaness Tama!,Anak ng Elements Mali!
+25,Machine Design,Gears 5,The outside diameter of the hubs of larger gears should be ______ the bore for steel.,1.5 times,1.6 times,1.7 times,1.8 times,D,Imbaness Tama!,Anak ng Elements Mali!
+26,Machine Design,Gears 5,The outside diameter of the hubs of larger gears should be ______ the bore for cast iron.,1.2 times,1.8 times,2.0 times,2.5 times,C,Imbaness Tama!,Anak ng Elements Mali!
+27,Machine Design,Gears 5,Helix angle of _____ degrees are preferred for single helical gears.,10 and 18,12 and 20,15 and 23,18 and 28,C,Imbaness Tama!,Anak ng Elements Mali!
+28,Machine Design,Gears 5,Helix angle of _____ degrees are preferred for double helical gears.,15 and 25,20 and 30,25 and 40,30 and 45,D,Imbaness Tama!,Anak ng Elements Mali!
+29,Machine Design,Gears 5,A ____ is a spur gear of infinite diameter.,Hypoid,Herring bone,Annular,Rack,D,Imbaness Tama!,Anak ng Elements Mali!
+30,Machine Design,Gears 5,It is standard practice to assume that thickness of the tooth measured around the pitch circle is exactly ____ of the circle pitch.,One-fourth,One- half,One- third,Two-third,B,Imbaness Tama!,Anak ng Elements Mali!
+31,Machine Design,Gears 5,It occurs under heavy loads and in adequate lubrication.,Pitting,Honing,Scoring,Tooth breakage,C,Imbaness Tama!,Anak ng Elements Mali!
+32,Machine Design,Gears 5,In order to get the benefit of helical-gear action the face width should be at least ____ the axial pitch.,Once,Twice,Thrice,Minimum,B,Imbaness Tama!,Anak ng Elements Mali!
+33,Machine Design,Gears 5,The outside diameter of the worm gear measured on the central plane.,Addendum diameter,Throat diameter,Pitch diameter,Root diameter,B,Imbaness Tama!,Anak ng Elements Mali!
+34,Machine Design,Gears 5,For worms mating with gears having 24 teeth or more the _____ pressure angle is recommended.,14.5 degrees,20 degrees,22.5 degrees,25 degrees,B,Imbaness Tama!,Anak ng Elements Mali!
+35,Machine Design,Gears 5,"The axes intersect, and the teeth are curved and oblique is called",Skew bevel gears,Straight bevel gears,Spiral bevel gears,Zerol bevel gears,C,Imbaness Tama!,Anak ng Elements Mali!
+36,Machine Design,Gears 5,A type of gear axes of non-intersecting and the teeth are straight.,Hypoid,Skew bevel gears,Straight bevel gears,Zerol bevel gears,B,Imbaness Tama!,Anak ng Elements Mali!
+37,Machine Design,Gears 5,"For worm gears, Buckingham recommends face width",0.2 Dwo,0.3 Dwo,0.4 Dwo,0.5 Dwo,D,Imbaness Tama!,Anak ng Elements Mali!
+38,Machine Design,Gears 5,"For worm gears, circular pitch is equal to",Axial pitch,Diameter pitch,Normal pitch,Transverse pitch,A,Imbaness Tama!,Anak ng Elements Mali!
+39,Machine Design,Gears 5,"The service factor of heavy shock, rolling mill, and rock crushes.",1.25-1.35,1.35-1.50,1.50-1.80,1.75-2.00,D,Imbaness Tama!,Anak ng Elements Mali!
+40,Machine Design,Gears 5,Any plane perpendicular to a gear axis is called,Transverse axis,Conjugal axis,Plane rotation,Axis of rotation,C,Imbaness Tama!,Anak ng Elements Mali!
+41,Machine Design,Gears 5,The circle containing the bottoms of the tooth spaces is called,Addendum circle,Base circle,Pitch circle,Root circle,D,Imbaness Tama!,Anak ng Elements Mali!
+42,Machine Design,Gears 5,The surface between the flanks of adjacent teeth.,Bottom land,Top land,Pitch surface,Space width,A,Imbaness Tama!,Anak ng Elements Mali!
+43,Machine Design,Gears 5,The usual ratio of miter gear is,1.1,1.2,1.3,1.4,A,Imbaness Tama!,Anak ng Elements Mali!
+44,Machine Design,Gears 5,The angle between an element of the face cone and its axis equals pitch angle plus addendum angle.,Cutting angle,Face angle,Pitch angle,Front angle,B,Imbaness Tama!,Anak ng Elements Mali!
+45,Machine Design,Gears 5,The apex of the pitch cone.,Cone center,Vertex,Pitch center,Apothem,A,Imbaness Tama!,Anak ng Elements Mali!
+46,Machine Design,Gears 5,The portion of the tooth adjacent to the involute lying inside a radial line passing through an imaginary intersection of the involute and the base circle.,Excessive cut,Over cut,Under cut,None of the above,C,Imbaness Tama!,Anak ng Elements Mali!
+47,Machine Design,Gears 5,"In spur gearing system, the preferred pressure angle is",14-1/2deg,20 deg,22-1/2 deg,25 deg,B,Imbaness Tama!,Anak ng Elements Mali!
+48,Machine Design,Gears 5,Hub length usually vary from,1.05 Ds to 1.7 Ds,1.25 Ds to 2 Ds,1.35 Ds to 2.5 Ds,1.35 Ds to 3.0 Ds,B,Imbaness Tama!,Anak ng Elements Mali!
+49,Machine Design,Gears 5,The service factor for heavy shock is,1 to 1.25,1.25 to 1.50,1.50 to 1.75,1.75 to 2.0,D,Imbaness Tama!,Anak ng Elements Mali!
+50,Machine Design,Gears 5,A gear wheel with curved teeth mesh with a worm.,Worm wheel,Rack gear,Spiral gear,Herring gear,A,Imbaness Tama!,Anak ng Elements Mali!

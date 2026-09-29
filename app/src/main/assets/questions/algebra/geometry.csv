@@ -1,0 +1,105 @@
+id,subject,category,question,choice_a,choice_b,choice_c,choice_d,answer,correct_feedback,incorrect_feedback
+1,Math,Plane And Solid Geometry,"An annulus is a plane figure which is composed of two concentric circles. The area of the annulus can be calculated by getting the difference between the area of the larger circle and the area of the smaller circle. Also, its area can be calculated by removing the hole. This method is called",law of extremities,law of reduction,law of deduction,sharp theorem,A,Yown Tama!,pa mali mali nmn!
+2,Math,Plane And Solid Geometry,Each of the faces of a regular hexahedron is a,square,triangle,rectangle,hexagon,A,Yown Tama!,pa mali mali nmn!
+3,Math,Plane And Solid Geometry,It is a polyhedron of which two faces are equal polygons in parallel planes and the other faces are parallelogram,tetrahedron,prism,frustum,prismatoid,B,Yown Tama!,pa mali mali nmn!
+4,Math,Plane And Solid Geometry,The apothem of a polygon is ___ of its inscribed circle.,radius,circumference,diameter,length,A,Yown Tama!,pa mali mali nmn!
+5,Math,Plane And Solid Geometry,Each angle of regular dodecagon is equal to,135°,150°,125°,105°,B,Yown Tama!,pa mali mali nmn!
+6,Math,Plane And Solid Geometry,The area bounded by two concentric circles is called,ring,disk,annulus,sector,C,Yown Tama!,pa mali mali nmn!
+7,Math,Plane And Solid Geometry,One-fourth of a great circle is called,cone,sector,quadrant,arc,C,Yown Tama!,pa mali mali nmn!
+8,Math,Plane And Solid Geometry,Points that lie on the same plane are called,coplanar,parallel,collinear,oblique,A,Yown Tama!,pa mali mali nmn!
+9,Math,Plane And Solid Geometry,The volume of a circular cylinder is equal to the product of its base and altitude,axiom,postulate,theorem,corollary,C,Yown Tama!,pa mali mali nmn!
+10,Math,Plane And Solid Geometry,The study of properties of figures in three dimensions.,physics,plane trigonometry,solid geometry,trigonometry,C,Yown Tama!,pa mali mali nmn!
+11,Math,Plane And Solid Geometry,"A plane closed curve, all points of which are the same distance from a point within, called the center",polyhedron,polygon,circle,ellipse,C,Yown Tama!,pa mali mali nmn!
+12,Math,Plane And Solid Geometry,What is the angle of π and less than 2π?,straight line,obtuse angle,oblique angle,acute angle,C,Yown Tama!,pa mali mali nmn!
+13,Math,Plane And Solid Geometry,What is the value in degrees of 1 radian?,90°,57.3°,60°,33°,B,Yown Tama!,pa mali mali nmn!
+14,Math,Plane And Solid Geometry,Prisms are named according to their ____.,diagonals,sides,vertices,bases,D,Yown Tama!,pa mali mali nmn!
+15,Math,Plane And Solid Geometry,"In plane geometry, two circular arcs that together make up a full circle are called",coterminals arcs,conjugate arcs,congruent arcs,half arcs,B,Yown Tama!,pa mali mali nmn!
+16,Math,Plane And Solid Geometry,Polygons are classified according to the number of _____.,vertices,sides,diagonals,angles,B,Yown Tama!,pa mali mali nmn!
+17,Math,Plane And Solid Geometry,"When two planes intersects with each other, the amount of divergence between the two planes is expressed by measuring the",dihedral angle,plane angle,polyhedral angle,reflex angle,A,Yown Tama!,pa mali mali nmn!
+18,Math,Plane And Solid Geometry,An angular unit equivalent to 1/4000 of the circumference of a circle is called,mil,degree,radian,grad,D,Yown Tama!,pa mali mali nmn!
+19,Math,Plane And Solid Geometry,Express 45° in mils.,80,800,1600,2700,B,Yown Tama!,pa mali mali nmn!
+20,Math,Plane And Solid Geometry,The arc length equal to the radius of the circle is called,radian,quarter sector,sector,semicircle,A,Yown Tama!,pa mali mali nmn!
+21,Math,Plane And Solid Geometry,A five-pointed star is known as,pentagon,pentatron,pentagram,quintagram,C,Yown Tama!,pa mali mali nmn!
+22,Math,Plane And Solid Geometry,"If two or more lines have a single point which lies on all of them, then they are",collinear,coplanar,concurrent,conjugate,C,Yown Tama!,pa mali mali nmn!
+23,Math,Plane And Solid Geometry,The action of bringing one geometric figure into coincidence with another is called,transposition,translation,superposition,projection,C,Yown Tama!,pa mali mali nmn!
+24,Math,Plane And Solid Geometry,A line that intersect two or more lines at distinct points,tangent line,transversal,bisector,median,B,Yown Tama!,pa mali mali nmn!
+25,Math,Plane And Solid Geometry,An arc length equal to the radius of a circle.,grad,radian,degree,mil,B,Yown Tama!,pa mali mali nmn!
+26,Math,Plane And Solid Geometry,An angle which is 1/400th of the full revolution.,gon,mil,degree,radian,A,Yown Tama!,pa mali mali nmn!
+27,Math,Plane And Solid Geometry,Another term for gon,grad,mil,centesimal degree,a and c,D,Yown Tama!,pa mali mali nmn!
+28,Math,Plane And Solid Geometry,An angle whose vertex is a point on the circle and whose sides are chords is known as,interior angle,vertical angle,acute angle,inscribed angle,D,Yown Tama!,pa mali mali nmn!
+29,Math,Plane And Solid Geometry,An angle greater than the right angle but less than a straight angle,acute angle,obtuse angle,reflex angle,inscribed angle,B,Yown Tama!,pa mali mali nmn!
+30,Math,Plane And Solid Geometry,Any angle greater than a straight angle but less than two straight angles is known as _____ angle.,compliment,supplement,complex,reflex,D,Yown Tama!,pa mali mali nmn!
+31,Math,Plane And Solid Geometry,The angle formed by the prolongation of one side and the adjacent side of the polygon.,interior angle,acute angle,exterior angle,explementary angle,C,Yown Tama!,pa mali mali nmn!
+32,Math,Plane And Solid Geometry,Two angles which have the same vertex and the sides of one are form by extending of the other.,adjacent angles,vertical angles,vertical angles,deflection angles,C,Yown Tama!,pa mali mali nmn!
+33,Math,Plane And Solid Geometry,Another term for exterior angle.,vertical angle,inscribed angle,reflex angle,deflection angle,D,Yown Tama!,pa mali mali nmn!
+34,Math,Plane And Solid Geometry,What is the sum of all deflection angles in given polygon?,always less than 360°,always equal to 360°,always greater than 360°,always equal to 180°,B,Yown Tama!,pa mali mali nmn!
+35,Math,Plane And Solid Geometry,The coterminal angle of 120° is,240°,- 240°,480°,-480°,B,Yown Tama!,pa mali mali nmn!
+36,Math,Plane And Solid Geometry,Two planes intersect each other. What is the term for the angle formed perpendicular to the intersection of two planes?,solid angle,plane angle,base angle,dihedral angle,D,Yown Tama!,pa mali mali nmn!
+37,Math,Plane And Solid Geometry,"When a terminal side of an angle coincides with an axis, the angle is a",co-terminal angle,right angle,quadrantal angle,reflex angle,C,Yown Tama!,pa mali mali nmn!
+38,Math,Plane And Solid Geometry,"If the exterior angle of a polygon is obtuse, its corresponding interior angle is",an acute angle,also an obtuse angle,a reflex angle,always greater than 360°,A,Yown Tama!,pa mali mali nmn!
+39,Math,Plane And Solid Geometry,The measure of 2.25 revolutions counterclockwise is,835°,805°,810°,815°(correct answer is 810°),D,Yown Tama!,pa mali mali nmn!
+40,Math,Plane And Solid Geometry,Solid angles are measured in,mil,radians,steradians,circular mils,C,Yown Tama!,pa mali mali nmn!
+41,Math,Plane And Solid Geometry,What is the largest measure (in steradians) of a solid angle,2π,4π,8π,π,B,Yown Tama!,pa mali mali nmn!
+42,Math,Plane And Solid Geometry,Steradians measure in space in analog of ____ measured in the plane.,radians,degrees,mils,grads,A,Yown Tama!,pa mali mali nmn!
+43,Math,Plane And Solid Geometry,A part of a circle is called,sector,segment,chord,arc,D,Yown Tama!,pa mali mali nmn!
+44,Math,Plane And Solid Geometry,It is a union of the chord of a circle and the intercepted arc.,sector,segment,lune,zone,B,Yown Tama!,pa mali mali nmn!
+45,Math,Plane And Solid Geometry,A ____ of a circle in the figure bounded by two radii and the intercepted arc.,major arc,minor arc,segment,sector,D,Yown Tama!,pa mali mali nmn!
+46,Math,Plane And Solid Geometry,The apothem of a polygon is the ____ of its inscribed circle.,radius,circumference,diameter,length,A,Yown Tama!,pa mali mali nmn!
+47,Math,Plane And Solid Geometry,"As the area of the circle increases, the ratio of its circumference to its diameter",increases,remains constant,decreases,will be equal to 1,B,Yown Tama!,pa mali mali nmn!
+48,Math,Plane And Solid Geometry,A circle is said to be _____ to a polygon having the same perimeter with that of the circle.,congruent,isoperimetric,proportional,convex,B,Yown Tama!,pa mali mali nmn!
+49,Math,Plane And Solid Geometry,Which of the following is NOT a property of a circle?,"through 3 points not in a straight line, only 1 circle can be drawn",a tangent to a circle is perpendicular to the radius at the point of tangency and conversely,an inscribed angle is measured by one half of the intercepted arc,the arcs of two circles subtended by equal central angles are always equal.,D,Yown Tama!,pa mali mali nmn!
+50,Math,Plane And Solid Geometry,All circles having the same center but of unequal radii are called,concentric circles,eccentric circles,inner circles,pythagorean circles,A,Yown Tama!,pa mali mali nmn!
+51,Math,Plane And Solid Geometry,Two chords of a circle which joins a point on the circle to the end points of a diameter and forms a right angle.,complementary chords,supplementary chords,focal chords,chords of contrast,B,Yown Tama!,pa mali mali nmn!
+52,Math,Plane And Solid Geometry,The center of the inscribed circle of a triangle is known as _____ of the triangle.,circumcenter,incenter,excenter,orthocenter,B,Yown Tama!,pa mali mali nmn!
+53,Math,Plane And Solid Geometry,Supplementary chords are two chords which join a point on the circle to the endpoints of a diameter. The supplemental chords subtend a/an ______ angle.,acute,right,obtuse,reflex,B,Yown Tama!,pa mali mali nmn!
+54,Math,Plane And Solid Geometry,A circle or radius R has a curvature of,R2,1/R,2R,. ﷐﷮��﷯,B,Yown Tama!,pa mali mali nmn!
+55,Math,Plane And Solid Geometry,"A polygon is _____ when no side, when extended, will pass through the interior of the polygon.",convex,equilateral,isoperimetric,similar,A,Yown Tama!,pa mali mali nmn!
+56,Math,Plane And Solid Geometry,A polygon is said to be regular polygon if its is,convex,all sides are congruent,all angles are congruent,all of the above,D,Yown Tama!,pa mali mali nmn!
+57,Math,Plane And Solid Geometry,Polygon is inscribed in the same circle called,concentric polygons,ocentric polygons,concyclic polygons,orthocentric polygons,C,Yown Tama!,pa mali mali nmn!
+58,Math,Plane And Solid Geometry,"If n is the number of sides of a polygon, then the sum of all interior angles of a polygon is expressed as",(n + 2) 180°,(n/2) 180°,(n – 2) 180°,(n/2) (n – 3),C,Yown Tama!,pa mali mali nmn!
+59,Math,Plane And Solid Geometry,"If n is the number of sides of a polygon, then the number of diagonals of a polygon is expressed as",n!,( n – 1)!,(n/2) (n – 3),(n/3) (n – 2),C,Yown Tama!,pa mali mali nmn!
+60,Math,Plane And Solid Geometry,What do you call a polygon with 11 sides?,unagon,unogon,undecagon,dodecagon,C,Yown Tama!,pa mali mali nmn!
+61,Math,Plane And Solid Geometry,Pentagon is to 5 sides as ____ is to 11 sides.,heptagon,septagon,unidecagon,hendecagon,D,Yown Tama!,pa mali mali nmn!
+62,Math,Plane And Solid Geometry,A polygon having 12 sides is called,bidecagon,dodecagon,nonagon,pentedecagon,B,Yown Tama!,pa mali mali nmn!
+63,Math,Plane And Solid Geometry,A polygon of 100 sides is called,chilliagon,ennagon,perigon,milliagon,A,Yown Tama!,pa mali mali nmn!
+64,Math,Plane And Solid Geometry,The highest point of a figure relative to a baseline or plane is called,summit boom,summit,highest ordinate,terminal point,B,Yown Tama!,pa mali mali nmn!
+65,Math,Plane And Solid Geometry,Indicate the false statement.,a trapezoid is a quadrilateral two and only two of whose sides are parallel,the sum of two sides of a triangle is greater than the third side and their difference is less than the third side,a diagonal of a polygon is a line joining any non-consecutive vertices,two angles are complementary if their sum is 180°,D,Yown Tama!,pa mali mali nmn!
+66,Math,Plane And Solid Geometry,Which of the following statement is correct?,all right-angled triangles are similar,all isosceles triangles are similar,all equilateral triangles are similar,all rectangles are similar,C,Yown Tama!,pa mali mali nmn!
+67,Math,Plane And Solid Geometry,A quadrilateral with no sides parallel.,trapezoid,rhombus,rhomboid,trapezium,D,Yown Tama!,pa mali mali nmn!
+68,Math,Plane And Solid Geometry,Which of the following BEST describes Ptolemy’s theorem,it is use only for quadrilaterals,it is just a modification of Brahmagupta’s theorem,it is used for only cyclic quadrilaterals,the sum of the square of the sides is equal to the square of the diagonals of a given quadrilateral,C,Yown Tama!,pa mali mali nmn!
+69,Math,Plane And Solid Geometry,The five-pointed star described by the diagonals of a regular pentagon,perigon,pentegram,penacle,pentegram or penacle,D,Yown Tama!,pa mali mali nmn!
+70,Math,Plane And Solid Geometry,The geometric figure remaining after a parallelogram has been removed from one corner of a larger similar polygon.,google,gnomon,gaussian plane,lozenge,B,Yown Tama!,pa mali mali nmn!
+71,Math,Plane And Solid Geometry,An oblique-angled parallelogram with for sides equal is called,rhombus,diamond,lozenge,all of the above,D,Yown Tama!,pa mali mali nmn!
+72,Math,Plane And Solid Geometry,A non-convex quadrilateral with two pairs of adjacent equal sides is called,trapezium,kite,deltroid,diamond,C,Yown Tama!,pa mali mali nmn!
+73,Math,Plane And Solid Geometry,What is another term for a parallelogram?,rectangle,quadrangle,diamond,rhomboid,D,Yown Tama!,pa mali mali nmn!
+74,Math,Plane And Solid Geometry,Prisms are classified according to their,bases,prism,truncated prism,prismatoid,A,Yown Tama!,pa mali mali nmn!
+75,Math,Plane And Solid Geometry,A solid cut of a given solid by two non parallel planes is called,frustum,prism,truncated prism,prismatoid,C,Yown Tama!,pa mali mali nmn!
+76,Math,Plane And Solid Geometry,A polyhedron having bases two polygons in parallel planes and for lateral faces triangles or trapezoids with one side lying on the other base of the polyhedron,pyramid,cone,prismatoid,truncated prism,C,Yown Tama!,pa mali mali nmn!
+77,Math,Plane And Solid Geometry,Portion of regular solid left after cutting off the upper part by a plane parallel to the base.,frustum,ungula,truncated solid,prismatoid,A,Yown Tama!,pa mali mali nmn!
+78,Math,Plane And Solid Geometry,Body or space bounded by surface every point of which is equidistant from a point within,circle,sphere,spheroid,ellipsoid,B,Yown Tama!,pa mali mali nmn!
+79,Math,Plane And Solid Geometry,A solid bounded by a zone and the planes of the zone’s base.,spherical sector,spherical segment,lune,spherical excess,B,Yown Tama!,pa mali mali nmn!
+80,Math,Plane And Solid Geometry,The intersection of the sphere and the plane through the center is called,great circle,small circle,poles,polar distance,A,Yown Tama!,pa mali mali nmn!
+81,Math,Plane And Solid Geometry,"The portion of a sphere enclosed between two great semi-circles having common end points, including the semi-circle",spherical excess,spherical segment,zone,lune,D,Yown Tama!,pa mali mali nmn!
+82,Math,Plane And Solid Geometry,A portion of the surface of the sphere included between two parallel planes,spherical excess,spherical segment,zone,lune,C,Yown Tama!,pa mali mali nmn!
+83,Math,Plane And Solid Geometry,"If R is the radius of the sphere and h is the distance between two parallel plane, the area of the zone is",2πRh,4πRh,πh2 (3R – h)/3,4π (R – h),A,Yown Tama!,pa mali mali nmn!
+84,Math,Plane And Solid Geometry,The solid bounded by two great circles and the surface of the sphere is known as,spherical zone,spherical segment,spherical cone,spherical wedge,D,Yown Tama!,pa mali mali nmn!
+85,Math,Plane And Solid Geometry,A cone or cylinder with its top cut-off by a plane oblique to the base,frustum,prismoid,prismatoid,ungula,D,Yown Tama!,pa mali mali nmn!
+86,Math,Plane And Solid Geometry,A term given to cylinder with elliptical cross-section,cylindroid,cylindoid,ovaloid,deltroid,A,Yown Tama!,pa mali mali nmn!
+87,Math,Plane And Solid Geometry,A doughnut-like surface of revolution generated by rotating the circle through 360° in space but about a line in its plane but now passing through the circle.,torus,annulus,anchor,all of the above,A,Yown Tama!,pa mali mali nmn!
+88,Math,Plane And Solid Geometry,A regular solid star in a shape that is radiating from center like rays of star,pentagram,pentegon,stellated solid,archimedean solid,C,Yown Tama!,pa mali mali nmn!
+89,Math,Plane And Solid Geometry,Formed by intersection of rays from one point reflected or refracted from a curvature surface.,envelop,caustic,evolute,pencil,B,Yown Tama!,pa mali mali nmn!
+90,Math,Plane And Solid Geometry,The regular polyhedron is a solid with all its faces identical regular polygons. The regular polyhedrons are also known as,Euclidean solids,Pythagorean solids,Platonic solids,Newtonian solids,C,Yown Tama!,pa mali mali nmn!
+91,Math,Plane And Solid Geometry,There are how many regular polyhedra known to man?,5,3,7,10,A,Yown Tama!,pa mali mali nmn!
+92,Math,Plane And Solid Geometry,An icosahedron is a regular polyhedron of ___ faces.,12,14,16,20,D,Yown Tama!,pa mali mali nmn!
+93,Math,Plane And Solid Geometry,A regular polyhedron with 6 sides is called,dodecahedron,hexahedron,tetrahedron,octahedron,B,Yown Tama!,pa mali mali nmn!
+94,Math,Plane And Solid Geometry,The face of a regular tetrahedron is a,square,pentagon,hexagon,triangle,D,Yown Tama!,pa mali mali nmn!
+95,Math,Plane And Solid Geometry,The face of a regular octahedron is a,square,pentagon,hexagon,triangle,D,Yown Tama!,pa mali mali nmn!
+96,Math,Plane And Solid Geometry,The face of a regular dodecahedron is a,square,pentagon,hexagon,triangle,B,Yown Tama!,pa mali mali nmn!
+97,Math,Plane And Solid Geometry,The face of a regular icosahedron is a,square,pentagon,hexagon,triangle,D,Yown Tama!,pa mali mali nmn!
+98,Math,Plane And Solid Geometry,Which regular polyhedron does not have a face a triangle?,tetrahedron,octahedron,icosahedron,dodecahedron,D,Yown Tama!,pa mali mali nmn!
+99,Math,Plane And Solid Geometry,How many edges are there in a dodecagon?,6,12,30,8,C,Yown Tama!,pa mali mali nmn!
+100,Math,Plane And Solid Geometry,A tetrahedron has ___ vertices.,4,3,6,5,A,Yown Tama!,pa mali mali nmn!
+101,Math,Plane And Solid Geometry,"Given two solids and a plane. Supposed that every plane parallel to the given plane intersecting one of the two solids also intersects the other and gives cross-sections with the same area, then the two solids have the same volume. This is known as the",unit postulate,plane postulate,parallel postulate,Cavalieri’s postulate,D,Yown Tama!,pa mali mali nmn!
+102,Math,Plane And Solid Geometry,Who formulated the Cavalieri’s Principle?,Harold Cavalieri,Buenventura Cavalieri,Joefry Cavalieri,Carl Cabalieri,B,Yown Tama!,pa mali mali nmn!
+103,Math,Plane And Solid Geometry,"A line segment that is divided into two segments, a greater a and a smaller b such that the length of a + b is to a and a is to b. such division is known as",Golden segment,golden ratio,golden proportion,all of the above,B,Yown Tama!,pa mali mali nmn!
+104,Math,Plane And Solid Geometry,The volume of a paraboloid is equal to ___ the volume o circumscribing cylinder.,1/3,½,¼,2/3,B,Yown Tama!,pa mali mali nmn!

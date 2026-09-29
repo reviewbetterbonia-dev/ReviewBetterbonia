@@ -1,0 +1,73 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function signedIn() { return request.auth != null; }
+    function me(uid) { return signedIn() && request.auth.uid == uid; }
+    function role() {
+      return signedIn() && exists(/databases/$(database)/documents/users/$(request.auth.uid))
+        ? get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role
+        : 'student';
+    }
+    function admin() { return role() == 'admin' || role() == 'super_admin'; }
+    function superAdmin() { return role() == 'super_admin'; }
+
+    match /users/{uid} {
+      allow read: if signedIn();
+      allow create: if me(uid) && request.resource.data.role == 'student';
+      allow update: if (me(uid) && request.resource.data.role == resource.data.role) || admin();
+      allow delete: if superAdmin();
+
+      match /friends/{friendUid} {
+        allow read: if me(uid) || (signedIn() && friendUid == request.auth.uid);
+        allow create, update: if me(uid) || (signedIn() && (request.resource.data.uid == request.auth.uid || friendUid == request.auth.uid));
+        allow delete: if me(uid) || (signedIn() && friendUid == request.auth.uid);
+      }
+
+      match /friendRequests/{requestUid} {
+        allow read, delete: if me(uid) || (signedIn() && resource.data.fromUid == request.auth.uid);
+        allow create, update: if signedIn()
+          && request.resource.data.fromUid == request.auth.uid
+          && request.resource.data.toUid == uid;
+      }
+
+      match /results/{resultId} {
+        allow read: if me(uid) || admin();
+        allow create: if me(uid) && request.resource.data.userId == request.auth.uid;
+        allow update: if false;
+        allow delete: if me(uid) || superAdmin();
+      }
+    }
+
+    match /friendships/{friendshipId} {
+      allow read, create, update, delete: if signedIn();
+    }
+
+    match /results/{resultId} {
+      allow read: if signedIn();
+      allow create: if signedIn() && request.resource.data.userId == request.auth.uid;
+      allow update: if false;
+      allow delete: if signedIn() && (resource.data.userId == request.auth.uid || superAdmin());
+    }
+
+    match /questions/{questionId} {
+      allow read: if signedIn();
+      allow create: if admin()
+        && request.resource.data.active == true
+        && request.resource.data.createdBy is string
+        && request.resource.data.approvedBy == request.auth.uid;
+      allow update: if admin();
+      allow delete: if superAdmin();
+    }
+
+    match /questionSubmissions/{submissionId} {
+      allow create: if admin()
+        && request.resource.data.submittedBy == request.auth.uid
+        && request.resource.data.status == 'pending';
+      allow read: if admin();
+      allow update: if admin()
+        && resource.data.status == 'pending'
+        && request.resource.data.status in ['approved', 'rejected'];
+      allow delete: if admin();
+    }
+  }
+}

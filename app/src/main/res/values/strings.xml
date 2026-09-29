@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Review Betterbonia</string>
+    <string name="firebase_api_key">AIzaSyBiKPKqvPGQMaqWsvHK7gx4vFQ7xoZYi8I</string>
+    <string name="firebase_app_id">1:69810962774:android:dd6baac77b3f8cee38d6f7</string>
+    <string name="firebase_project_id">review-betterbonia</string>
+</resources>

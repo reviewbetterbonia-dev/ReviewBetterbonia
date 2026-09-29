@@ -1,0 +1,28 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "rankedResults",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {"fieldPath":"rank","order":"ASCENDING"},
+        {"fieldPath":"rating","order":"DESCENDING"}
+      ]
+    },
+    {
+      "collectionGroup": "results",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {"fieldPath":"mode","order":"ASCENDING"},
+        {"fieldPath":"score","order":"DESCENDING"}
+      ]
+    },
+    {
+      "collectionGroup": "rankedSubjectLeaderboard",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {"fieldPath":"accuracy","order":"DESCENDING"}
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}

@@ -1,0 +1,51 @@
+id,subject,category,question,choice_a,choice_b,choice_c,choice_d,answer,correct_feedback,incorrect_feedback
+1,Machine Design,Shop Practices 4,A sine bar cannot be used without a/an,angle gage,micrometer,slip gage,vernier caliper,A,Imbaness Tama!,Anak ng Elements Mali!
+2,Machine Design,Shop Practices 4,The tool life is affected to the maximum extent by,Gear grinding,Gear shaping,Gear shaving,Milling,A,Imbaness Tama!,Anak ng Elements Mali!
+3,Machine Design,Shop Practices 4,The operation of finishing a drilled hole to the correct size is known as,Counter boring,Counter sinking,Reaming,Spot facing,C,Imbaness Tama!,Anak ng Elements Mali!
+4,Machine Design,Shop Practices 4,"When the extreme outer corners of the cutting edges of a drill wear away too rapidly, it is an indication of",Not enough speed,Too much rake angle,Too high speed,B or C,D,Imbaness Tama!,Anak ng Elements Mali!
+5,Machine Design,Shop Practices 4,Carbon steel drill should be operated at,Speed greater than that when using a high speed drill,Speeds less than that when using a high speed drill,The same speed as that when using a high speed drill,None of the above,B,Imbaness Tama!,Anak ng Elements Mali!
+6,Machine Design,Shop Practices 4,Removing the sharp edges from a pieces of stock is referred to as,Polish material,Roughen material,Sharpen material,Smooth material,B,Imbaness Tama!,Anak ng Elements Mali!
+7,Machine Design,Shop Practices 4,Knurling is done to ______.,Boring,Chamfering,Planning,Turning,B,Imbaness Tama!,Anak ng Elements Mali!
+8,Machine Design,Shop Practices 4,"When cutting material in a lathe, the harder the material being cut, the tool bit should have",Less side rake,More side rake,Ore top rake,No side rake,A,Imbaness Tama!,Anak ng Elements Mali!
+9,Machine Design,Shop Practices 4,"When turning a piece of round metal in a lathe, the front clearance should be smaller for",Cutting angles,Large-diameter cutting,Small-diameter cutting,None of the above,C,Imbaness Tama!,Anak ng Elements Mali!
+10,Machine Design,Shop Practices 4,"After grinding a tool bit, the cutting edge should be",Case hardened,Rubbed with emery cloth,Rubbed with crocus cloth,Stoned with an oilstone,D,Imbaness Tama!,Anak ng Elements Mali!
+11,Machine Design,Shop Practices 4,"When cutting material in a lathe, the softer the material being cut, the tool bit should have",Any of these,Double top rake,Less top rake,More top rake,C,Imbaness Tama!,Anak ng Elements Mali!
+12,Machine Design,Shop Practices 4,A piece of cast iron held against an emery wheel will give off,Bright shiny sparks,Dull yellow sparks,Red sparks,No sparks,B,Imbaness Tama!,Anak ng Elements Mali!
+13,Machine Design,Shop Practices 4,The alignment of coupling faces can be checked by,Inserting a feeler gage between the coupling faces at various points around the circumference,Inserting a thermometer,Rotating and measuring to nearest permanent fitting,Using an inside micrometer,A,Imbaness Tama!,Anak ng Elements Mali!
+14,Machine Design,Shop Practices 4,A drill bit has,No flutes,2 flutes,3 flutes,4 flutes,B,Imbaness Tama!,Anak ng Elements Mali!
+15,Machine Design,Shop Practices 4,"Before applying layout blue on a piece of metal, it must be",Cleaned,Cold,Heated,Roughened,A,Imbaness Tama!,Anak ng Elements Mali!
+16,Machine Design,Shop Practices 4,A scriber is made from,Carbon steel,Cold-rolled steel,Hot-rolled steel,Tool steel,D,Imbaness Tama!,Anak ng Elements Mali!
+17,Machine Design,Shop Practices 4,Copper is annealed by hunting to a cherry red color and,Cooling slowly in air,Dousing in cold water,Dousing in hot water,Dousing in oil,A,Imbaness Tama!,Anak ng Elements Mali!
+18,Machine Design,Shop Practices 4,When drilling a hole in a piece of work held in a lathe chuck one would use the,Head stock,Compound rest,Cross-feed,Tailstock and drill chuck,D,Imbaness Tama!,Anak ng Elements Mali!
+19,Machine Design,Shop Practices 4,"When using a drill press, the work should be held with",A pair of pliers,A vise or clamp,Gloves on,The hand,B,Imbaness Tama!,Anak ng Elements Mali!
+20,Machine Design,Shop Practices 4,"When a lathe is put into back gear, it will go",At a slower speed backwards,At the same speed backwards,Faster,Slower,D,Imbaness Tama!,Anak ng Elements Mali!
+21,Machine Design,Shop Practices 4,"On a lathe, the dead center is used after",Boring,Center-drilling,Drilling,Reaming,B,Imbaness Tama!,Anak ng Elements Mali!
+22,Machine Design,Shop Practices 4,To remove metal shock rapidly the file to use is a,Double-cut bastard,Double-cut coarse,Rasp,A and C,D,Imbaness Tama!,Anak ng Elements Mali!
+23,Machine Design,Shop Practices 4,The best file to use when finishing sharp corners or slots and grooves is the:,Jeweler’s file,Knife file,Mill file,Square file,B,Imbaness Tama!,Anak ng Elements Mali!
+24,Machine Design,Shop Practices 4,Never use a file,That is dirty,With a tang,Without a handle,Without oiling,C,Imbaness Tama!,Anak ng Elements Mali!
+25,Machine Design,Shop Practices 4,Which of the following information is necessary when ordering a file?,Size,Shape,Type of teeth,All of the above,D,Imbaness Tama!,Anak ng Elements Mali!
+26,Machine Design,Shop Practices 4,When filling a piece of metal n a lathe if short quick stokes are used he finished piece will probably,Be out of round,Be perfect,Have small flat areas on the surfaces,A and C,D,Imbaness Tama!,Anak ng Elements Mali!
+27,Machine Design,Shop Practices 4,The best procedure when filling a piece of metal in a lathe is to take _____,Long fast strokes,Long slow strokes,Short even strokes,Short fast strokes,B,Imbaness Tama!,Anak ng Elements Mali!
+28,Machine Design,Shop Practices 4,The safe edge of a file is,The end opposite the handle,The one with the handle,The edge with no teeth,None of the above,C,Imbaness Tama!,Anak ng Elements Mali!
+29,Machine Design,Shop Practices 4,Small pieces of metal clogged between the teeth on a file are called,Bumps,Clogs,Flats,Pins,D,Imbaness Tama!,Anak ng Elements Mali!
+30,Machine Design,Shop Practices 4,Finishing off a piece of metal clogged with a real smooth finish can be done by,Draw- filling,Flat- filling,Milling- filling,Side- filling,A,Imbaness Tama!,Anak ng Elements Mali!
+31,Machine Design,Shop Practices 4,For finishing a piece of work to size the file to use is the,Crossing file,Double-cut fine- tooth file,Mill file,Single- cut fine- tooth file,D,Imbaness Tama!,Anak ng Elements Mali!
+32,Machine Design,Shop Practices 4,"For filling lead or rabbit, use a",Lead float file,Mile file,Vixen file,A or C,D,Imbaness Tama!,Anak ng Elements Mali!
+33,Machine Design,Shop Practices 4,A hacksaw blade with 32 TPI is best suited for cutting,Small tubing,Conduit,Sheet metal under 18 gage,Any of the above,D,Imbaness Tama!,Anak ng Elements Mali!
+34,Machine Design,Shop Practices 4,A coolant is usually used when cutting material in a power hacksaw to,Absorb heat of fiction,Prevent the blade from overheating,Prevent the blade from losing its temper,All of the above,D,Imbaness Tama!,Anak ng Elements Mali!
+35,Machine Design,Shop Practices 4,A hacksaw blade with 18 teeth per inch is best suited for cutting,Aluminum,Cast iron,Solid iron,Any of the above,D,Imbaness Tama!,Anak ng Elements Mali!
+36,Machine Design,Shop Practices 4,When cutting a long thin piece of metal,Set the blade in the frame with the teeth facing toward you,Turn the blade at right angles to the frame,Turn the blade upside down the frame,Use a blade with fewer teeth per inch,B,Imbaness Tama!,Anak ng Elements Mali!
+37,Machine Design,Shop Practices 4,The hacksaw blade should be placed in the frame with,One end looser than the other end,The teeth facing in any direction,The teeth pointing backward,The teeth pointing forward,D,Imbaness Tama!,Anak ng Elements Mali!
+38,Machine Design,Shop Practices 4,A hacksaw blade with 34 teeth per inch should be used for cutting,Brass,Cast iron,Heavy,Thin wall tubing,D,Imbaness Tama!,Anak ng Elements Mali!
+39,Machine Design,Shop Practices 4,The best instrument for measuring thousandths of an inch is the,Caliper,Micrometer,Pyrometer,Tachometer,B,Imbaness Tama!,Anak ng Elements Mali!
+40,Machine Design,Shop Practices 4,All hard hacksaw blade is best suited for work on,Brass,Cast iron,Tool steel,Any of the above,D,Imbaness Tama!,Anak ng Elements Mali!
+41,Machine Design,Shop Practices 4,A hacksaw blade with 14 TPI is best suited for cutting,Cold rolled steel,Hot rolled steel,Structured steel,Any of the above,D,Imbaness Tama!,Anak ng Elements Mali!
+42,Machine Design,Shop Practices 4,"Files are divided into two general classes, namely",Flat shapes and round shapes,Large and small,Rough and smooth,Single-cut and double-cut,D,Imbaness Tama!,Anak ng Elements Mali!
+43,Machine Design,Shop Practices 4,A hacksaw blade can be placed in a frame in,One position,Two position,Three position,Four position,D,Imbaness Tama!,Anak ng Elements Mali!
+44,Machine Design,Shop Practices 4,All hard hacksaw blade is one that,Has a hard back and flexible teeth,Has a flexible back and hard teeth,Has the entire blade hardened,Will only fit a solid frame hacksaw,C,Imbaness Tama!,Anak ng Elements Mali!
+45,Machine Design,Shop Practices 4,Hacksaw blade with 24 TPI is best suited for cutting,Brass and copper,Sheet metal over 18 gage,Tubing,Any of the above,D,Imbaness Tama!,Anak ng Elements Mali!
+46,Machine Design,Shop Practices 4,Hacksaw blades are made of,High speed steel,Tool steel,Tungsten alloy steel,Any of the above,D,Imbaness Tama!,Anak ng Elements Mali!
+47,Machine Design,Shop Practices 4,A flexible back hacksaw blade is one that has,A movable back,Flexible ends,Only the back hardened,Only the teeth hardened,D,Imbaness Tama!,Anak ng Elements Mali!
+48,Machine Design,Shop Practices 4,The flexible type hacksaw blade is best suited for work on _____.,Aluminum,Channel,Tubing,Any of the above,D,Imbaness Tama!,Anak ng Elements Mali!
+49,Machine Design,Shop Practices 4,"When lathe tool bit burns, it means that the",Speed is too low,Speed is too fast,Material is too hard,Material can not be out,B,Imbaness Tama!,Anak ng Elements Mali!
+50,Machine Design,Shop Practices 4,The lathe compound is used for,Angle cutting,Grooving,Facing,Any of the above,D,Imbaness Tama!,Anak ng Elements Mali!

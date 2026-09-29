@@ -1,0 +1,51 @@
+id,subject,category,question,choice_a,choice_b,choice_c,choice_d,answer,correct_feedback,incorrect_feedback
+1,Machine Design,Bearings,"The rule of thumb in journal bearing design, the clearance ratio/ clearance should be",0.01101,0.0101,0.0110,0.0010,D,Imbaness tama!,anak ng elements mali!
+2,Machine Design,Bearings,Also called eccentrically loaded bearing.,Full bearing,Offset bearing,Partial bearing,Fitted bearing,B,Imbaness tama!,anak ng elements mali!
+3,Machine Design,Bearings,What type of bearing which totally encloses the shaft?,Offset bearing,Central bearing,Babbitt bearing,Full bearing,D,Imbaness tama!,anak ng elements mali!
+4,Machine Design,Bearings,"All are functions of lubricating oil except,",Adhesion,Corrosion prevention,Act as a coolant,To tighten the load,A,Imbaness tama!,anak ng elements mali!
+5,Machine Design,Bearings,It is considered semi-solid lubricant,Lube oil,Graphite,Grease,All of these,C,Imbaness tama!,anak ng elements mali!
+6,Machine Design,Bearings,Metal that assists lubrication or lubricant in itself.,Zinc,Antimony,Babbitt,Lead,C,Imbaness tama!,anak ng elements mali!
+7,Machine Design,Bearings,Which of the following material is unsuitable as a bearing?,Teflon,Low carbon steel,Cast iron,Nylon,B,Imbaness tama!,anak ng elements mali!
+8,Machine Design,Bearings,Hydrostatic bearing in one in which,The lube oil is supplied under pressure,Lube oil is not pressurized,There is no lube oil,Bearing is lightly loaded,A,Imbaness tama!,anak ng elements mali!
+9,Machine Design,Bearings,"Have the same thermal and minimum film, thickness limitation as sleeve bearing.",Ball bearing,Roller bearing,Thrust bearing,Oil bearing,D,Imbaness tama!,anak ng elements mali!
+10,Machine Design,Bearings,Fluid film desired between two surfaces having relative sliding motion is known as,Lube oil,Graphite,Packing,Lubrication,D,Imbaness tama!,anak ng elements mali!
+11,Machine Design,Bearings,"Journal bearing composed of two principal parts, namely the",Bearing and journal,Clearance and fitted,Shaft and Babbitt,Shaft and cylinder,A,Imbaness tama!,anak ng elements mali!
+12,Machine Design,Bearings,"When the line of action of the load bisects the act of partial bearing, it is said to be",Eccentrically loaded,Fit loaded,Centrally loaded,Surface loaded,C,Imbaness tama!,anak ng elements mali!
+13,Machine Design,Bearings,It is the difference in the radii of the bearing and the journal,Even clearance,Clearance ratio,Fit clearance,Radial clearance,D,Imbaness tama!,anak ng elements mali!
+14,Machine Design,Bearings,It is one in which the radii of the journal and the bearing are the same.,Clearance bearing,Fitted bearing,Full bearing,Partial bearing,B,Imbaness tama!,anak ng elements mali!
+15,Machine Design,Bearings,The line that passes through centers of the bearing and the journal is called the,Line of action,Line of centers,Line of tangent,Under cut,B,Imbaness tama!,anak ng elements mali!
+16,Machine Design,Bearings,Length-diameter ratio was a good compromise for the general case of hydrodynamic bearings. It is approximately equal to,1,2,3,4,A,Imbaness tama!,anak ng elements mali!
+17,Machine Design,Bearings,Operating temperature of oil film ranges ______ or less.,120 F to 190 F,130 F to 160 F,140 F to 150 F,140 F to 160 F,C,Imbaness tama!,anak ng elements mali!
+18,Machine Design,Bearings,"At higher temperature, the oil oxidizes more rapidly above",120 F,140 F,160 F,200 F,D,Imbaness tama!,anak ng elements mali!
+19,Machine Design,Bearings,A conclusion repeatedly verified by experiment is ______ that the smoother the surface.,Constant,The greater the load capacity of the bearing,None of these,Variable,B,Imbaness tama!,anak ng elements mali!
+20,Machine Design,Bearings,Which of the following is considered an advantage for bearing materials?,Conformability,Embeddability,Compatibility,All of these,D,Imbaness tama!,anak ng elements mali!
+21,Machine Design,Bearings,"For thrust bearing, the speed at moderate operating conditions is",50< Vm > 200 fpm,50< Vm >220 fpm,50< Vm > 250 fpm,50< Vm >290 fpm,A,Imbaness tama!,anak ng elements mali!
+22,Machine Design,Bearings,The 200 series bearing is called,Heavy,Light,Medium,None of these,B,Imbaness tama!,anak ng elements mali!
+23,Machine Design,Bearings,The 300 series bearing is called,Heavy,Light,Medium,All of these,C,Imbaness tama!,anak ng elements mali!
+24,Machine Design,Bearings,A type of roller bearing in which the balls are assembled by the eccentric displacement of the inner ring.,Shallow-groove ball bearing,Self-aligning ball bearing,Filling-slot ball bearing,Deep-groove ball bearing,D,Imbaness tama!,anak ng elements mali!
+25,Machine Design,Bearings,Which of the following is not a type of ball bearing?,Shallow-groove ball bearing,Self-aligning ball bearing,Fillet-slot ball bearing,Deep-groove ball bearing,A,Imbaness tama!,anak ng elements mali!
+26,Machine Design,Bearings,Steel balls for ball bearings are manufactured by,Casting,Cold heading,Rolling,Turning,B,Imbaness tama!,anak ng elements mali!
+27,Machine Design,Bearings,In hydrodynamic bearings,The oil film pressure is generated only by the rotation of the journal,The oil film is maintained by supplying oil under pressure,Do not need external supply of lubricant,Grease is used for lubrication,A,Imbaness tama!,anak ng elements mali!
+28,Machine Design,Bearings,"If P = bearing pressure on projected bearing area, Z = absolute viscosity of lubricant, and N = speed of journal, then the bearing characteristic number is given by",ZN / P,Z / PN,ZP / N,P / ZN,A,Imbaness tama!,anak ng elements mali!
+29,Machine Design,Bearings,The rated life of a bearing changes,Directly as load,Inversely as fourth power of load,Inversely as cube of load,Inversely as square of load,C,Imbaness tama!,anak ng elements mali!
+30,Machine Design,Bearings,In oiless bearing,The oil film pressure is produced only by the rotation of the journal,The oil film is maintained by supplying oil under pressure,Do not need external supply of lubricant,Grease is needed to be applied after some intervals,C,Imbaness tama!,anak ng elements mali!
+31,Machine Design,Bearings,A shaft rotating in anticlockwise direction at slow speed inside a bearing will be,At bottom of most of bearing,Towards left side of bearing and making metal to metal contact,Towards left side of bearing and making no metal to metal contact,Towards right side of bearing and making no metal to metal contact,B,Imbaness tama!,anak ng elements mali!
+32,Machine Design,Bearings,"A machine part that supports another part, which rotates, slides or oscillates in or on it.",Journal,Bearing,Roller,Casing,B,Imbaness tama!,anak ng elements mali!
+33,Machine Design,Bearings,"The part of shaft or crank, which is supported by and turns in bearing.",Casing,Bushing,Roller,Journal,D,Imbaness tama!,anak ng elements mali!
+34,Machine Design,Bearings,It is also called anti-friction bearing.,Rolling bearing,Thrust bearing,Tapered bearing,Single row bearing,A,Imbaness tama!,anak ng elements mali!
+35,Machine Design,Bearings,Which of the following is a bearing material?,Babbitt,Bronze,Plastics,All of the above,D,Imbaness tama!,anak ng elements mali!
+36,Machine Design,Bearings,It acts toward the center of the bearing along a radius.,Thrust load,Tangential load,Radial load,Peripheral load,C,Imbaness tama!,anak ng elements mali!
+37,Machine Design,Bearings,Conrad bearing is also known as,Needle bearing,Ball bearing,Roller bearing,Tapered bearing,B,Imbaness tama!,anak ng elements mali!
+38,Machine Design,Bearings,The combined effect of many of the variables involved in the operation of a bearing under hydrodynamic lubrication can be characterized by the dimensionless number called:,Reynolds number,Prandtl number,Grashof number,Sommerfeld number,D,Imbaness tama!,anak ng elements mali!
+39,Machine Design,Bearings,It exists primarily to guide the motion of a machine member without specific regard to the direction of load application.,Radial bearing,Journal bearing,Thrust bearing,Guide bearing,D,Imbaness tama!,anak ng elements mali!
+40,Machine Design,Bearings,It carries a load collinear to the axis of possible rotation of the supported member.,Guide bearing,Journal bearing,Thrust bearing,Radial bearing,C,Imbaness tama!,anak ng elements mali!
+41,Machine Design,Bearings,The 400 series bearing is called,Light,Medium,Heavy,Extra heavy,C,Imbaness tama!,anak ng elements mali!
+42,Machine Design,Bearings,The product of length and diameter of the bearing is called,Shearing area,Compressive area,Projected area,Cross-sectional area,C,Imbaness tama!,anak ng elements mali!
+43,Machine Design,Bearings,"If the length over diameter of the bearing is unity, it is known as",Long bearing,Short bearing,Medium bearing,Square bearing,D,Imbaness tama!,anak ng elements mali!
+44,Machine Design,Bearings,bearing in which the length ratio length/diameter is greater that 1.,Short bearings,Long bearings,Square bearings,Medium bearings,B,Imbaness tama!,anak ng elements mali!
+45,Machine Design,Bearings,The product of absolute viscosity and rotational speed divided by the unit loading.,Section modulus,Bearing modulus,Shear modulus,None of the above,B,Imbaness tama!,anak ng elements mali!
+46,Machine Design,Bearings,Measured from the line of radial loading on the bearing to the position of the minimum oil-film thickness.,Attitude angle,Latitude angle,Longitude angle,Altitude angle,A,Imbaness tama!,anak ng elements mali!
+47,Machine Design,Bearings,The radial distance between the center of the bearing and the displaced center of the journal is called:,Concentricity,Eccentricity,Embeddability,None of the above,B,Imbaness tama!,anak ng elements mali!
+48,Machine Design,Bearings,Which of the following is an example of solid lubricant?,Molybdenum disulfide,Graphite,Tungsten disulfide,All of the above,D,Imbaness tama!,anak ng elements mali!
+49,Machine Design,Bearings,The length ratio L/D typically varies between,0.1 to 0.5,0.2 to 0.6,0.2 to 0.8,0.25 to 1.0,D,Imbaness tama!,anak ng elements mali!
+50,Machine Design,Bearings,The operating temperature of the Babbitt is limited to,200 F,300 F,400 F,,B,Imbaness tama!,anak ng elements mali!

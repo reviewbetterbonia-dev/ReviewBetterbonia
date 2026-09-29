@@ -1,0 +1,77 @@
+id,subject,category,question,choice_a,choice_b,choice_c,choice_d,answer,correct_feedback,incorrect_feedback
+1,Math,Laws,"To comply with the requirement of the Mechanical Engineering Law on the minimum complement of mechanical engineers, a mechanical plant with a combine prime movers rating of 373 KW must have in its employ the following:Note: the plant is operating 3 shifts","1 PME, 1 RME, and 1 CPM","1 RME, 2 CPM","1 PME, 2 RME",1 RME is charge of every shift,B,Yown Tama!,pa mali mali nmn!
+2,Math,Laws,Mechanical Plant Engineer (MPE) may be allowed to take the licensure examination for PME if,He has 4 years practice as MPE,If he graduated with a BSME degree and has a 4 years,"If he has BSME degree, passed the examinations for RME and has 4 years practice as RME",None of these,A,Yown Tama!,pa mali mali nmn!
+3,Math,Laws,The only country that recognizes the mechanical engineering licensure of Filipinos issued by the Professional Regulation Commission and allowed to used the practice as RME,America,Japan,Canada,None of these,D,Yown Tama!,pa mali mali nmn!
+4,Math,Laws,The ratio between the average load and total available capacity,Load factor,Power factor,Demand factor,Capacity factor,D,Yown Tama!,pa mali mali nmn!
+5,Math,Laws,"In Roman Numerals, the doorframe written with letter indicates that the number equivalent to the letter is to be multiplied by",100,"1,000","100,000","1,000,000",C,Yown Tama!,pa mali mali nmn!
+6,Math,Laws,"In Roman Numerals, the bar written above with letter indicates that the number to the letter is to be multiplied by",100,"1,000","10,000","100,000",C,Yown Tama!,pa mali mali nmn!
+7,Math,Laws,Indicate the false statement about rules of divisibility.,The number is divisible by 9 if the sum of its digits is divisible by 9,The number is divisible by 12 if it is divisible by 4 and 3,The number is divisible by 4 if the number formed by the last 2 digits by the last 2 digits is divisible by 3,The number is divisible by 5 if it ends with 5 and 0,C,Yown Tama!,pa mali mali nmn!
+8,Math,Laws,The base number if the number systen,Index,Radix,Cologarithm,Logarithm,B,Yown Tama!,pa mali mali nmn!
+9,Math,Laws,What is another name of octal number system?,Octonary number system,Octenary number system,Octonumber system,Octonumerals,B,Yown Tama!,pa mali mali nmn!
+10,Math,Laws,A number system using a plane value or base of 20,Sexagesimal number system,Duodecimal number system,Bidecimal number system,Vigesimal number system,D,Yown Tama!,pa mali mali nmn!
+11,Math,Laws,A number system using a place value (or base) of 60,Sexagesimal number system,Septenary number system,Senary number system,Sexadecimal number system,A,Yown Tama!,pa mali mali nmn!
+12,Math,Laws,A number system using a place value (or base) of 10,Decimal number system,Denary number system,Denary number system,All of the above,D,Yown Tama!,pa mali mali nmn!
+13,Math,Laws,What is the radix of the binary number system?,10,16,8,2,D,Yown Tama!,pa mali mali nmn!
+14,Math,Laws,"A number system which needs sixteen symbols, the 10 numerals and the letters A,B,C,D,E and F is called",Octal number system,Duodecimal number system,Vegesimal number system,Hexadecimal number system,D,Yown Tama!,pa mali mali nmn!
+15,Math,Laws,The term “dozen” and “gross” used what number system?,Decimal number system,Duodecimal number system,Vegesimal number system,Hexadecimal number system,B,Yown Tama!,pa mali mali nmn!
+16,Math,Laws,1 gross is equivalent to,10 dozens,144 pieces,5 dozens,100 pieces,B,Yown Tama!,pa mali mali nmn!
+17,Math,Laws,The number 1 followed by 100 zeros or 10100 is called,Centillion,Chiliagon,Milliagon,Google,D,Yown Tama!,pa mali mali nmn!
+18,Math,Laws,The speed of 10 exponent google or 10google is called,Miligoogle,Centigoogle,Googleplex,Myriad,C,Yown Tama!,pa mali mali nmn!
+19,Math,Laws,The speed of light is nearly,3 x 105 km/s,3 x 106 km/s,3 x 104 km/s,"30,000,000 m/s",A,Yown Tama!,pa mali mali nmn!
+20,Math,Laws,"If deka means 101 and kilo means 103, then 102 is",Deci,Tera,Hector,Atto,C,Yown Tama!,pa mali mali nmn!
+21,Math,Laws,1 cubic meter is equal to 1 _____.,Span,Section,Scruple,Stere,D,Yown Tama!,pa mali mali nmn!
+22,Math,Laws,The number 1 followed by 15 zeros is known as,One billion,One trillion,One quadrillion,One quintillion,C,Yown Tama!,pa mali mali nmn!
+23,Math,Laws,100 kilograms is equivalent to 1,Ton,Quintal,Section,Stere,B,Yown Tama!,pa mali mali nmn!
+24,Math,Laws,One section is equal to 1 ______.,Square foot,Square meter,Square nautical mile,Square statute mile,D,Yown Tama!,pa mali mali nmn!
+25,Math,Laws,One foot is equivalent to how many hands?,2,3,4,5,B,Yown Tama!,pa mali mali nmn!
+26,Math,Laws,The radius of the Earth’s orbit around the Sun (the average distance between the Sun and Earth) is known as,Lightyear,Astronomical orbit,Astronomical unit,Steradian,C,Yown Tama!,pa mali mali nmn!
+27,Math,Laws,The astronomical unit is approximately equal to,100 million km,125 million km,150 million km,175 million km,C,Yown Tama!,pa mali mali nmn!
+28,Math,Laws,Absolute zero is,0oC,0oF,0 R,0 K,D,Yown Tama!,pa mali mali nmn!
+29,Math,Laws,The gravitational constant G is equivalent to ______ N.m2/kg2,6.67 x 10-9,6.67 x 10-10,6.67 x 10-11,6.67 x 10-12,C,Yown Tama!,pa mali mali nmn!
+30,Math,Laws,1 BTU is equivalent to how many Joules,1054,1045,1036,1064,A,Yown Tama!,pa mali mali nmn!
+31,Math,Laws,The pressure of 1 torr is equivalent to how many Pascals?,100.0,133.3,166.7,200.0,B,Yown Tama!,pa mali mali nmn!
+32,Math,Laws,1 horsepower is equivalent to how many Watts?,764,476,674,746,D,Yown Tama!,pa mali mali nmn!
+33,Math,Laws,1 electron volt is equivalent to how many Joules?,1.603 x 10-19,1.602 x 10-16,1.602 x 10-14,1.602 x 10-12,A,Yown Tama!,pa mali mali nmn!
+34,Math,Laws,Which is not equivalent to 1 atm?,1.013 x 105 Pa,1.013 bar,14.7 psi,1000 kg/cm2,D,Yown Tama!,pa mali mali nmn!
+35,Math,Laws,The value of (33)2 is,54,81,243,729,D,Yown Tama!,pa mali mali nmn!
+36,Math,Laws,"The number of board feet in a plank 3 inches thick, 1 foot wide and 20 foot length is",60,120,360,720,A,Yown Tama!,pa mali mali nmn!
+37,Math,Laws,"The following type item, which is common to both the fixed and operating cost of an enterprise is",Interest,Depreciation,Taxes,Supplies,C,Yown Tama!,pa mali mali nmn!
+38,Math,Laws,The center of gravity of an isosceles triangle whose height H is on the median line,2/3 from the vertex,1/3 H from the vertex,2/3 H from the vertex,¾ H from the vertex,C,Yown Tama!,pa mali mali nmn!
+39,Math,Laws,"The number of the board feet in a plank 2 inches thick, one foot wide and 20 feet long is",400,20,40,Power,C,Yown Tama!,pa mali mali nmn!
+40,Math,Laws,The nearest whole number to the value of 2/3 (700)2/3 is:,312,"1,243","12,433",54,D,Yown Tama!,pa mali mali nmn!
+41,Math,Laws,Ninety degrees is equal to,"1,500 radians",3.142 rad,1.57 rad,"1,000 rad",C,Yown Tama!,pa mali mali nmn!
+42,Math,Laws,"The standard acceleration due to gravity, g is equal to:",64.34 ft/sec2,32.2 ft2/sec,980 ft/sec,35.30 km/hr/sec,D,Yown Tama!,pa mali mali nmn!
+43,Math,Laws,Point “A” in an irregular shaped rotating body is 10 ft. From an instantaneous axis. At the same time instant a point “B” in the body is to have twice the velocity,5 ft,240 inches,305 cm,6.2 meters,B,Yown Tama!,pa mali mali nmn!
+44,Math,Laws,Circular pitch times diametral pitch equals,∏,1/∏,1.0,∏2,A,Yown Tama!,pa mali mali nmn!
+45,Math,Laws,"A general principle in the motion of a body can be stated as follows (F = force, M = mass, V = velocity, ∆ = change, T = time)",FT = MV,F∆T = MV2,FT = M∆V,F∆V = M∆T,C,Yown Tama!,pa mali mali nmn!
+46,Math,Laws,"In mechanics, if mass (M), length (L), and time (T) are selected as primary units, force (F) will have the following equations",F = MLT,F = MT2L-1,F = MLT-2,F = ML-1T-2,C,Yown Tama!,pa mali mali nmn!
+47,Math,Laws,For a simple beam supported at each end and which is uniformly loaded,The shear at the center of the beam is zero,The moment diagram is a straight line,The shear at the reaction is a minimum,The maximum moment occurs at the reaction,A,Yown Tama!,pa mali mali nmn!
+48,Math,Laws,The use of carbon in steel,Increases the hardness,Increases the ductility,Increases the resistance to shock,Decreases the resistance to fatigue,A,Yown Tama!,pa mali mali nmn!
+49,Math,Laws,The loss of the weight of the body submerged in a fluid is,Proportional to the depth of submergence,Equal to the weight of the fluid displaced,Independent of the specific gravity of the liquid,Proportional to the weight of the body,B,Yown Tama!,pa mali mali nmn!
+50,Math,Laws,The difference between the book value and the actual lower resale value is,Sunk cost,Savage value,Fixed cost,Resale value,A,Yown Tama!,pa mali mali nmn!
+51,Math,Laws,It occurs when a unique product or service is available only from a single supplier and entry of all other possible suppliers prevented:,Inventory,Monopoly,Competition,Profitbility,B,Yown Tama!,pa mali mali nmn!
+52,Math,Laws,Two triangles are congruent if two angles and the included side of one are equal respectively to two angles and the include side of the other,Theorem,Corollary,Axiom,postulate,A,Yown Tama!,pa mali mali nmn!
+53,Math,Laws,The side opposite the right angle of a right triangle,Median,Apothem,Quadrilateral,Hypotenuse,D,Yown Tama!,pa mali mali nmn!
+54,Math,Laws,A instrument for measuring specific density of fluids,Hygrometer,Flowmeter,Clinometer,Hydrometer,D,Yown Tama!,pa mali mali nmn!
+55,Math,Laws,Output over input,Annuity,Efficiency,Rate of return,Bond,B,Yown Tama!,pa mali mali nmn!
+56,Math,Laws,The volume of a circular cylinder is equal to the product of its base and altitude,Corollary,Postulate,Axiom,Theorem,D,Yown Tama!,pa mali mali nmn!
+57,Math,Laws,A statement of equality between two ratios:,Theorem,Proportion,Valuation,Power factor,B,Yown Tama!,pa mali mali nmn!
+58,Math,Laws,"A plane closed curve, all points of which are the same distance from a point within, called the center is",Radius,Circle,Arc,Chord,B,Yown Tama!,pa mali mali nmn!
+59,Math,Laws,Which of the following is the definition of the Joule?,A unit of power,A Newton meter,A kg m/s2,A rate of change of energy,B,Yown Tama!,pa mali mali nmn!
+60,Math,Laws,What is the equivalent expression for sin2x?,½ sin x cos x,2sin x cos(½ x),(2sin x ) / sec x,-2 sin x cos x,C,Yown Tama!,pa mali mali nmn!
+61,Math,Laws,The series expansion for cos x contains which powers of x?,"0, 2, 4, 6, 8,. . .","1, 3, 5, 9,. . .","1, 2, 3, 4, 5,. . .","½, 3/2, 5/2, 7/2,. . .",A,Yown Tama!,pa mali mali nmn!
+62,Math,Laws,"All of the following statements about photons are correct, EXCEPT:",Photons are small quanta of electromagnetic energy,"Energy of photons varies according to E = hf, where h is Planck’s","Photon energy varies with source intensity, i.e. A bright light source emits photons of lighter energy than a dim source","Velocity of photons in vacuum is c, the speed of light, 3 x 1010 cm/sec",C,Yown Tama!,pa mali mali nmn!
+63,Math,Laws,A one-candle power light source radiates luminous flux at the rate of,1 lumen,2 lumens,∏ lumens,4∏ lumens,D,Yown Tama!,pa mali mali nmn!
+64,Math,Laws,"A principal sum P is invested at a nominal interest rate r, compounded m times a year, for n years. The accumulated amount at the end of this period will be",P(1 + r/m)r,P(1 + r/m)n/m,P(1 + r/m)m,None of these,D,Yown Tama!,pa mali mali nmn!
+65,Math,Laws,In the formula P = F(1 + i)-n is called the,Sinking fund factor,Single payment present worth factor,Single payment compound amount factor,Capital recovery factor,B,Yown Tama!,pa mali mali nmn!
+66,Math,Laws,"A fund established to produced a desired amount at the end or a given period by means of series of payments throughout the period is called a sinking fund, and is represented by the formula:",A = F[i /(1 + i)n - 1],A = P(1 + i)-n,A = F{[(1 + i)n – 1]/[i(1 + i)n]},A = F[(1 + i)n/i],A,Yown Tama!,pa mali mali nmn!
+67,Math,Laws,Which of the following relationships between compound interest factors is NOT correct?,Single payment compound amount factor and single payment present worth factor are reciprocals,Sinking fund factor and uniform series compound amount factor are reciprocals,Capital recovery factor and sinking fund factor are reciprocals,Capital recovery factor equals sinking fund factor plus the interest rate,C,Yown Tama!,pa mali mali nmn!
+68,Math,Laws,"In determining the average annual cost of a project, the formula [(P – S)/n] + (P – S)(i/2)[(n + 1)/n] + Si",Sinking fund depreciation plus interest on the first cost,Straight line depreciation plus interest on first cost,Straight line depreciation plus average interest,Capital recovery with a return,C,Yown Tama!,pa mali mali nmn!
+69,Math,Laws,An “annuity” is defined as,Earned interest due at the end of each interest period,Cost of producing a product or rendering a service,A series of equal payments occurring at equal periods of time,Total annual overhead assigned to a unit of production,C,Yown Tama!,pa mali mali nmn!
+70,Math,Laws,"If the sine of angle A is given as K, what would be the tangent of angle A?",aK/h,hK/a,ha/K,oK/a,B,Yown Tama!,pa mali mali nmn!
+71,Math,Laws,"In finding the distance, d, between two points, which equation is the appropriate one to use?",d = square root [(x1 – x2)2 + (y1 – y2)2],d = square root [(x12 – x22 ) + (y12 – y22 )],d = square root [(x1 – y1)2 + (x2 – y2)2],d = square root [(x2 – x1)2 + (y2 – y1)2],D,Yown Tama!,pa mali mali nmn!
+72,Math,Laws,The equation y = a1 + a2X is an algebraic expression for which the following choices?,A cosine expansion series,Projectile motion,Projectile energy,A straight line,D,Yown Tama!,pa mali mali nmn!
+73,Math,Laws,What is the name for a vector that represents the sum of two vectors?,Scalar,Resultant,Tensor,Moment,B,Yown Tama!,pa mali mali nmn!
+74,Math,Laws,"What type of curve is generator by a point which moves in uniform circular motion about an axis, while travelling with a constant speed, v, parallel to the axis?",A cycloid,An epicycloid,A hypocycloid,A helix,D,Yown Tama!,pa mali mali nmn!
+75,Math,Laws,"All of the following statements about the electron structure of atom are correct, EXCEPT:",Electrons of highest energy are located in the outer orbitals,Each orbital can contain one electron,"K, L, M, etc. Shells are designation representing the principal quantum number n = 1, 2, 3, etc.","Each shell may contain up to n2 orbitals, but not exceeding",B,Yown Tama!,pa mali mali nmn!
+76,Math,Laws,"All of the following are characteristic of waves, EXCEPT:",Energy of wave varies with the square of its amplitude,Interference is interaction of waves. The observed effect is based on the principle of superposition,Wave frequency changes on entering a medium where the velocity of propagation is changed,"Diffraction, or bending of a wave, occurs arround the edges of obstacles.",C,Yown Tama!,pa mali mali nmn!

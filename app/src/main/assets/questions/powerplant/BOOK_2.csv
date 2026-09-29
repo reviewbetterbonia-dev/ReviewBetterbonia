@@ -1,0 +1,101 @@
+id,subject,category,question,choice_a,choice_b,choice_c,choice_d,answer,correct_feedback,incorrect_feedback
+1,Powerplant,BOOK_2,"A cycle typically used in paper mills, textile mills, chemical factories, sugar factories and rice mills",Cogeneration cycle,Combined cycles,By-products cycle,Cascading cycle,A,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+2,Powerplant,BOOK_2,"When process steam is basic need and power is byproduct, this cycle is known as",Cogeneration cycle,Combined cycle,By-product cycle,Cascading cycle,C,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+3,Powerplant,BOOK_2,A type of turbine employed where steam continuously extracted for process heating,Back-pressure turbine,Gas turbine,Steam turbine,Passout turbine,D,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+4,Powerplant,BOOK_2,Which of the following is used for binary cycle power generation for high temperature application?,Mercury,Sodium,Potassium,All of these,D,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+5,Powerplant,BOOK_2,Critical temperature of mercury is,1160 c,1260 c,1360 c,1460 c,D,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+6,Powerplant,BOOK_2,Critical pressure of mercury is,100 MPa,108 Mpa,128 Mpa,158 MPa,B,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+7,Powerplant,BOOK_2,Method used in converting heat directly to electricity by magnetism,Electromagnetic induction,Magnetodynamic,Magnetohydrodynamic,Thermoelectric,C,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+8,Powerplant,BOOK_2,Which of the following is not a material used for thermoelectric elements,Bismuth telluride,Lead telluride,Zinc telluride,Germanium,C,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+9,Powerplant,BOOK_2,A type of coal formed after anthratice,Lignite,Bituminous,Peat,Graphite,D,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+10,Powerplant,BOOK_2,Which of the following is lowest grade of coal?,Peat,Lignite,Sub- bituminous,Bituminous,B,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+11,Powerplant,BOOK_2,Which of the following helps in the ignition of coal?,Moisture,Ash,Fixed carbon,Volatile matter,D,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+12,Powerplant,BOOK_2,Is the ratio of fixed carbon and volatile matter.,Air-fuel ratio,Fuel ratio,Combustion ratio,Carbon-volatile ratio,B,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+13,Powerplant,BOOK_2,A suspension of a finely divide fluid in another.,Filtration,Floatation,Emulsion,Separation,C,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+14,Powerplant,BOOK_2,Contains 90% gasoline and 10% ethanol.,Gasohol,Gasonol,Gasothanol,Gasethanol,A,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+15,Powerplant,BOOK_2,Process used commercially in coal liquefaction.,Tropsch process,Fisher process,Fisher-tropsch process,Mitch-tropsch process,C,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+16,Powerplant,BOOK_2,Is an organic matter produced by plants in both land and water.,Bio-ethanol,Biomass,Petroleum,Biodegradable,B,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+17,Powerplant,BOOK_2,"In thermal power plant, induced draft fans are located at the",Exit of furnace,Foot of the stack,Above the stock,Top of the stack,B,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+18,Powerplant,BOOK_2,Known as drum less boiler.,La Mont boiler,Fire tube boiler,Force circulation boiler,Once-through boiler,D,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+19,Powerplant,BOOK_2,Reduces the steam temperature by spraying low temperature water from boiler drum.,Reheater,Preheater,Desuperheater,Superheater,C,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+20,Powerplant,BOOK_2,Carbon dioxide can be removed by:,Deaeration,Aeration,Evaporation,Vaporization,B,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+21,Powerplant,BOOK_2,Is often used to absorb silica from water.,Absorbent,Rectifier,Silica gel,Magnesium hydroxide,D,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+22,Powerplant,BOOK_2,Presence of excess hydrogen ions makes the water,Acidic,Alkalinity,Base,Hydroxicity,A,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+23,Powerplant,BOOK_2,PH of water varies with,Pressure,Temperature,Density,Volume,B,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+24,Powerplant,BOOK_2,Ph value of ______ is usually maintained for boiler water to minimized corrosion.,8.5,9.5,10.5,11.5,C,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+25,Powerplant,BOOK_2,What type of turbine that has a degree of reaction of ½?,Impulse turbine,Reaction turbine,Rarsons turbine,Deriaz turbine,C,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+26,Powerplant,BOOK_2,Tranquil flow must always occur,Above the normal depth,Above the critical depth,Below the normal depth,Below the critical depth,B,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+27,Powerplant,BOOK_2,Which of the following head loss coefficient among the following types of entrance?,Bell mouth,Square edge,Reentrant,It depends,C,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+28,Powerplant,BOOK_2,What waste treatment method involves of algae from stabilization pond effluents?,Sedimentation,Floatation,Filtration,Microscreening,D,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+29,Powerplant,BOOK_2,"The number of nozzles will depend on the quantity of steam required by the turbine. If nozzles occupy the entire ….. the ring, the turbine is said to have:",Partially full peripheral admission,One-half peripheral admission,Maximum peripheral admission,Full peripheral admission,D,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+30,Powerplant,BOOK_2,Tandem compound units may also have two low-pressure castings that produces:,Single flow,Double flow,Triple flow,Quadruple flow,C,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+31,Powerplant,BOOK_2,"A type of turbine used for driving pumps, fans, and other auxiliaries in power plant commonly operate at exhaust pressure approximating atmospheric.",Tandem compound turbine,Passout turbine,Cross-compound turbine,Back pressure turbine,D,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+32,Powerplant,BOOK_2,A governor with 0% regulation is termed as:,Isochronous governor,Synchronous governor,Isenchronous governor,Isobarnous governor,A,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+33,Powerplant,BOOK_2,The speed regulation for most turbine-generators is adjustable from:,2 to 6%,4 to 8%,6 to 10%,8 to 12%,A,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+34,Powerplant,BOOK_2,Poppet valves of steam turbine are used for extraction pressure of:,20 to 120 psig,20 to 150 psig,20 to 130 psig,20 to 140 psig,B,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+35,Powerplant,BOOK_2,"When both bearings of steam engines are on one side of the of the connecting rod, the engine is referred to as:",Center-crank engine,Side crank engine,Under crank engine,Standard crank engine,B,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+36,Powerplant,BOOK_2,"When the valve in steam engine is in mid-position of its travel, it will cover the steam port by an amount known",Steam lap,Partial lap,Full lap,Angular lap,A,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+37,Powerplant,BOOK_2,A type of governor in steam engine that do not control the actual admission of steam to the cylinder but controls the pressure of the steam.,Flyball governor,Variable cut-off governor,Throttling governor,Shaft governor,C,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+38,Powerplant,BOOK_2,"By inter-cooling using two stage compressor of Brayton cycle, the backwork ratio will:",Increase,Decrease,Remains constant,None of these,B,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+39,Powerplant,BOOK_2,"On dynamic similitude, the relation which represents the ratio of inertia force to pressure force is:",Froude number,Cauchy number,Euler number,Reynolds number,C,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+40,Powerplant,BOOK_2,What is the maximum velocity in a sewer flowing full?,0.6 m/sec,0.9 m/sec,1.2 m/sec,1.8 m/sec,A,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+41,Powerplant,BOOK_2,A temporary structure constructed to exclude water from the side of the foundation during its excavation and construction is called.,Calsson,Retaining wall,Coffer dam,Earth dam,C,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+42,Powerplant,BOOK_2,Which is not a physical characteristic of water?,Total suspended and dissolve solids,Turbidity,Color,Hardness,D,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+43,Powerplant,BOOK_2,Which dam is best for weak foundation?,Gravity,Arch,Buttress,Earth,C,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+44,Powerplant,BOOK_2,What is the volume of water which will drain freely from the aquifer?,Specific yield,Reservoir yield,Safe yield,Secondary yield,A,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+45,Powerplant,BOOK_2,What is the line defined by the water level in a group of artesian wells?,Water table,Peizometric surface,Specific yield,All of the above,B,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+46,Powerplant,BOOK_2,Select the one that is a positive indication of pollution of a river.,Acidity,Oxygen content,Chloride content,Nitrite content,C,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+47,Powerplant,BOOK_2,The cooling water is made to fall in series of baffles to expose large surface area for steam led from below to come in direct contact.,Spray condenser,Surface condenser,Jet condenser,Barometric condenser,D,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+48,Powerplant,BOOK_2,Show the variation of river flow (discharge) with time,Hydrograph,Hyctograph,Mass curve,Flow duration curve,A,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+49,Powerplant,BOOK_2,Is an open channel erected on a surface above the ground.,Canal,Tunnel,Pentstock,Flume,D,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+50,Powerplant,BOOK_2,Type of turbine used up to 300 m head,Impulse turbine,Francis turbine,Propeller turbine,Deriaz turbine,D,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+51,Powerplant,BOOK_2,Oil is atomized either by air blast or pressure jet at about,60 bar,70 bar,80 bar,90 bar,B,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+52,Powerplant,BOOK_2,Type of solid injection that use single pump supplies fuel under high pressure to a fuel header.,Common rail injection,Individual pump injection system,Distributor system,Single rail injection,A,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+53,Powerplant,BOOK_2,Water flow in diesel engine that is caused by density differential.,Thermosiphon cooling,Thermostat cooling,Pressure water cooling,Evaporative cooling,A,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+54,Powerplant,BOOK_2,Type of lubrication system in diesel engine in which oil from pump is carried to a separate storage lank outside the engine cylinder and used for high capacity engine.,Mist lubrication system,Wet sump lubrication,Splash system,Dry sump lubrication system,D,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+55,Powerplant,BOOK_2,Produces extreme pressure differentials and violent gas vibration.,Vibration,Detonation,Explosion,Knocking,B,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+56,Powerplant,BOOK_2,"In a spark ignition engine, detonation occurs near the ___________.",End of combustion,Middle combustion,Beginning of combustion,Beginning of interaction,A,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+57,Powerplant,BOOK_2,"In a compression ignition engine, the detonation occurs near the ________.",End of combustion,Middle of combustion,Beginning of combustion,Beginning of interaction,C,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+58,Powerplant,BOOK_2,Morse test is use to measure the _______ of multi-cylinder engine.,Break power,Indicated power,Friction power,Motor power,B,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+59,Powerplant,BOOK_2,"In a compression ignition engine, the detonation occurs near the ________.",End of combustion,Middle of combustion,Beginning of combustion,Beginning of interaction,C,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+60,Powerplant,BOOK_2,Ignition delay can be minimized by adding _________ to decrease engine knocking.,Ethel ether,Ethyl chloride,Ethyl nitrate,Ethyl oxide,C,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+61,Powerplant,BOOK_2,"At any point in fluid at rest, the pressure is the same in all directions. This principle is known as:",Bernoulli principle,Archimedes principle,Pascal’s law,Torricelli’s law,C,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+62,Powerplant,BOOK_2,The hot-wire manometer is used to measure,Pressure in gasses,Pressure in fluids,Wind velocities at airports,Gas velocities,D,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+63,Powerplant,BOOK_2,The pitot static tube measures,The static pressure,The gage pressure,The total pressure,The dynamic pressure,A,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+64,Powerplant,BOOK_2,The terminal velocity of a small sphere setting in a viscous fluid varies as the,First power of its diameter,Inverse of fluid viscosity,Inverse square of the diameter,Inverse of the diameter,B,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+65,Powerplant,BOOK_2,Pressure drag results from,Skin friction,Deformation drag,Breakdown of potential flow near the forward stagnation point,Occurrences of wake,A,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+66,Powerplant,BOOK_2,Which instruments is used to measure humidity of the atmosphere continuously?,Barograph,Thermograph,Hydrograph,Thermo-hydrograph,C,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+67,Powerplant,BOOK_2,"Entrance losses between tank and pipe or losses through elbows, fittings and valves are generally expresses as a function of",Kinetic energy,Pipe diameter,Friction factor,Volume flow rate,A,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+68,Powerplant,BOOK_2,The air that contains no water vapor is called,Zero air,Saturated air,Dry air,Humid air,C,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+69,Powerplant,BOOK_2,"In psychrometric chart, the constant-enthalpy lines coincide with constant-temperature lines at temperature",Above 50⁰C,Below 40⁰C,Below 50⁰C,Above 10⁰C,C,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+70,Powerplant,BOOK_2,The amount of moisture in air depend on its,Pressure,Volume,Temperature,Humidity,C,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+71,Powerplant,BOOK_2,The deep body temperature of healthy person is maintained constant at,27⁰C,37⁰C,47⁰C,48⁰C,B,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+72,Powerplant,BOOK_2,Air motion also plays important role in,Surroundings,Cooling,Human comfort,None of these,C,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+73,Powerplant,BOOK_2,During simple heating and cooling process has a ____ humidity ratio,Increasing,Decreasing,Constant,None of these,C,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+74,Powerplant,BOOK_2,The _____ follows a line of constant wet-bulb temperature on the psychrometric chart.,Evaporative cooling process,Condensive cooling process,Direct cooling process,None of these,A,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+75,Powerplant,BOOK_2,A vapor which is not about to condensate is called a,mixture of vapor and liquid,critical vapor,Superheated vapor,None of these,C,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+76,Powerplant,BOOK_2,Passing from the solid phase directly into vapor phase is called,Condensation,Fusion,Sublimation,None of these,C,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+77,Powerplant,BOOK_2,Robert Boyle observed during his experiments with a vacuum chamber that the pressure of gases is inversely proportional to their,Temperature,Pressure,Volume,None of these,C,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+78,Powerplant,BOOK_2,____ is energy in transition,Heat,Work,Power,None of these,A,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+79,Powerplant,BOOK_2,"Is the mode of energy transfer between a solid surface and the adjacent liquid or gas which is in motion, and it involves combine effects of conduction and fluid motion.",Conduction,Convection,Radiation,None of these,B,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+80,Powerplant,BOOK_2,Radiation is usually considered as,Surface phenomenon,Surface interaction,Surface corrosion,None of these,A,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+81,Powerplant,BOOK_2,Work is ____ between the system and the surroundings.,Work interaction,Energy interaction,Heat interaction,None of these,B,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+82,Powerplant,BOOK_2,Is a process during which the system remains in equilibrium at all times,Quasi-equilibrium,Static equilibrium,Dynamic equilibrium,None of these,A,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+83,Powerplant,BOOK_2,"In the absence of any work interactions between a system and its surroundings , the amount of net heat transfer is equal",The change in total energy of a closed system,To heat and work,Energy interactions,none of these,A,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+84,Powerplant,BOOK_2,The constant volume and constant pressure specific heats are identical for,compressible substance,incompressible substance,compressible gas,none of these,B,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+85,Powerplant,BOOK_2,The velocity of fluid is zero at wall aand maximum at the center because of the,velocity effect,viscous effect,temperature effect,none of these,B,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+86,Powerplant,BOOK_2,"For steady flow devices, the volume of the control volume is",increase,decrease,constant,none of these,C,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+87,Powerplant,BOOK_2,Work done in turbine is ____ since it is done by the fluid.,Positive,Negative,Zero,None of these,A,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+88,Powerplant,BOOK_2,"Reheating process in Brayton cycle, the turbine work will",Increase,Decrease,Remains the same,None of these,A,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+89,Powerplant,BOOK_2,Which of the following is the chemical formula of ethanol?,C7H16,C2H6O,C7H8,C6H12,B,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+90,Powerplant,BOOK_2,Which of the following is the chemical formula of heptane?,C7H16,C2H6O,C7H8,C6H12,A,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+91,Powerplant,BOOK_2,Which of the following is the chemical formula of hexane?,C7H16,C2H6O,C7H8,C6H12,D,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+92,Powerplant,BOOK_2,Which of the following is the chemical formula of toluene?,C7H16,C2H6O,C7H8,C6H12,C,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+93,Powerplant,BOOK_2,"As the air passes through a nozzle, which of the following will increase?",Temperature,Enthalpy,Internal energy,Mach number,D,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+94,Powerplant,BOOK_2,"As the air passes through a diffuser, which of the following will decrease?",Temperature,Enthalpy,Internal energy,Mach number,D,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+95,Powerplant,BOOK_2,"As the air passes through a nozzle, which of the following will decrease?",Temperature,Enthalpy,Internal energy,Mach number,C,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+96,Powerplant,BOOK_2,"As the air passes through a diffuser, which of the following will increase?",Density,Entropy,Mach number,Velocity,A,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+97,Powerplant,BOOK_2,"As the air passes through a diffuser, which of the following will NOT be affected?",Density,Entropy,Mach number,Velocity,B,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+98,Powerplant,BOOK_2,After passing through a convergent-divergent nozzle the density of air will:,Increase,Decrease,Remains the same,None of these,B,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+99,Powerplant,BOOK_2,Pneumatic tools are powered by:,natural gas,air,electricity,steam,B,HANEP LOOKS FAM!,LAMANG NA KO SAYO!
+100,Powerplant,BOOK_2,Sino pinaka GWAPO sa grupo? + Mapagmahal?,Paolo Oliver Obaña,Mervin Pernia,Herald Digol,Ian Daniel Gregorio,B,SABI NA CRUSH MO DIN AKO NOH BAKLA KAPALA!,SUS DI YAN!

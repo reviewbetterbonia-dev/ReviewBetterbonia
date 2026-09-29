@@ -1,0 +1,195 @@
+name: Sync approved Firebase questions to CSV
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 */6 * * *'
+      timezone: 'Asia/Manila'
+
+concurrency:
+  group: question-bank-sync
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: '3.13'
+
+      - name: Install Firestore client
+        run: python -m pip install --disable-pip-version-check google-cloud-firestore
+
+      - name: Authenticate to Firebase
+        env:
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+        run: |
+          test -n "$FIREBASE_SERVICE_ACCOUNT" || {
+            echo "FIREBASE_SERVICE_ACCOUNT repository secret is not configured."
+            exit 1
+          }
+          printf '%s' "$FIREBASE_SERVICE_ACCOUNT" > "$RUNNER_TEMP/firebase-service-account.json"
+          SERVICE_ACCOUNT_PATH="$RUNNER_TEMP/firebase-service-account.json" python - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+          p = Path(os.environ["SERVICE_ACCOUNT_PATH"])
+          json.loads(p.read_text(encoding="utf-8"))
+          print("Firebase service-account JSON is valid.")
+          PY
+
+      - name: Synchronize approved questions
+        env:
+          GOOGLE_APPLICATION_CREDENTIALS: ${{ runner.temp }}/firebase-service-account.json
+        run: |
+          python - <<'PY'
+          import csv
+          import os
+          from pathlib import Path
+          from google.cloud import firestore
+          from google.cloud.firestore_v1.base_query import FieldFilter
+
+          ROOT = Path("app/src/main/assets/questions")
+          EXPECTED_HEADER = [
+              "id", "subject", "category", "question",
+              "choice_a", "choice_b", "choice_c", "choice_d",
+              "answer", "correct_feedback", "incorrect_feedback"
+          ]
+
+          def clean(value):
+              if value is None:
+                  return ""
+              return str(value)
+
+          def normalize_target(value):
+              value = clean(value).replace("\\", "/").strip().lstrip("/")
+              if value.startswith("questions/"):
+                  value = value[len("questions/"):]
+              return value
+
+          def valid_target(target):
+              if not target or not target.lower().endswith(".csv"):
+                  return False
+              parts = Path(target).parts
+              return ".." not in parts and not Path(target).is_absolute()
+
+          def load_csv(path):
+              with path.open("r", encoding="utf-8", newline="") as f:
+                  rows = list(csv.reader(f))
+              if not rows:
+                  return EXPECTED_HEADER.copy(), []
+              header = rows[0]
+              if header != EXPECTED_HEADER:
+                  raise RuntimeError(f"Unexpected CSV header in {path}: {header}")
+              return header, [row for row in rows[1:] if any(cell.strip() for cell in row)]
+
+          def make_row(data, doc_id):
+              question_id = clean(data.get("id") or doc_id).strip()
+              if not question_id:
+                  raise RuntimeError(f"Firestore question {doc_id} has no usable id")
+              if not question_id.startswith("fb_"):
+                  question_id = "fb_" + question_id
+              return [
+                  question_id,
+                  clean(data.get("subject")),
+                  clean(data.get("category")),
+                  clean(data.get("question")),
+                  clean(data.get("choiceA")),
+                  clean(data.get("choiceB")),
+                  clean(data.get("choiceC")),
+                  clean(data.get("choiceD")),
+                  clean(data.get("correct")),
+                  clean(data.get("correctFeedback")),
+                  clean(data.get("incorrectFeedback")),
+              ], question_id
+
+          db = firestore.Client()
+          docs = db.collection("questions").where(filter=FieldFilter("active", "==", True)).stream()
+
+          approved = []
+          skipped = []
+          for doc in docs:
+              data = doc.to_dict() or {}
+              target = normalize_target(data.get("targetFile"))
+              if not valid_target(target):
+                  skipped.append(f"{doc.id}: missing/invalid targetFile")
+                  continue
+              target_path = ROOT / target
+              if not target_path.exists() or not target_path.is_file():
+                  skipped.append(f"{doc.id}: target CSV does not exist: {target}")
+                  continue
+              row, question_id = make_row(data, doc.id)
+              approved.append((question_id, target, row))
+
+          if skipped:
+              print("Skipped Firebase questions:")
+              for item in skipped:
+                  print(f"  - {item}")
+
+          csv_cache = {}
+          all_csv_paths = list(ROOT.rglob("*.csv"))
+          for path in all_csv_paths:
+              rel = path.relative_to(ROOT).as_posix()
+              header, rows = load_csv(path)
+              csv_cache[rel] = [header, rows]
+
+          for question_id, target, new_row in approved:
+              for rel, payload in csv_cache.items():
+                  rows = payload[1]
+                  payload[1] = [row for row in rows if not row or clean(row[0]).strip() != question_id]
+
+              csv_cache[target][1].append(new_row)
+
+          changed_files = []
+          for rel, (header, rows) in csv_cache.items():
+              path = ROOT / rel
+              original_text = path.read_text(encoding="utf-8")
+              from io import StringIO
+              buffer = StringIO()
+              writer = csv.writer(buffer, lineterminator="\n", quoting=csv.QUOTE_MINIMAL)
+              writer.writerow(header)
+              writer.writerows(rows)
+              new_text = buffer.getvalue()
+              if new_text != original_text:
+                  path.write_text(new_text, encoding="utf-8")
+                  changed_files.append(rel)
+
+          print(f"Approved Firebase questions considered: {len(approved)}")
+          print(f"Changed CSV files: {len(changed_files)}")
+          for rel in changed_files:
+              print(f"  - {rel}")
+
+          if changed_files:
+              summary_path = os.environ.get("GITHUB_STEP_SUMMARY")
+              if summary_path:
+                  with Path(summary_path).open("a", encoding="utf-8") as f:
+                      f.write("## Question bank synchronization\n\n")
+                      f.write(f"Processed **{len(approved)}** approved Firebase questions.\n\n")
+                      f.write(f"Changed **{len(changed_files)}** CSV files.\n")
+                      for rel in changed_files:
+                          f.write(f"- `{rel}`\n")
+          PY
+
+      - name: Commit and push CSV changes
+        run: |
+          if git diff --quiet -- app/src/main/assets/questions; then
+            echo "Question bank is already up to date."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add app/src/main/assets/questions
+          git commit -m "Sync approved Firebase questions"
+          git push

@@ -1,0 +1,51 @@
+id,subject,category,question,choice_a,choice_b,choice_c,choice_d,answer,correct_feedback,incorrect_feedback
+1,Machine Design,Belts and Chains,It is ideal for maximum quietness in sprocket drive operation to choose _____ or more teeth.,25,26,27,28,C,Imbaness tama!,anak ng elements mali!
+2,Machine Design,Belts and Chains,It is recommended for high speed application that the minimum number of teeth in small sprocket should be,12 to 20,18 to 24,16 to 32,14 to 28,B,Imbaness tama!,anak ng elements mali!
+3,Machine Design,Belts and Chains,Consider a maximum safe center distance of sprockets should be _____ pitches. Very long center distance caused catenaries tension in the chain.,70,80,90,100,B,Imbaness tama!,anak ng elements mali!
+4,Machine Design,Belts and Chains,The recommended lubricant for the chain drive operation is,SAE 4140,Petroleum oil,Moly slip,Heavy grease,B,Imbaness tama!,anak ng elements mali!
+5,Machine Design,Belts and Chains,ype of leather belt being applied with waterproof cement is called,Combination of oak/mineral tanned,Oak tanned,Mineral tanned,All of the above,B,Imbaness tama!,anak ng elements mali!
+6,Machine Design,Belts and Chains,What type of leather belting should be used at an ambient temperature above 140°F and possible acid liquid coming in contact with the belt?,Mineral tanned,Combination of oak,Oak tanned,None of these,D,Imbaness tama!,anak ng elements mali!
+7,Machine Design,Belts and Chains,It is recommended not to have a direct drive and drive sprockets if the ratio of their teeth exceeds ______ use two or more step combination.,10 times,8 times,5 times,6 times,B,Imbaness tama!,anak ng elements mali!
+8,Machine Design,Belts and Chains,Flat leather belting not recommended for use in a speed in excess of _____ fpm.,3600,4800,6000,All of these,C,Imbaness tama!,anak ng elements mali!
+9,Machine Design,Belts and Chains,V-belts operate efficiently at speed of about,4500 fpm,4400 fpm,4200 fpm,3600 fpm,A,Imbaness tama!,anak ng elements mali!
+10,Machine Design,Belts and Chains,"It is advised that in rubber belts application mounting, it should have an initial tension of _____ inch/ply.",18 to 24,15 to 20,12 to 15,10,B,Imbaness tama!,anak ng elements mali!
+11,Machine Design,Belts and Chains,"In shear pin or breaking pin design, we may use the data experienced by Link-belt for 1/8 inch pins and the breaking stress is ___________ksi.",40,55,50,48,C,Imbaness tama!,anak ng elements mali!
+12,Machine Design,Belts and Chains,A type of V-belts to use in driving pulley with speed of 360 rpm and transmitting 5 hp.,Type C belts,Type B belts,Type A belts,Type D belts,B,Imbaness tama!,anak ng elements mali!
+13,Machine Design,Belts and Chains,Belt slip may take place because of,Loose load,Heavy load,Driving pulley too small,All of the above,D,Imbaness tama!,anak ng elements mali!
+14,Machine Design,Belts and Chains,A single ply leather belt running at a belt velocity of 360 ft/min is likely to transmit _________ per inch of width.,2.5 hp,3.0 hp,4.0 hp,5.0 hp,C,Imbaness tama!,anak ng elements mali!
+15,Machine Design,Belts and Chains,What is the density of the leader belt?,0.035 lb/in3,0.0253lb/in3,0. 046 lb/in3,0. 074 lb in3,A,Imbaness tama!,anak ng elements mali!
+16,Machine Design,Belts and Chains,What is the density of flat rubber belt material?,0. 055 lb/in3,0.045 lb/in3,0.0725 lb/in3,0.0726 lb/in3,B,Imbaness tama!,anak ng elements mali!
+17,Machine Design,Belts and Chains,The breaking strength of oak tanned belting varies from 3 or more than,5 ksi,6 ksi,7 ksi,8 ksi,B,Imbaness tama!,anak ng elements mali!
+18,Machine Design,Belts and Chains,"If the ends are joined by wire lacing with machine, the usual efficiency of joint is",75%,85%,88%,100%,C,Imbaness tama!,anak ng elements mali!
+19,Machine Design,Belts and Chains,The tension in the belt due to centrifugal force increases rapidly above,2500 fpm,3000 fpm,3500 fpm,4000 fpm,A,Imbaness tama!,anak ng elements mali!
+20,Machine Design,Belts and Chains,Experience suggests that the most economical designs are obtained for a belt speed of,2000 to 3000 fpm,3000 to 4000 fpm,4000 to 4500 fpm,4000 to 4000 fpm,C,Imbaness tama!,anak ng elements mali!
+21,Machine Design,Belts and Chains,"For the leader belts, recommended speed is",2000 to 3000 fpm,4000 to 5000 fpm,6000 to 7500 fpm,7000 to 8000 fpm,D,Imbaness tama!,anak ng elements mali!
+22,Machine Design,Belts and Chains,"For the fabric belts, recommended speed is",2000 to 3000 fpm,2000 and more fpm,3000 to 4000 fpm,4000 to 4500 fpm,B,Imbaness tama!,anak ng elements mali!
+23,Machine Design,Belts and Chains,"On high speed centrifugal blowers, it has been observed that the arc of contact reduced from 180 deg at rest to ____________ in motion.",90 deg,95 deg,100 deg,110 deg,D,Imbaness tama!,anak ng elements mali!
+24,Machine Design,Belts and Chains,The recommended initial tension of belt is,75 lb/in of width,71 lb/in of width,73 lb/in of width,80 lb/in of width,B,Imbaness tama!,anak ng elements mali!
+25,Machine Design,Belts and Chains,The recommended net belt pull for rubber belt is,11.34 lb/ply per inch of width,13.75 lb/ply per inch of width,16.35 lb/ply per inch of width,0.34 lb/ply per inch of width,B,Imbaness tama!,anak ng elements mali!
+26,Machine Design,Belts and Chains,"If two interesting shafts are to be belt connected, how many guide pulley is used is used",1,2,3,4,B,Imbaness tama!,anak ng elements mali!
+27,Machine Design,Belts and Chains,Two shafts at right angles to each other may be connected by the ________ arrangement.,haft turn,three- fourth turn,one turn,quarter turn,D,Imbaness tama!,anak ng elements mali!
+28,Machine Design,Belts and Chains,"It offers long life, high efficiency, and low cost and low maintenance.",Flat belt,V-belt,Tooth belt,All of the above,A,Imbaness tama!,anak ng elements mali!
+29,Machine Design,Belts and Chains,t is used to connect pulleys to convey materials by transmitting motion and power.,Rope,Wires,Belt,Flat,C,Imbaness tama!,anak ng elements mali!
+30,Machine Design,Belts and Chains,A crossed belt wider than ______ inches should be avoided.,7,8,9,10,B,Imbaness tama!,anak ng elements mali!
+31,Machine Design,Belts and Chains,"f the pulley ratio is 3:1 or more, the reduction should be",25%,50%,75%,95%,B,Imbaness tama!,anak ng elements mali!
+32,Machine Design,Belts and Chains,The advantage of flat belt is that,it can be used in high-speed drive,it can be used in dusty and abrasive environments,It allows long distances between shafts,All of the above,D,Imbaness tama!,anak ng elements mali!
+33,Machine Design,Belts and Chains,The best leather has an ultimate strength of about,3000 psi,4000 psi,5000 psi,6000 psi,B,Imbaness tama!,anak ng elements mali!
+34,Machine Design,Belts and Chains,Initial tensions should range from _______ for leather belts and 10 to 12 lb/ply per inch of width for rubber belts.,200 to 240 psi,220 to 260 psi,240 to 280 psi,260 to 300 psi,A,Imbaness tama!,anak ng elements mali!
+35,Machine Design,Belts and Chains,The density of a balata belt is,0. 031 lb/in3,0. 042 lb/in3,0. 051 lb/in3,0. 061 lb/in3,B,Imbaness tama!,anak ng elements mali!
+36,Machine Design,Belts and Chains,"In the selection of the proper belt, it is not considered good practice to use single-ply leather belts more than _________ wide.",6 in.,7 in.,8 in.,9 in.,C,Imbaness tama!,anak ng elements mali!
+37,Machine Design,Belts and Chains,"According to the Goodrich company, the permissible net belt pull is ______________ that gives a simple means for quick estimation.",13.75 lb/ply per inch of width,15.75 lb/ply per inch of width,16.75 lb/ply per inch of width,17.75 lb/ply per inch of width,A,Imbaness tama!,anak ng elements mali!
+38,Machine Design,Belts and Chains,Which type of chain is used in motorcycle?,Bush roller,Pintle,Silent,None of the above,A,Imbaness tama!,anak ng elements mali!
+39,Machine Design,Belts and Chains,The minimum number of teeth on the smaller sprocket for low speeds is,12,14,16,18,A,Imbaness tama!,anak ng elements mali!
+40,Machine Design,Belts and Chains,The minimum number of teeth on the smaller sprocket for moderate speeds is,15,17,19,21,B,Imbaness tama!,anak ng elements mali!
+41,Machine Design,Belts and Chains,The minimum number of teeth on the smaller sprocket for high speeds is,19,21,23,25,B,Imbaness tama!,anak ng elements mali!
+42,Machine Design,Belts and Chains,"For maximum quietness, use sprockets with _________ or more teeth.",21,23,25,27,D,Imbaness tama!,anak ng elements mali!
+43,Machine Design,Belts and Chains,For the average application a center distance equivalent to _________ pitches of chain represents good practice.,10 to 20,20 to 30,30 to 50,40 to 60,C,Imbaness tama!,anak ng elements mali!
+44,Machine Design,Belts and Chains,The tension ratio of flat belt is,2,3,4,5,B,Imbaness tama!,anak ng elements mali!
+45,Machine Design,Belts and Chains,The tension ratio of V-belt is,2,3,4,5,D,Imbaness tama!,anak ng elements mali!
+46,Machine Design,Belts and Chains,Balata belt is about ________ stronger than rubber.,10%,15%,20%,25%,D,Imbaness tama!,anak ng elements mali!
+47,Machine Design,Belts and Chains,The coefficient of friction between the belt and pulley for leather belt running on steel pulley is,0.1,0.2,0.3,0.5,C,Imbaness tama!,anak ng elements mali!
+48,Machine Design,Belts and Chains,The capacity of a crossed belt should be reduced to _______ that of an open belt.,25%,50%,60%,75%,D,Imbaness tama!,anak ng elements mali!
+49,Machine Design,Belts and Chains,What is the usual factor of safety used with leather belt?,3,5,7,10,D,Imbaness tama!,anak ng elements mali!
+50,Machine Design,Belts and Chains,In practice it is found that arcs less than ______ require high belt tensions.,1550,1650,1750,1800,B,Imbaness tama!,anak ng elements mali!

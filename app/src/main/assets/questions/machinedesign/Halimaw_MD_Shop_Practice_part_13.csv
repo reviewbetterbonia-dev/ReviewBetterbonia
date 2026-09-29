@@ -1,0 +1,34 @@
+id,subject,category,question,choice_a,choice_b,choice_c,choice_d,answer,correct_feedback,incorrect_feedback
+1,Machine Design,Shop Practices 13,The recommended value of the rake angle for machining aluminum with cutting tools made up of cemented carbide tool.,50,100,150,250,C,Imbaness Tama!,Anak ng Elements Mali!
+2,Machine Design,Shop Practices 13,Laser beam machining process is used to machine,Thicker materials,Thinner materials,Heavier materials,Stronger materials,B,Imbaness Tama!,Anak ng Elements Mali!
+3,Machine Design,Shop Practices 13,The size of abrasive grains in abrasive a jet machining varies from,60 to 100 microns,10 to 50 microns,1 to 5 microns,20 to 40 microns,B,Imbaness Tama!,Anak ng Elements Mali!
+4,Machine Design,Shop Practices 13,"In collect, the included angle of taper is usually",100,200,300,400,C,Imbaness Tama!,Anak ng Elements Mali!
+5,Machine Design,Shop Practices 13,Straight fluted drill are used to drill_____ materials.,Soft,Hard,Thin,Thick,A,Imbaness Tama!,Anak ng Elements Mali!
+6,Machine Design,Shop Practices 13,Twist drills are usually considered suitable machining holed having a less than,Two times their diameter,Five times their diameter,Ten times their diameter,Twenty times their diameter,B,Imbaness Tama!,Anak ng Elements Mali!
+7,Machine Design,Shop Practices 13,A hard grinding wheel is suitable for grinding,Hard materials,Soft materials,Both materials,None of these,B,Imbaness Tama!,Anak ng Elements Mali!
+8,Machine Design,Shop Practices 13,The relative motion of work piece in planning is,Rotarty,Translator,Rotary and translatory,None of these,B,Imbaness Tama!,Anak ng Elements Mali!
+9,Machine Design,Shop Practices 13,The accuracy obtained by grinding process can be the order of,0.25 mm,0.025 mm,0.0025 mm,0.00025 mm,D,Imbaness Tama!,Anak ng Elements Mali!
+10,Machine Design,Shop Practices 13,"In quick return mechanism of shaping machine, the ram stroke length is proportional to",Slotter arm length,Crank length,Ram length,None of these,B,Imbaness Tama!,Anak ng Elements Mali!
+11,Machine Design,Shop Practices 13,The usual ratio of forward and return stroke in quick return mechanism of shaping machine is,3:02,3:01,3:04,3:05,A,Imbaness Tama!,Anak ng Elements Mali!
+12,Machine Design,Shop Practices 13,The amount of metal removed by honing process is less than,0.125 mm,0.225 mm,0.325 mm,0.425 mm,A,Imbaness Tama!,Anak ng Elements Mali!
+13,Machine Design,Shop Practices 13,In E.C.M. process normal current requirement is,100 amps/cm2 of work piece area,200 amps/cm2 of work piece area,500 amps/cm2 of work piece area,800 amps/cm2 of work piece area,D,Imbaness Tama!,Anak ng Elements Mali!
+14,Machine Design,Shop Practices 13,The voltage applied between tool (cathode) and work piece (anode) in E.C.M. process is,30-50 V,60-90 V,3-20 V,None of these,C,Imbaness Tama!,Anak ng Elements Mali!
+15,Machine Design,Shop Practices 13,The diameter (D)of a plain milling cutter is approximately related to arbor diameter (d) as,D = 1.5d to 2d,D = 2.5d to 3d,D = 4.5d to6d,D = 5.5d to 8d,B,Imbaness Tama!,Anak ng Elements Mali!
+16,Machine Design,Shop Practices 13,The type and number of bearings to be used for spindles of machine tool depend on the,Type of spindle,Type of machine tool,Load on the bearing,None of the above,C,Imbaness Tama!,Anak ng Elements Mali!
+17,Machine Design,Shop Practices 13,H.S.S. cutting tools are generally provided with,Positive rake angle,Negative rake angle,Positive cutting edge angle,Negative cutting edge angle,A,Imbaness Tama!,Anak ng Elements Mali!
+18,Machine Design,Shop Practices 13,Cemented carbide and ceramic cutting tools are usually provided with,Positive rake angle,Negative rake angle,Positive cutting edge angle,Negative cutting edge angle,B,Imbaness Tama!,Anak ng Elements Mali!
+19,Machine Design,Shop Practices 13,Coefficient of friction in anti-friction guide ways is,High,Low,Medium,None of these,B,Imbaness Tama!,Anak ng Elements Mali!
+20,Machine Design,Shop Practices 13,Nitriding process of surface treatment for steel tools is used for tools taking,Light cuts,Heavy cuts,Medium cuts,None of the above,A,Imbaness Tama!,Anak ng Elements Mali!
+21,Machine Design,Shop Practices 13,At very low cutting speed tool wear is due to,Plowing action,Transfer,Material,Temperature,A,Imbaness Tama!,Anak ng Elements Mali!
+22,Machine Design,Shop Practices 13,"Are mixtures of lard, cotton seed or rape-seed oils and mineral oils.",Cutting oils,Cooling oils,Heating oils,Emulsions,B,Imbaness Tama!,Anak ng Elements Mali!
+23,Machine Design,Shop Practices 13,How is aluminum work piece marked?,Ball pen,Lead pencil,Crayon,Chalk,B,Imbaness Tama!,Anak ng Elements Mali!
+24,Machine Design,Shop Practices 13,How is the height of a bench vice adjusted,By using a wooden plate form,By using a wooden packing piece under the vice base,By using a vice adjusting fixture,All of the above,D,Imbaness Tama!,Anak ng Elements Mali!
+25,Machine Design,Shop Practices 13,What is the material of hacksaw blade?,High carbon steel,High speed steel,Low tungsten steel,Any of the above,D,Imbaness Tama!,Anak ng Elements Mali!
+26,Machine Design,Shop Practices 13,Why hacksaw blade teeth get dull?,Coarse pitched blade is used on hard metal,Too much speed and pressure,Pressure is not released in return stroke,Any of the above,D,Imbaness Tama!,Anak ng Elements Mali!
+27,Machine Design,Shop Practices 13,Files are classified according to,Size or length,Shape,Grade and cut,All of the above,D,Imbaness Tama!,Anak ng Elements Mali!
+28,Machine Design,Shop Practices 13,How are rivets made?,Cold pressing,Rolling,Drawing,None of these,A,Imbaness Tama!,Anak ng Elements Mali!
+29,Machine Design,Shop Practices 13,It is a case hardening process in which work piece is heated in a steam of ammonia at 5500C,Quenching,Annealing,Tempering,Nitriding,D,Imbaness Tama!,Anak ng Elements Mali!
+30,Machine Design,Shop Practices 13,It is used to measure gap between two mating parts to set the job and machine in alignment and to measure clearance of piston and cylinder in automobiles.,Compound gauge,Feeler gauge,Inspection gauge,Workshop gauge,B,Imbaness Tama!,Anak ng Elements Mali!
+31,Machine Design,Shop Practices 13,The movement of belt upon the face of rim or outer surface of the driver and driven pulleys within the area of arc of contact,Slip,Creep,Interface,Crowning,B,Imbaness Tama!,Anak ng Elements Mali!
+32,Machine Design,Shop Practices 13,The temperature at which an oil gives off sufficient vapor without actually setting fire to the oil.,Flash point,Fire point,Pour point,Cloud point,A,Imbaness Tama!,Anak ng Elements Mali!
+33,Machine Design,Shop Practices 13,It is the process by which the length of a work piece is reduced,Drawing,Drifting,Jumping,Upsetting,C,Imbaness Tama!,Anak ng Elements Mali!
