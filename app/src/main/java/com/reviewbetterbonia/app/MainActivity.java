@@ -4,10 +4,14 @@ import android.app.*;
 import android.content.Context;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
-import android.os.Bundle;import android.graphics.Color;
+import android.os.Bundle;
+import android.graphics.Color;
 import android.view.View;
-
-import androidx.annotation.NonNull;import androidx.fragment.app.Fragment;import androidx.fragment.app.FragmentManager;import androidx.fragment.app.FragmentActivity;
+import com.reviewbetterbonia.app.update.UpdateManager;
+import androidx.annotation.NonNull;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentActivity;
 import androidx.fragment.app.FragmentTransaction;
 
 import com.reviewbetterbonia.app.data.*;import com.reviewbetterbonia.app.model.*;import com.reviewbetterbonia.app.ui.auth.WelcomeFragment;import com.reviewbetterbonia.app.ui.home.HomeFragment;
@@ -18,6 +22,7 @@ import java.util.List;
 import java.util.Locale;
 
 public class MainActivity extends FragmentActivity {
+    private UpdateManager updateManager;
     public QuizRepository quiz; public LocalStore local; public FirebaseRepository firebase; public UserProfile user=new UserProfile(); public int rating=0; public String rank="Freshman";
     public List<Question> lastSession;
     public List<Integer> lastUserAnswers;
@@ -32,14 +37,65 @@ public class MainActivity extends FragmentActivity {
         return false;
     }
     public boolean isOffline(){return local.isOfflineMode() || !firebase.online || "local".equals(user.uid) || !isNetworkConnected();}
-    @Override public void onCreate(Bundle b){super.onCreate(b);getWindow().setStatusBarColor(Color.rgb(248,249,252));getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR);setContentView(R.layout.activity_main);quiz=new QuizRepository(this);local=new LocalStore(this);firebase=new FirebaseRepository(this);restore();
-        if(firebase.online && local.loggedIn()){
+    @Override
+    public void onCreate(Bundle b) {
+        super.onCreate(b);
+
+        getWindow().setStatusBarColor(
+                Color.rgb(248,249,252)
+        );
+
+        getWindow()
+                .getDecorView()
+                .setSystemUiVisibility(
+                        View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR
+                );
+
+        setContentView(R.layout.activity_main);
+
+        quiz = new QuizRepository(this);
+        local = new LocalStore(this);
+        firebase = new FirebaseRepository(this);
+
+        restore();
+
+        /*
+         * Existing Firebase question synchronization.
+         * DO NOT REMOVE THIS.
+         */
+        if (firebase.online && local.loggedIn()) {
+
             syncOfflineResultsToOnline();
-            firebase.loadActiveQuestions(qs->quiz.mergeRemoteQuestions(qs));
-        } else if(firebase.online){
-            firebase.loadActiveQuestions(qs->quiz.mergeRemoteQuestions(qs));
+
+            firebase.loadActiveQuestions(
+                    qs -> quiz.mergeRemoteQuestions(qs)
+            );
+
+        } else if (firebase.online) {
+
+            firebase.loadActiveQuestions(
+                    qs -> quiz.mergeRemoteQuestions(qs)
+            );
         }
-        if(b==null){if(user.uid.isEmpty())showWelcome(false);else showHome(false);}}
+
+        /*
+         * NEW: GitHub app updater.
+         */
+        updateManager = new UpdateManager(this);
+
+        updateManager.resumePendingInstall();
+
+        updateManager.checkAutomatically();
+
+        if (b == null) {
+
+            if (user.uid.isEmpty()) {
+                showWelcome(false);
+            } else {
+                showHome(false);
+            }
+        }
+    }
     private void restore(){if(!local.loggedIn())return;user.uid=local.prefs().getString("uid","");user.username=local.prefs().getString("username","Player");user.email=local.prefs().getString("email","");user.role=local.prefs().getString("role","student");rating=local.prefs().getInt("ranked_rating",0);rank=rankForRating(rating);}
     public void showWelcome(boolean back){navigate(new WelcomeFragment(),back);}
     public void showHome(boolean back){navigate(new HomeFragment(),back);}
@@ -82,4 +138,23 @@ public class MainActivity extends FragmentActivity {
             new AlertDialog.Builder(this).setTitle("Exit Review Betterbonia?").setMessage("Are you sure you want to close the app?").setNegativeButton("Cancel",null).setPositiveButton("Exit",(d,w)->finish()).show();
         }else super.onBackPressed();
     }
+    @Override
+    protected void onResume() {
+
+        super.onResume();
+
+        if (updateManager != null) {
+            updateManager.resumePendingInstall();
+        }
+    }
+    @Override
+    protected void onDestroy() {
+
+        if (updateManager != null) {
+            updateManager.shutdown();
+        }
+
+        super.onDestroy();
+    }
 }
+
