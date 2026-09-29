@@ -197,10 +197,32 @@ public class QuizRepository {
     }
 
     public List<Question> pool(String subject, String category) {
+        return pool(subject, category, "");
+    }
+
+    public List<Question> pool(String subject, String category, String searchQuery) {
         List<Question> out = new ArrayList<>();
+        String query = searchQuery == null ? "" : searchQuery.toLowerCase(Locale.US).trim();
         for (Question q : questions) {
             if (!"All Subjects".equals(subject) && !subject.equals(q.subject)) continue;
             if (!"All Categories".equals(category) && !category.equals(q.category)) continue;
+            if (!query.isEmpty()) {
+                boolean match = (q.html != null && q.html.toLowerCase(Locale.US).contains(query)) ||
+                                (q.subject != null && q.subject.toLowerCase(Locale.US).contains(query)) ||
+                                (q.category != null && q.category.toLowerCase(Locale.US).contains(query)) ||
+                                (q.correctFeedback != null && q.correctFeedback.toLowerCase(Locale.US).contains(query)) ||
+                                (q.incorrectFeedback != null && q.incorrectFeedback.toLowerCase(Locale.US).contains(query)) ||
+                                (q.id != null && q.id.toLowerCase(Locale.US).contains(query));
+                if (!match) {
+                    for (Answer a : q.answers) {
+                        if (a.html != null && a.html.toLowerCase(Locale.US).contains(query)) {
+                            match = true;
+                            break;
+                        }
+                    }
+                }
+                if (!match) continue;
+            }
             out.add(q);
         }
         return out;

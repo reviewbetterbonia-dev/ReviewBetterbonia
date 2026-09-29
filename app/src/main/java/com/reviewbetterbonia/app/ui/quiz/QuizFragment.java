@@ -15,7 +15,7 @@ import com.reviewbetterbonia.app.ui.*;
 import java.util.*;
 
 public class QuizFragment extends BaseFragment{
- private String subject,category;
+ private String subject,category,searchQuery;
  private int count,secondsPer;
  private boolean timed,ranked;
  private List<Question> session;
@@ -32,10 +32,15 @@ public class QuizFragment extends BaseFragment{
  private final Map<String, int[]> subjectCorrectTotal = new HashMap<>();
 
  public static QuizFragment newCasual(String s,String c,int n,boolean t,int sec){
+  return newCasual(s, c, "", n, t, sec);
+ }
+
+ public static QuizFragment newCasual(String s,String c,String query,int n,boolean t,int sec){
   QuizFragment f=new QuizFragment();
   Bundle b=new Bundle();
   b.putString("s",s);
   b.putString("c",c);
+  b.putString("query",query);
   b.putInt("n",n);
   b.putBoolean("t",t);
   b.putInt("sec",sec);
@@ -57,10 +62,11 @@ public class QuizFragment extends BaseFragment{
   ranked=a!=null&&a.getBoolean("rank");
   subject=ranked?"All Subjects":a.getString("s","All Subjects");
   category=ranked?"Mixed":a.getString("c","All Categories");
+  searchQuery=a.getString("query","");
   count=ranked?30:a.getInt("n",10);
   timed=ranked||a.getBoolean("t",false);
   secondsPer=ranked?app().secondsForRank():a.getInt("sec",30);
-  List<Question> pool=new ArrayList<>(ranked?app().quiz.questions:app().quiz.pool(subject,category));
+  List<Question> pool=new ArrayList<>(ranked?app().quiz.questions:app().quiz.pool(subject,category,searchQuery));
   Collections.shuffle(pool);
   if(pool.isEmpty()) throw new IllegalStateException("No questions match the selected quiz.");
   count=Math.min(count,pool.size());
@@ -99,7 +105,7 @@ public class QuizFragment extends BaseFragment{
   Ui.add(p,progressBar,Ui.dp(x,7));
   
   LinearLayout card=Ui.card(x);
-  card.addView(Ui.label(x,subject+"  •  "+category));
+  card.addView(Ui.label(x,subject+"  •  "+category+(searchQuery!=null&&!searchQuery.isEmpty()?"  •  Search: \""+searchQuery+"\"":"")));
   questionTextView=Ui.text(x,"",20,true);
   ScrollView qScroll=new ScrollView(x);
   qScroll.addView(questionTextView);
