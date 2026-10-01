@@ -34,7 +34,7 @@ public final class UpdateManager {
     private static final String PREFS = "app_updates";
     private static final String KEY_LAST_CHECK = "last_check_ms";
     private static final String KEY_PENDING_APK = "pending_apk";
-
+    private static final String KEY_INSTALLER_OPENED = "installer_opened";
     // Check GitHub at most once every 12 hours.
     private static final long CHECK_INTERVAL_MS = 0L;
 
@@ -75,6 +75,22 @@ public final class UpdateManager {
 
     public void resumePendingInstall() {
 
+        SharedPreferences prefs =
+                activity.getSharedPreferences(
+                        PREFS,
+                        Context.MODE_PRIVATE
+                );
+
+        boolean waitingForPermission =
+                prefs.getBoolean(
+                        "waiting_for_install_permission",
+                        false
+                );
+
+        if (!waitingForPermission) {
+            return;
+        }
+
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O
                 && !activity.getPackageManager()
                 .canRequestPackageInstalls()) {
@@ -82,10 +98,10 @@ public final class UpdateManager {
         }
 
         String path =
-                activity.getSharedPreferences(
-                        PREFS,
-                        Context.MODE_PRIVATE
-                ).getString(KEY_PENDING_APK, "");
+                prefs.getString(
+                        KEY_PENDING_APK,
+                        ""
+                );
 
         if (path == null || path.isEmpty()) {
             return;
@@ -94,8 +110,18 @@ public final class UpdateManager {
         File apk = new File(path);
 
         if (apk.isFile()) {
+
+            prefs.edit()
+                    .putBoolean(
+                            "waiting_for_install_permission",
+                            false
+                    )
+                    .apply();
+
             installApk(apk);
+
         } else {
+
             clearPendingApk();
         }
     }
@@ -553,8 +579,6 @@ public final class UpdateManager {
             return;
         }
 
-        clearPendingApk();
-
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O
                 && !activity.getPackageManager()
                 .canRequestPackageInstalls()) {
@@ -586,13 +610,14 @@ public final class UpdateManager {
                                                 )
                                         );
 
-                                activity.startActivity(
-                                        settings
-                                );
+                                activity.startActivity(settings);
                             }
                     )
                     .show();
 
+            // IMPORTANT:
+            // Do NOT delete the APK here.
+            // We need it when the user returns from Settings.
             return;
         }
 
@@ -619,6 +644,23 @@ public final class UpdateManager {
             intent.addFlags(
                     Intent.FLAG_GRANT_READ_URI_PERMISSION
             );
+
+            /*
+             * Tell resumePendingInstall() that the Android installer
+             * has been opened. The APK will be deleted only after the
+             * user returns to our app.
+             */
+            activity
+                    .getSharedPreferences(
+                            PREFS,
+                            Context.MODE_PRIVATE
+                    )
+                    .edit()
+                    .putBoolean(
+                            KEY_INSTALLER_OPENED,
+                            true
+                    )
+                    .apply();
 
             activity.startActivity(intent);
 
