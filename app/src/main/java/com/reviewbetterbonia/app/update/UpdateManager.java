@@ -36,8 +36,7 @@ public final class UpdateManager {
     private static final String KEY_PENDING_APK = "pending_apk";
 
     // Check GitHub at most once every 12 hours.
-    private static final long CHECK_INTERVAL_MS =
-            12L * 60L * 60L * 1000L;
+    private static final long CHECK_INTERVAL_MS = 0L;
 
     private final Activity activity;
 
