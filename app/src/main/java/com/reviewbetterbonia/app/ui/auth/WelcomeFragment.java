@@ -29,7 +29,7 @@ public class WelcomeFragment extends BaseFragment {
      TextView brand = Ui.text(x, "REVIEW <b>BETTERBONIA</b>", 34, true);
      brand.setGravity(Gravity.CENTER);
      Ui.add(p, brand, Ui.dp(x, 85));
-     TextView sub = Ui.muted(x, "Study like a kid with big dreams", 15);
+     TextView sub = Ui.muted(x, "MAMAAAAA!!!", 15);
      sub.setGravity(Gravity.CENTER);
      Ui.add(p, sub, Ui.dp(x, 48));
 
