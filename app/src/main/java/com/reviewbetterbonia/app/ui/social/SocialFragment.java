@@ -14,6 +14,7 @@ import java.util.*;
 
 public class SocialFragment extends BaseFragment {
     private LinearLayout requestBox, friendBox, allUsersContainer;
+    private ScrollView allUsersScrollView;
     private EditText query;
     private final Set<String> currentFriendUids = new HashSet<>();
     private List<FirebaseRepository.UserRow> allUsersList = new ArrayList<>();
@@ -65,6 +66,21 @@ public class SocialFragment extends BaseFragment {
             content.addView(Ui.gap(x, 12));
 
             allUsersContainer = Ui.card(x);
+            allUsersScrollView = new ScrollView(x);
+            allUsersScrollView.setVerticalScrollBarEnabled(true);
+            allUsersScrollView.setOnTouchListener((v, event) -> {
+                int action = event.getAction();
+                if (action == MotionEvent.ACTION_DOWN || action == MotionEvent.ACTION_MOVE) {
+                    v.getParent().requestDisallowInterceptTouchEvent(true);
+                } else if (action == MotionEvent.ACTION_UP || action == MotionEvent.ACTION_CANCEL) {
+                    v.getParent().requestDisallowInterceptTouchEvent(false);
+                    if (action == MotionEvent.ACTION_UP) {
+                        v.performClick();
+                    }
+                }
+                return false;
+            });
+            allUsersContainer.addView(allUsersScrollView, new LinearLayout.LayoutParams(-1, -1));
             content.addView(allUsersContainer);
             content.addView(Ui.gap(x, 16));
 
@@ -107,8 +123,12 @@ public class SocialFragment extends BaseFragment {
     }
 
     private void renderAllUsers(Context x, String term) {
-        if (allUsersContainer == null) return;
-        allUsersContainer.removeAllViews();
+        if (allUsersContainer == null || allUsersScrollView == null) return;
+        allUsersScrollView.removeAllViews();
+
+        LinearLayout usersLayout = new LinearLayout(x);
+        usersLayout.setOrientation(LinearLayout.VERTICAL);
+
         String q = term.toLowerCase(Locale.US);
 
         List<FirebaseRepository.UserRow> filtered = new ArrayList<>();
@@ -119,7 +139,9 @@ public class SocialFragment extends BaseFragment {
         }
 
         if (filtered.isEmpty()) {
-            allUsersContainer.addView(Ui.muted(x, "No users found.", 13));
+            usersLayout.addView(Ui.muted(x, "No users found.", 13));
+            allUsersScrollView.addView(usersLayout);
+            allUsersContainer.setLayoutParams(new LinearLayout.LayoutParams(-1, -2));
             return;
         }
 
@@ -188,8 +210,16 @@ public class SocialFragment extends BaseFragment {
             }
 
             row.addView(btnRow);
-            allUsersContainer.addView(row);
-            allUsersContainer.addView(Ui.gap(x, 10));
+            usersLayout.addView(row);
+            usersLayout.addView(Ui.gap(x, 10));
+        }
+
+        allUsersScrollView.addView(usersLayout);
+
+        if (filtered.size() > 3) {
+            allUsersContainer.setLayoutParams(new LinearLayout.LayoutParams(-1, Ui.dp(x, 320)));
+        } else {
+            allUsersContainer.setLayoutParams(new LinearLayout.LayoutParams(-1, -2));
         }
     }
 

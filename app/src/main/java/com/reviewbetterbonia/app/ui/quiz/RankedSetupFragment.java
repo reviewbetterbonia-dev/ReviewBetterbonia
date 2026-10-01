@@ -82,7 +82,7 @@ public class RankedSetupFragment extends BaseFragment {
         rankCarousel.post(() -> updateItemAlphas(rankCarousel));
 
         LinearLayout graphCard = Ui.card(x);
-        graphCard.addView(Ui.text(x, "📈 Rating Progression", 18, true));
+        graphCard.addView(Ui.text(x, "Rating Progression", 18, true));
         graphCard.addView(Ui.muted(x, "Your rating points history over time.", 13));
         graphCard.addView(Ui.gap(x, 8));
 
@@ -93,7 +93,7 @@ public class RankedSetupFragment extends BaseFragment {
         graphCard.addView(hScroll, new LinearLayout.LayoutParams(-1, Ui.dp(x, 220)));
         p.addView(graphCard);
 
-        Button start = Ui.button(x, "Start ranked match", true);
+        Button start = Ui.button(x, "Start a rated quiz", true);
         start.setOnClickListener(v -> {
             if (app().quiz.questions.size() < 30) {
                 Toast.makeText(x, "At least 30 questions are required.", Toast.LENGTH_SHORT).show();

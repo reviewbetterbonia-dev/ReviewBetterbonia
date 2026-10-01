@@ -78,14 +78,11 @@ public class MainActivity extends FragmentActivity {
             );
         }
 
-        /*
-         * NEW: GitHub app updater.
-         */
-        updateManager = new UpdateManager(this);
-
-        updateManager.resumePendingInstall();
-
-        updateManager.checkAutomatically();
+        if (!BuildConfig.DEBUG) {
+            updateManager = new UpdateManager(this);
+            updateManager.resumePendingInstall();
+            updateManager.checkAutomatically();
+        }
 
         if (b == null) {
 
@@ -140,10 +137,9 @@ public class MainActivity extends FragmentActivity {
     }
     @Override
     protected void onResume() {
-
         super.onResume();
 
-        if (updateManager != null) {
+        if (!BuildConfig.DEBUG && updateManager != null) {
             updateManager.resumePendingInstall();
         }
     }
