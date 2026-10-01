@@ -27,6 +27,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+import android.content.pm.PackageInfo;
 
 public final class UpdateManager {
 
@@ -480,7 +481,27 @@ public final class UpdateManager {
 
                     output.flush();
                 }
+                PackageInfo packageInfo =
+                        activity.getPackageManager()
+                                .getPackageArchiveInfo(
+                                        apk.getAbsolutePath(),
+                                        0
+                                );
 
+                if (packageInfo == null) {
+                    throw new IllegalStateException(
+                            "Downloaded file is not a valid APK."
+                    );
+                }
+
+                if (!activity.getPackageName()
+                        .equals(packageInfo.packageName)) {
+
+                    throw new IllegalStateException(
+                            "Wrong APK package: "
+                                    + packageInfo.packageName
+                    );
+                }
                 activity
                         .getSharedPreferences(
                                 PREFS,
