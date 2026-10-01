@@ -532,6 +532,8 @@ public final class UpdateManager {
             return;
         }
 
+        clearPendingApk();
+
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O
                 && !activity.getPackageManager()
                 .canRequestPackageInstalls()) {
