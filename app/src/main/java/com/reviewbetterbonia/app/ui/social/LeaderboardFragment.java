@@ -232,6 +232,7 @@ public class LeaderboardFragment extends BaseFragment {
         Map<String, Player> map = new LinkedHashMap<>();
         String uid = app().user.uid == null ? "local" : app().user.uid;
         for (QuizResult r : app().local.results()) {
+            if (r.isPrivateResult()) continue;
             String subject = displaySubject(r.subject);
             if (!isTrackedSubject(subject)) continue;
             Player p = map.get(uid);

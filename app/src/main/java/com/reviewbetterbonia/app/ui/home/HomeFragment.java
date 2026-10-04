@@ -8,6 +8,7 @@ import android.widget.*;
 import androidx.annotation.Nullable;
 import com.reviewbetterbonia.app.MainActivity;
 import com.reviewbetterbonia.app.ui.*;
+import com.reviewbetterbonia.app.ui.admin.AddQuestionFragment;
 import com.reviewbetterbonia.app.ui.admin.AdminFragment;
 import com.reviewbetterbonia.app.ui.quiz.CasualSetupFragment;
 import com.reviewbetterbonia.app.ui.quiz.RankedSetupFragment;
@@ -93,18 +94,20 @@ public class HomeFragment extends BaseFragment{
      p.addView(rank);
      Ui.add(p,Ui.gap(x,10),Ui.dp(x,10));
 
-     LinearLayout casual=Ui.card(x);
-     casual.addView(Ui.text(x,"Casual Quiz",20,true));
-     casual.addView(Ui.muted(x,"Pick a subject, a specific category, question count, and timing.",14));
-     Button cb=Ui.button(x,"Choose a quiz",false);
-     cb.setOnClickListener(v->a.navigate(new CasualSetupFragment(),true));
-     setButtonState(cb, true);
-     Ui.add(casual,cb,Ui.dp(x,50));
-     p.addView(casual);
-     Ui.add(p,Ui.gap(x,12),Ui.dp(x,12));
+
 
      LinearLayout grid=new LinearLayout(x);
      grid.setOrientation(LinearLayout.HORIZONTAL);
+     Button cb = Ui.button(x, "Casual Quiz", false);
+     Button addQBtn = Ui.button(x, "Add Questions", false);
+
+     cb.setOnClickListener(v -> a.navigate(new CasualSetupFragment(), true));
+     addQBtn.setOnClickListener(v -> a.navigate(new AddQuestionFragment(), true));
+
+     setButtonState(addQBtn, !offline);
+
+     LinearLayout grid2=new LinearLayout(x);
+     grid2.setOrientation(LinearLayout.HORIZONTAL);
      Button lbBtn = Ui.button(x, "Leaderboards", false);
      Button socialBtn = Ui.button(x, "Social", false);
 
@@ -114,10 +117,17 @@ public class HomeFragment extends BaseFragment{
      setButtonState(lbBtn, !offline);
      setButtonState(socialBtn, !offline);
 
-     grid.addView(lbBtn, new LinearLayout.LayoutParams(0, Ui.dp(x, 52), 1));
+     grid.addView(cb, new LinearLayout.LayoutParams(0, Ui.dp(x, 52), 1));
      grid.addView(new Space(x), new LinearLayout.LayoutParams(Ui.dp(x, 8), 1));
-     grid.addView(socialBtn, new LinearLayout.LayoutParams(0, Ui.dp(x, 52), 1));
+     grid.addView(addQBtn, new LinearLayout.LayoutParams(0, Ui.dp(x, 52), 1));
      p.addView(grid);
+
+     Ui.add(p,Ui.gap(x,10),Ui.dp(x,10));
+
+     grid2.addView(lbBtn, new LinearLayout.LayoutParams(0, Ui.dp(x, 52), 1));
+     grid2.addView(new Space(x), new LinearLayout.LayoutParams(Ui.dp(x, 8), 1));
+     grid2.addView(socialBtn, new LinearLayout.LayoutParams(0, Ui.dp(x, 52), 1));
+     p.addView(grid2);
 
      if(a.isAdmin()){
       Ui.add(p,Ui.gap(x,10),Ui.dp(x,10));

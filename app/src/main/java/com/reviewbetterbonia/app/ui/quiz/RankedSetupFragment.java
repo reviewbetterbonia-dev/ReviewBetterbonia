@@ -21,7 +21,6 @@ public class RankedSetupFragment extends BaseFragment {
         LinearLayout bottomBar = page.bottomBar;
 
         Ui.add(p, Ui.heading(x, "Rated Quiz"), Ui.dp(x, 42));
-        Ui.add(p, Ui.muted(x, "30 mixed-subject questions. Your rank controls the timer and rating changes.", 14), Ui.dp(x, 24));
 
         LinearLayout card = Ui.card(x);
 
@@ -81,6 +80,53 @@ public class RankedSetupFragment extends BaseFragment {
 
         rankCarousel.post(() -> updateItemAlphas(rankCarousel));
 
+        LinearLayout setupCard = Ui.card(x);
+        setupCard.addView(Ui.text(x, "Rated Quiz Setup", 18, true));
+        setupCard.addView(Ui.muted(x, "Customize your subject, category, and question count.", 13));
+        setupCard.addView(Ui.gap(x, 8));
+
+        List<String> ratedSubjects = app().quiz.publicSubjects();
+        TextView subjectLabel = Ui.label(x, "Subject");
+        setupCard.addView(subjectLabel);
+        Spinner subjectSpinner = new Spinner(x);
+        ArrayAdapter<String> sa = new ArrayAdapter<>(x, android.R.layout.simple_spinner_dropdown_item, ratedSubjects);
+        subjectSpinner.setAdapter(sa);
+        LinearLayout.LayoutParams spinLp = new LinearLayout.LayoutParams(-1, Ui.dp(x, 50));
+        spinLp.setMargins(0, Ui.dp(x, 4), 0, Ui.dp(x, 12));
+        setupCard.addView(subjectSpinner, spinLp);
+
+        TextView categoryLabel = Ui.label(x, "Category");
+        setupCard.addView(categoryLabel);
+        Spinner categorySpinner = new Spinner(x);
+        LinearLayout.LayoutParams catLp = new LinearLayout.LayoutParams(-1, Ui.dp(x, 50));
+        catLp.setMargins(0, Ui.dp(x, 4), 0, Ui.dp(x, 12));
+        setupCard.addView(categorySpinner, catLp);
+
+        subjectSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener(){
+            public void onNothingSelected(AdapterView<?> parent){}
+            public void onItemSelected(AdapterView<?> parent, View v, int pos, long id){
+                if (pos < 0 || pos >= ratedSubjects.size()) return;
+                String s = ratedSubjects.get(pos);
+                List<String> cats = new ArrayList<>();
+                cats.add("All Categories");
+                cats.addAll("All Subjects".equals(s) ? app().quiz.publicCategories() : app().quiz.publicCategoriesFor(s));
+                categorySpinner.setAdapter(new ArrayAdapter<>(x, android.R.layout.simple_spinner_dropdown_item, cats));
+            }
+        });
+
+        TextView countLabel = Ui.label(x, "Number of Questions");
+        setupCard.addView(countLabel);
+        Spinner countSpinner = new Spinner(x);
+        String[] counts = {"10", "20", "30", "40", "50"};
+        countSpinner.setAdapter(new ArrayAdapter<>(x, android.R.layout.simple_spinner_dropdown_item, counts));
+        countSpinner.setSelection(2);
+        LinearLayout.LayoutParams countLp = new LinearLayout.LayoutParams(-1, Ui.dp(x, 50));
+        countLp.setMargins(0, Ui.dp(x, 4), 0, Ui.dp(x, 12));
+        setupCard.addView(countSpinner, countLp);
+
+        p.addView(setupCard);
+        Ui.add(p, Ui.gap(x, 12), Ui.dp(x, 12));
+
         LinearLayout graphCard = Ui.card(x);
         graphCard.addView(Ui.text(x, "Rating Progression", 18, true));
         graphCard.addView(Ui.muted(x, "Your rating points history over time.", 13));
@@ -95,11 +141,23 @@ public class RankedSetupFragment extends BaseFragment {
 
         Button start = Ui.button(x, "Start a rated quiz", true);
         start.setOnClickListener(v -> {
-            if (app().quiz.questions.size() < 30) {
-                Toast.makeText(x, "At least 30 questions are required.", Toast.LENGTH_SHORT).show();
+            String selectedSubject = subjectSpinner.getSelectedItem() != null ? subjectSpinner.getSelectedItem().toString() : "All Subjects";
+            String selectedCategory = categorySpinner.getSelectedItem() != null ? categorySpinner.getSelectedItem().toString() : "All Categories";
+            int selectedCount = 30;
+            try {
+                selectedCount = Integer.parseInt(countSpinner.getSelectedItem().toString());
+            } catch (Exception ignored) {}
+
+            List<Question> pool = app().quiz.pool(selectedSubject, selectedCategory);
+            if (pool.isEmpty()) {
+                Toast.makeText(x, "No questions match this selection.", Toast.LENGTH_SHORT).show();
                 return;
             }
-            app().navigate(QuizFragment.newRanked(), true);
+            if (pool.size() < selectedCount) {
+                Toast.makeText(x, "Only " + pool.size() + " questions match this selection.", Toast.LENGTH_SHORT).show();
+                return;
+            }
+            app().navigate(QuizFragment.newRanked(selectedSubject, selectedCategory, selectedCount), true);
         });
         bottomBar.addView(start, new LinearLayout.LayoutParams(-1, Ui.dp(x, 52)));
         bottomBar.addView(Ui.gap(x, 8));
@@ -207,6 +265,7 @@ public class RankedSetupFragment extends BaseFragment {
         long rankedClearedAt = app().local.rankedClearedTime();
         List<QuizResult> ranked = new ArrayList<>();
         for (QuizResult r : all) {
+            if (r.isPrivateResult()) continue;
             boolean isRanked = r.mode != null && r.mode.toLowerCase(Locale.US).contains("ranked");
             if (isRanked) {
                 if (rankedClearedAt <= 0 || r.time > rankedClearedAt) {

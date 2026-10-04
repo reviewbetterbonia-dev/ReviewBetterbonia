@@ -48,25 +48,38 @@ public class QuizFragment extends BaseFragment{
   return f;
  }
 
- public static QuizFragment newRanked(){
+ public static QuizFragment newRanked(String s, String c, int n){
   QuizFragment f=new QuizFragment();
   Bundle b=new Bundle();
   b.putBoolean("rank",true);
+  b.putString("s",s);
+  b.putString("c",c);
+  b.putInt("n",n);
   f.setArguments(b);
   return f;
+ }
+
+ public static QuizFragment newRanked(){
+  return newRanked("All Subjects", "All Categories", 30);
  }
 
  @Override public void onCreate(Bundle b){
   super.onCreate(b);
   Bundle a=getArguments();
   ranked=a!=null&&a.getBoolean("rank");
-  subject=ranked?"All Subjects":a.getString("s","All Subjects");
-  category=ranked?"Mixed":a.getString("c","All Categories");
-  searchQuery=a.getString("query","");
-  count=ranked?30:a.getInt("n",10);
-  timed=ranked||a.getBoolean("t",false);
-  secondsPer=ranked?app().secondsForRank():a.getInt("sec",30);
-  List<Question> pool=new ArrayList<>(ranked?app().quiz.questions:app().quiz.pool(subject,category,searchQuery));
+  subject=a!=null?a.getString("s","All Subjects"):"All Subjects";
+  category=a!=null?a.getString("c","All Categories"):"All Categories";
+  searchQuery=a!=null?a.getString("query",""):"";
+  int defaultCount = ranked ? 30 : 10;
+  count = a != null ? a.getInt("n", defaultCount) : defaultCount;
+  timed=ranked||(a!=null&&a.getBoolean("t",false));
+  secondsPer=ranked?app().secondsForRank():(a!=null?a.getInt("sec",30):30);
+  List<Question> rawPool=app().quiz.pool(subject,category,searchQuery);
+  List<Question> pool=new ArrayList<>();
+  for(Question q:rawPool){
+   if(ranked && q.isPrivate()) continue;
+   pool.add(q);
+  }
   Collections.shuffle(pool);
   if(pool.isEmpty()) throw new IllegalStateException("No questions match the selected quiz.");
   count=Math.min(count,pool.size());
@@ -264,28 +277,45 @@ public class QuizFragment extends BaseFragment{
   app().lastSession = session;
   app().lastUserAnswers = userAnswers;
   int sec=(int)((System.currentTimeMillis()-started)/1000);
-  QuizResult r=new QuizResult(ranked?"Ranked • "+app().rank:subject+" • "+category+" • "+count+" Questions"+(timed?" • Timed • "+secondsPer+" sec/question":" • Untimed"),score,session.size(),sec,System.currentTimeMillis(),subject,category);
-  app().local.saveResult(r);
+  QuizResult r=new QuizResult(ranked?"Ranked • "+app().rank+" • "+subject+" • "+category+" • "+count+" Questions":subject+" • "+category+" • "+count+" Questions"+(timed?" • Timed • "+secondsPer+" sec/question":" • Untimed"),score,session.size(),sec,System.currentTimeMillis(),subject,category);
 
-  if(ranked){
-   int delta=score*10-(r.total-score)*4;
-   app().rating=Math.max(0,app().rating+delta);
-   app().rank=app().rankForRating(app().rating);
-   app().local.prefs().edit().putInt("ranked_rating",app().rating).apply();
+  boolean isPrivateSession = false;
+  for(Question q : session){
+   if(q.isPrivate()){
+    isPrivateSession = true;
+    break;
+   }
   }
-  if(app().firebase.online) app().firebase.saveResult(app().user.uid,app().user.username,r,ranked,app().rating,app().rank);
+  if(r.isPrivateResult()) isPrivateSession = true;
+  r.isPrivate = isPrivateSession;
 
-  for(Map.Entry<String, int[]> entry : subjectCorrectTotal.entrySet()){
-   String subName = entry.getKey();
-   int subCorrect = entry.getValue()[0];
-   int subTotal = entry.getValue()[1];
-   if(subTotal > 0){
-    QuizResult subRes = new QuizResult("Subject Practice", subCorrect, subTotal, r.seconds, r.time, subName, r.category);
-    app().local.saveResult(subRes);
-    if(app().firebase.online){
-     app().firebase.saveResult(app().user.uid, app().user.username, subRes, false, app().rating, app().rank);
+  if(!isPrivateSession){
+   app().local.saveResult(r);
+
+   if(ranked){
+    int delta=score*10-(r.total-score)*4;
+    app().rating=Math.max(0,app().rating+delta);
+    app().rank=app().rankForRating(app().rating);
+    app().local.prefs().edit().putInt("ranked_rating",app().rating).apply();
+   }
+   if(app().firebase.online) app().firebase.saveResult(app().user.uid,app().user.username,r,ranked,app().rating,app().rank);
+
+   for(Map.Entry<String, int[]> entry : subjectCorrectTotal.entrySet()){
+    String subName = entry.getKey();
+    int subCorrect = entry.getValue()[0];
+    int subTotal = entry.getValue()[1];
+    if(subTotal > 0){
+     QuizResult subRes = new QuizResult("Subject Practice", subCorrect, subTotal, r.seconds, r.time, subName, r.category);
+     subRes.isPrivate = false;
+     app().local.saveResult(subRes);
+     if(app().firebase.online){
+      app().firebase.saveResult(app().user.uid, app().user.username, subRes, false, app().rating, app().rank);
+     }
     }
    }
+  } else {
+   r.mode = "Private Practice • " + subject;
+   app().local.saveResult(r);
   }
 
   ArrayList<String> subKeys = new ArrayList<>();

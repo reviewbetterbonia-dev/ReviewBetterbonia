@@ -4,6 +4,8 @@ import android.content.Context;
 import com.reviewbetterbonia.app.model.Answer;
 import com.reviewbetterbonia.app.model.Question;
 import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileInputStream;
 import java.io.InputStreamReader;
 import java.util.*;
 
@@ -27,6 +29,7 @@ public class QuizRepository {
         } catch (Exception e) {
             throw new RuntimeException("Could not load question bank", e);
         }
+        loadLocalPrivateQuestions();
         sortSubjectsAndCategories();
     }
 
@@ -177,6 +180,45 @@ public class QuizRepository {
         return new ArrayList<>(set);
     }
 
+    public List<String> publicSubjects() {
+        List<String> list = new ArrayList<>();
+        for (String s : subjects) {
+            if ("All Subjects".equals(s)) {
+                list.add(s);
+                continue;
+            }
+            boolean hasPublic = false;
+            for (Question q : questions) {
+                if (s.equalsIgnoreCase(q.subject) && !q.isPrivate()) {
+                    hasPublic = true;
+                    break;
+                }
+            }
+            if (hasPublic) {
+                list.add(s);
+            }
+        }
+        return list;
+    }
+
+    public List<String> publicCategoriesFor(String subject) {
+        LinkedHashSet<String> set = new LinkedHashSet<>();
+        for (Question q : questions) {
+            if (!q.isPrivate() && q.category != null && !q.category.trim().isEmpty()) {
+                if ("All Subjects".equals(subject) || subject.equalsIgnoreCase(q.subject)) {
+                    set.add(q.category.trim());
+                }
+            }
+        }
+        List<String> list = new ArrayList<>(set);
+        Collections.sort(list, QuizRepository::compareNatural);
+        return list;
+    }
+
+    public List<String> publicCategories() {
+        return publicCategoriesFor("All Subjects");
+    }
+
     public void mergeRemoteQuestions(List<Question> remote) {
         for (Question rq : remote) {
             boolean exists = false;
@@ -204,6 +246,8 @@ public class QuizRepository {
         List<Question> out = new ArrayList<>();
         String query = searchQuery == null ? "" : searchQuery.toLowerCase(Locale.US).trim();
         for (Question q : questions) {
+            boolean isPriv = q.isPrivate();
+            if ("All Subjects".equals(subject) && isPriv) continue;
             if (!"All Subjects".equals(subject) && !subject.equals(q.subject)) continue;
             if (!"All Categories".equals(category) && !category.equals(q.category)) continue;
             if (!query.isEmpty()) {
@@ -226,5 +270,93 @@ public class QuizRepository {
             out.add(q);
         }
         return out;
+    }
+
+    private void loadLocalPrivateQuestions() {
+        File file = new File(context.getFilesDir(), "addedQuestions.csv");
+        if (!file.exists()) return;
+        try (BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(file), "UTF-8"))) {
+            String line;
+            boolean header = true;
+            while ((line = br.readLine()) != null) {
+                if (header) {
+                    header = false;
+                    continue;
+                }
+                if (line.trim().isEmpty()) continue;
+                List<String> r = parse(line);
+                if (r.size() < 11) continue;
+                Question q = new Question();
+                q.id = r.get(0).trim();
+                q.subject = r.get(1).trim();
+                q.category = r.get(2).trim();
+                q.html = r.get(3);
+                q.correctFeedback = r.get(9);
+                q.incorrectFeedback = r.get(10);
+                q.isPrivate = true;
+                String correct = r.get(8).trim();
+                String[] choices = {r.get(4), r.get(5), r.get(6), r.get(7)};
+                for (int i = 0; i < 4; i++) {
+                    Answer a = new Answer();
+                    a.html = choices[i];
+                    a.correct = correct.equalsIgnoreCase(String.valueOf((char) ('A' + i))) || correct.equals(String.valueOf(i));
+                    q.answers.add(a);
+                }
+                boolean found = false;
+                for (Answer a : q.answers) if (a.correct) found = true;
+                if (!found) q.answers.get(0).correct = true;
+
+                boolean exists = false;
+                for (Question existing : questions) {
+                    if (existing.id != null && existing.id.equals(q.id)) {
+                        exists = true;
+                        break;
+                    }
+                }
+                if (!exists) {
+                    questions.add(q);
+                    if (!q.subject.isEmpty() && !subjects.contains(q.subject)) subjects.add(q.subject);
+                    if (!q.subject.isEmpty()) {
+                        List<String> cats = categoriesBySubject.get(q.subject);
+                        if (cats == null) {
+                            cats = new ArrayList<>();
+                            categoriesBySubject.put(q.subject, cats);
+                        }
+                        if (!q.category.isEmpty() && !cats.contains(q.category)) cats.add(q.category);
+                    }
+                }
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void addPrivateQuestion(Question q) {
+        if (q == null) return;
+        q.isPrivate = true;
+        boolean exists = false;
+        for (Question existing : questions) {
+            if (existing.id != null && existing.id.equals(q.id)) {
+                exists = true;
+                break;
+            }
+        }
+        if (!exists) {
+            questions.add(q);
+            if (q.subject != null && !q.subject.isEmpty() && !subjects.contains(q.subject)) {
+                subjects.add(q.subject);
+            }
+            if (q.subject != null && !q.subject.isEmpty()) {
+                List<String> cats = categoriesBySubject.get(q.subject);
+                if (cats == null) {
+                    cats = new ArrayList<>();
+                    categoriesBySubject.put(q.subject, cats);
+                }
+                if (q.category != null && !q.category.isEmpty() && !cats.contains(q.category)) {
+                    cats.add(q.category);
+                }
+            }
+            sortSubjectsAndCategories();
+        }
     }
 }

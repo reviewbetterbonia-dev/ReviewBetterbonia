@@ -42,6 +42,7 @@ public class ProgressFragment extends BaseFragment {
         long rankedClearedAt = app().local.rankedClearedTime();
         List<QuizResult> ranked = new ArrayList<>();
         for (QuizResult r : all) {
+            if (r.isPrivateResult()) continue;
             boolean isRanked = r.mode != null && r.mode.toLowerCase(Locale.US).contains("ranked");
             if (isRanked) {
                 if (rankedClearedAt <= 0 || r.time > rankedClearedAt) {

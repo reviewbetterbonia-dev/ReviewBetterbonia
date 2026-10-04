@@ -22,7 +22,6 @@ public class AdminFragment extends BaseFragment {
         Context x = requireContext();
         LinearLayout p = Ui.page(x);
         Ui.add(p, Ui.heading(x, "Admin tools"), Ui.dp(x, 42));
-        Ui.add(p, Ui.muted(x, "Manage question bank organized by subject and category.", 14), Ui.dp(x, 35));
 
         if (app().isAdmin()) {
             Button add = Ui.button(x, "＋ Add question", true);
@@ -33,8 +32,6 @@ public class AdminFragment extends BaseFragment {
             Button review = Ui.button(x, "Review pending questions", false);
             review.setOnClickListener(v -> showPendingSubmissions(x));
             Ui.add(p, review, Ui.dp(x, 56));
-
-            Ui.add(p, Ui.muted(x, "New questions stay pending until an admin approves them. Approved questions become available through Firebase immediately.", 12), Ui.dp(x, 45));
 
             LinearLayout userCard = Ui.card(x);
             userCard.addView(Ui.text(x, "User Profiles & Management", 18, true));

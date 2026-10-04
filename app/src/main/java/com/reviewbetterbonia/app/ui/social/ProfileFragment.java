@@ -359,6 +359,7 @@ public class ProfileFragment extends BaseFragment {
         if (casualClearedAt <= 0 && rankedClearedAt <= 0) return list;
         List<QuizResult> out = new ArrayList<>();
         for (QuizResult r : list) {
+            if (r.isPrivateResult()) continue;
             boolean isRanked = r.mode != null && r.mode.toLowerCase(Locale.US).contains("ranked");
             if (isRanked) {
                 if (rankedClearedAt <= 0 || r.time > rankedClearedAt) {
@@ -386,6 +387,7 @@ public class ProfileFragment extends BaseFragment {
         int nowWeek = now.get(Calendar.WEEK_OF_YEAR);
 
         for (QuizResult r : all) {
+            if (r.isPrivateResult()) continue;
             if (!"All Time".equals(timeFilter)) {
                 Calendar resCal = Calendar.getInstance();
                 resCal.setTimeInMillis(r.time);
@@ -428,6 +430,7 @@ public class ProfileFragment extends BaseFragment {
         LinkedHashMap<String, Stat> stats = new LinkedHashMap<>();
 
         for (QuizResult r : rs) {
+            if (r.isPrivateResult()) continue;
             total += r.total;
             correct += r.score;
             String sub = normalize(r.subject);
